@@ -28,7 +28,7 @@ class TrendsClient:
                 return result
             except Exception as error:  # noqa: BLE001 - pytrends raises plain Exceptions/HTTPError
                 last_error = error
-                time.sleep(self._backoff_base_seconds**attempt)
+                time.sleep(self._backoff_base_seconds * (2**attempt))
         raise TrendsClientError(f"Failed after {self._max_retries} retries: {last_error}")
 
     def get_interest_over_time(self, keyword: str) -> list[int]:
