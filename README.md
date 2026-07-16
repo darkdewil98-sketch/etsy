@@ -25,6 +25,18 @@ python run_research.py
 python -m pytest -v
 ```
 
+## Manual smoke test (real Google Trends)
+
+`tests/manual_smoke_check.py` hits the real Google Trends API once to confirm live connectivity.
+It is deliberately excluded from the automated suite: pytest's default discovery collects files
+matching `test_*.py` or `*_test.py`, and this filename matches neither glob, so it stays excluded
+regardless of what functions are added to it later. Google Trends rate-limits aggressively, so this
+must never run automatically in CI — run it manually only:
+
+```
+python tests/manual_smoke_check.py
+```
+
 ## Schedule weekly runs (Windows Task Scheduler)
 
 Run once, from an elevated PowerShell prompt, adjusting the path to your Python and repo location:

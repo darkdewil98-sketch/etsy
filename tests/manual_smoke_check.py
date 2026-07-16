@@ -1,7 +1,10 @@
-"""Manual smoke test against real Google Trends. NOT run by the automated suite
-(no test_ prefix on the filename) because Google Trends rate-limits aggressively.
+"""Manual smoke test against real Google Trends. NOT run by the automated suite —
+this filename deliberately matches neither of pytest's default discovery globs
+(test_*.py or *_test.py), so it stays excluded even if a test_-prefixed function
+is ever added here. Google Trends rate-limits aggressively, so this must never
+run automatically in CI.
 
-Run manually with: python tests/manual_smoke_test.py
+Run manually with: python tests/manual_smoke_check.py
 """
 from pytrends.request import TrendReq
 
