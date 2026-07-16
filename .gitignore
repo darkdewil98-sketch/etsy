@@ -1,0 +1,6 @@
+.worktrees/
+data/
+reports/
+logs/
+__pycache__/
+*.pyc
