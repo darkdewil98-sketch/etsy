@@ -1,5 +1,5 @@
 from etsy_research.trends_client import TrendsClientError
-from run_research import build_opportunities
+from run_research import build_opportunities, load_seeds
 
 
 class FakeTrendsClient:
@@ -71,3 +71,17 @@ def test_build_opportunities_does_not_duplicate_rising_keyword_seen_twice():
     keywords = [o["keyword"] for o in opportunities]
     assert keywords.count("funny cat shirt") == 1
     assert summary["opportunities_found"] == 3
+
+
+def test_build_opportunities_handles_empty_seeds_dict():
+    opportunities, summary = build_opportunities({}, FakeTrendsClient({}), FakeEtsyAdapter())
+
+    assert opportunities == []
+    assert summary == {"seeds_scanned": 0, "opportunities_found": 0, "errors": 0}
+
+
+def test_load_seeds_returns_empty_dict_for_empty_yaml_file(tmp_path):
+    seeds_path = tmp_path / "seeds.yaml"
+    seeds_path.write_text("", encoding="utf-8")
+
+    assert load_seeds(seeds_path) == {}

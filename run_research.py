@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 
 def load_seeds(seeds_path: Path) -> dict:
     with open(seeds_path, encoding="utf-8") as f:
-        return yaml.safe_load(f)
+        return yaml.safe_load(f) or {}
 
 
 def build_opportunities(seeds: dict, trends_client, etsy_adapter) -> tuple[list[dict], dict]:
@@ -43,6 +43,8 @@ def build_opportunities(seeds: dict, trends_client, etsy_adapter) -> tuple[list[
 
         raw_signals.append({"category": category, "keyword": keyword, "interest_over_time": interest})
 
+        # A rising keyword discovered under multiple seed categories is attributed
+        # to whichever seed's category found it first (seen_keywords dedup below).
         for rising_keyword in rising:
             if rising_keyword in seen_keywords:
                 continue
