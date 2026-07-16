@@ -34,4 +34,8 @@ def test_compute_opportunity_score_no_competition():
 
 
 def test_compute_opportunity_score_with_competition():
-    assert compute_opportunity_score(2.0, 0.5, competition_count=5) == 0.2
+    assert compute_opportunity_score(2.0, 0.5, competition_count=5) == 1.0 / 6
+
+
+def test_compute_opportunity_score_zero_competition_is_undiminished():
+    assert compute_opportunity_score(2.0, 0.5, competition_count=0) == 1.0

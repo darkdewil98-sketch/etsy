@@ -33,8 +33,12 @@ def compute_opportunity_score(
     trend_volume_normalized: float,
     competition_count: int | None = None,
 ) -> float:
-    """Higher score = more growth and volume, divided by competition when known."""
+    """Higher score = more growth and volume, divided by (competitors + 1) when known.
+
+    Using +1 avoids division by zero and means zero known competitors yields the
+    undiminished score (the best case), rather than being confused with "unknown".
+    """
     score = trend_growth_rate * trend_volume_normalized
-    if competition_count:
-        score = score / competition_count
+    if competition_count is not None:
+        score = score / (competition_count + 1)
     return score
