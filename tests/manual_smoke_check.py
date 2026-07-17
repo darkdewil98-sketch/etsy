@@ -12,7 +12,7 @@ from etsy_research.trends_client import TrendsClient
 
 
 def main() -> None:
-    client = TrendsClient(TrendReq(hl="en-US", tz=360))
+    client = TrendsClient(TrendReq(hl="en-US", tz=360, timeout=(10, 25)))
     interest = client.get_interest_over_time("t-shirt design")
     rising = client.get_rising_queries("t-shirt design")
     print(f"interest_over_time (last 5 points): {interest[-5:]}")

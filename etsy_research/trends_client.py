@@ -32,15 +32,21 @@ class TrendsClient:
         raise TrendsClientError(f"Failed after {self._max_retries} retries: {last_error}")
 
     def get_interest_over_time(self, keyword: str) -> list[int]:
-        self._client.build_payload([keyword], timeframe="today 3-m")
-        df = self._call_with_retry(self._client.interest_over_time)
+        def fetch():
+            self._client.build_payload([keyword], timeframe="today 3-m")
+            return self._client.interest_over_time()
+
+        df = self._call_with_retry(fetch)
         if df.empty:
             return []
         return df[keyword].tolist()
 
     def get_rising_queries(self, keyword: str) -> list[str]:
-        self._client.build_payload([keyword], timeframe="today 3-m")
-        related = self._call_with_retry(self._client.related_queries)
+        def fetch():
+            self._client.build_payload([keyword], timeframe="today 3-m")
+            return self._client.related_queries()
+
+        related = self._call_with_retry(fetch)
         rising_df = related.get("rising")
         if rising_df is None or rising_df.empty:
             return []

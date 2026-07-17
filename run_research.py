@@ -104,7 +104,7 @@ def main() -> None:
     logging.basicConfig(filename=logs_dir / f"{week_id}.log", level=logging.INFO)
 
     seeds = load_seeds(Path(args.seeds))
-    trends_client = TrendsClient(TrendReq(hl="en-US", tz=360))
+    trends_client = TrendsClient(TrendReq(hl="en-US", tz=360, timeout=(10, 25)))
     etsy_adapter = EtsyAdapter()
 
     opportunities, summary = build_opportunities(seeds, trends_client, etsy_adapter)

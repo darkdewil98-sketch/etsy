@@ -5,14 +5,19 @@ from etsy_research.trends_client import TrendsClient, TrendsClientError
 
 
 class FakePyTrends:
-    def __init__(self, interest_frames=None, related_frames=None, fail_times=0):
+    def __init__(self, interest_frames=None, related_frames=None, fail_times=0, fail_build_payload_times=0):
         self.interest_frames = interest_frames or {}
         self.related_frames = related_frames or {}
         self.fail_times = fail_times
+        self.fail_build_payload_times = fail_build_payload_times
         self.calls = 0
+        self.build_payload_calls = 0
         self.last_keywords = None
 
     def build_payload(self, keywords, timeframe):
+        self.build_payload_calls += 1
+        if self.build_payload_calls <= self.fail_build_payload_times:
+            raise RuntimeError("timed out fetching tokens")
         self.last_keywords = keywords
 
     def interest_over_time(self):
@@ -74,3 +79,22 @@ def test_get_rising_queries_returns_empty_list_when_no_rising_data():
     client = TrendsClient(fake, request_delay_seconds=0)
 
     assert client.get_rising_queries("quiet term") == []
+
+
+def test_get_interest_over_time_retries_when_build_payload_fails():
+    fake = FakePyTrends(
+        interest_frames={"t-shirt design": pd.DataFrame({"t-shirt design": [5, 15]})},
+        fail_build_payload_times=2,
+    )
+    client = TrendsClient(fake, request_delay_seconds=0, max_retries=3, backoff_base_seconds=0)
+
+    assert client.get_interest_over_time("t-shirt design") == [5, 15]
+    assert fake.build_payload_calls == 3
+
+
+def test_get_interest_over_time_raises_when_build_payload_exhausts_retries():
+    fake = FakePyTrends(interest_frames={}, fail_build_payload_times=5)
+    client = TrendsClient(fake, request_delay_seconds=0, max_retries=3, backoff_base_seconds=0)
+
+    with pytest.raises(TrendsClientError):
+        client.get_interest_over_time("t-shirt design")
