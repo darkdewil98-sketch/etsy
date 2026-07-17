@@ -21,7 +21,9 @@ Haftalık olarak otomatik çalışan, POD kategorilerinde (giyim, ev/dekor, diji
 **Bu aşamada YOK (ayrı spec'lere ertelendi):**
 - Etsy resmi API entegrasyonu — kullanıcının henüz API key/OAuth'u yok, başvuru sürecinde.
   Bu tasarımda yalnızca bir adaptör arayüzü/stub olarak yer tutulacak.
-- Etsy sayfalarının scraping'i — ToS riski nedeniyle bilinçli olarak dışarıda bırakıldı.
+- Etsy web sayfalarına yönelik otomatikleştirilmiş, API dışı veri toplama yöntemleri —
+  Etsy API Terms of Use'a uyum gereği kapsam dışı bırakıldı; tüm veri erişimi resmi
+  Etsy Open API v3 üzerinden yapılacak.
 - Mockup/tasarım üretimi, listing yükleme, reklam otomasyonu — ayrı alt sistemler.
 
 ## Veri Kaynakları ve Prensip
