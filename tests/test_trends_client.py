@@ -14,8 +14,9 @@ class FakePyTrends:
         self.build_payload_calls = 0
         self.last_keywords = None
 
-    def build_payload(self, keywords, timeframe):
+    def build_payload(self, keywords, timeframe, cat=None):
         self.build_payload_calls += 1
+        self.last_cat = cat
         if self.build_payload_calls <= self.fail_build_payload_times:
             raise RuntimeError("timed out fetching tokens")
         self.last_keywords = keywords
@@ -98,3 +99,32 @@ def test_get_interest_over_time_raises_when_build_payload_exhausts_retries():
 
     with pytest.raises(TrendsClientError):
         client.get_interest_over_time("t-shirt design")
+
+
+def test_get_interest_over_time_scopes_to_shopping_category_by_default():
+    fake = FakePyTrends(interest_frames={"t-shirt design": pd.DataFrame({"t-shirt design": [10, 20]})})
+    client = TrendsClient(fake, request_delay_seconds=0)
+
+    client.get_interest_over_time("t-shirt design")
+
+    assert fake.last_cat == 18
+
+
+def test_get_rising_queries_scopes_to_shopping_category_by_default():
+    fake = FakePyTrends(
+        related_frames={"t-shirt design": {"rising": pd.DataFrame({"query": ["funny cat shirt"], "value": [250]})}}
+    )
+    client = TrendsClient(fake, request_delay_seconds=0)
+
+    client.get_rising_queries("t-shirt design")
+
+    assert fake.last_cat == 18
+
+
+def test_category_id_can_be_overridden():
+    fake = FakePyTrends(interest_frames={"t-shirt design": pd.DataFrame({"t-shirt design": [10, 20]})})
+    client = TrendsClient(fake, request_delay_seconds=0, category_id=0)
+
+    client.get_interest_over_time("t-shirt design")
+
+    assert fake.last_cat == 0

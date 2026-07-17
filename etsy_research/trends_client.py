@@ -13,11 +13,17 @@ class TrendsClient:
         request_delay_seconds: float = 1.0,
         max_retries: int = 3,
         backoff_base_seconds: float = 2.0,
+        category_id: int = 18,
     ):
+        """category_id defaults to 18 ("Shopping"), Google Trends' own top-level
+        category, verified via TrendReq().categories(). Scoping to it filters out
+        unrelated search interest (e.g. news, general topics) that shares a
+        keyword's spelling but has no bearing on buyer intent."""
         self._client = pytrends_client
         self._request_delay_seconds = request_delay_seconds
         self._max_retries = max_retries
         self._backoff_base_seconds = backoff_base_seconds
+        self._category_id = category_id
 
     def _call_with_retry(self, func):
         last_error: Exception | None = None
@@ -33,7 +39,7 @@ class TrendsClient:
 
     def get_interest_over_time(self, keyword: str) -> list[int]:
         def fetch():
-            self._client.build_payload([keyword], timeframe="today 3-m")
+            self._client.build_payload([keyword], timeframe="today 3-m", cat=self._category_id)
             return self._client.interest_over_time()
 
         df = self._call_with_retry(fetch)
@@ -43,7 +49,7 @@ class TrendsClient:
 
     def get_rising_queries(self, keyword: str) -> list[str]:
         def fetch():
-            self._client.build_payload([keyword], timeframe="today 3-m")
+            self._client.build_payload([keyword], timeframe="today 3-m", cat=self._category_id)
             return self._client.related_queries()
 
         related = self._call_with_retry(fetch)
