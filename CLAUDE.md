@@ -26,4 +26,8 @@ https://www.etsy.com/your/shops/me/marketplace-insights?ref=seller-platform-mcna
 
 - `research/<date>/` holds dated research runs (Trends, Printful costs, USPTO screens).
   Latest: `research/2026-09-25/FINAL_REPORT.md` (28 scored opportunities from real Insights data,
-  Top 10, Top 5 clusters, copyable table). Re-score with `research/2026-09-25/scripts/score_opportunities.py`.
+  verified competitor prices, supplier scenarios, Top 10, Top 5 clusters, copyable table).
+  Pipeline (run from repo root, in order): scripts/analyze_prices.py -> supplier_scenarios.py ->
+  score_opportunities.py -> build_report.py. Pending data request: `chrome_prompt_round3.md`.
+- Printify's public catalog pages render in headless Chromium (after adding the CCR proxy CA to
+  ~/.pki/nssdb with certutil); they show 'From USD' costs, Premium costs and US shipping per provider.

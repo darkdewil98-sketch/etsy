@@ -15,16 +15,18 @@ def kw(k):
 def money(v):
     return f"${float(v):.2f}" if v not in ("", None) else "—"
 
+SC = list(csv.DictReader(open(D + "data/supplier_scenarios.csv")))
 REASON = {
-    "engagement ornament": "Highest demand + competition score in the set; verified contribution $4.01 at median, $10.14 at P75 → viable only with premium (P75+) positioning.",
+    "engagement ornament": "Highest demand + competition score; with Printify/SwiftPOD cost ($9.72) verified contribution $7.91 at median, $14.04 at P75.",
     "custom pet pillow": "Very high conversion, smallest field (18.2k listings); size-matched price still unresolved.",
-    "auntie mug": "Very high conversion, 7.9k listings, but verified mug prices leave $1.50–$3.85 contribution with Printful.",
-    "new house ornament": "High conversion; verified contribution $4.40 median / $10.32 at P75; doubles as housewarming/closing gift.",
-    "first christmas married ornament": "+11.4% growth, High conversion; verified $4.02 median / $8.90 at P75.",
+    "auntie mug": "Very high conversion, 7.9k listings; best verified mug cost (Printful 11oz $12.76) leaves $4.14 at median / $6.49 at P75.",
+    "new house ornament": "High conversion; SwiftPOD cost gives $8.30 at median / $14.22 at P75; doubles as housewarming/closing gift.",
+    "first christmas married ornament": "+11.4% growth, High conversion; SwiftPOD cost gives $7.92 at median / $12.80 at P75.",
     "dog memorial gift": "61.4k searches, High conversion, evergreen; competitor prices not yet collected.",
     "auntie shirt": "High conversion; apparel keeps the auntie niche but prices are not yet verified.",
-    "baby's first christmas ornament": "High conversion; verified $4.02 median / $11.35 at P75 (best P75 in the ornament set).",
-    "client gift": "0.754 ratio; verified median $20.99 but page one is dominated by 1k+ review shops.",
+    "baby's first christmas ornament": "High conversion; SwiftPOD cost gives $7.92 at median / $15.25 at P75 (best P75 in the set).",
+    "client gift": "0.754 ratio; verified median $20.99 ($8.83 contribution at SwiftPOD cost) but page one is dominated by 1k+ review shops.",
+    "retirement gifts for women": "15.5k searches, 0.321 ratio; Printful 11oz mug gives $4.39 at median / $8.13 at P75.",
     "bookish stickers": "Cheapest product ($6.83); competitor prices not yet collected.",
 }
 
@@ -37,6 +39,11 @@ for a in PA:
              f'{a["free_ship_cards_pct"]}% | {a["reviews_1k_plus"]}/48 | {ship} | {a["detail_partner"]}/{a["detail_n"]} | {money(a["pod_cost"])} | '
              f'{money(a["contrib_with_ship_at_median"])} | {money(a["contrib_at_p75_with_ship"])} |')
 price_table = "\n".join(P)
+
+S2 = ["| Keyword | Supplier (verified 2026-09-25) | Unit cost incl. US ship | Buyer total at median | Contribution at median | Contribution at P75 |", "|---|---|---|---|---|---|"]
+for x in SC:
+    S2.append(f'| {x["keyword"]} | {x["supplier"]} | {money(x["unit_cost"])} | {money(x["buyer_total_median"])} | {money(x["contrib_median"])} | {money(x["contrib_p75"])} |')
+supplier_table = "\n".join(S2)
 
 # ---- top 10 (exclude REJECT)
 live = [r for r in R if r["next"] != "REJECT"]
@@ -77,10 +84,10 @@ clusters = f"""### Küme 1 — Çift ve kilometre taşı süsleri (talep en gü�
   - Kartların %73–88'i indirimde gösteriliyor ("orijinal" fiyat ~$20–28).
   - İlk sayfada 48 kartın 37–41'i 1k+ yorumlu.
   - Detay sayfalarının çoğu üretim ortağı beyan ediyor: Printway, Inner Circle Prints (Spokane), Ballston Spa NY, Strongsville OH seramik atölyesi.
-- **Ekonomi (Printful $13.62 ile):**
-  - Medyan fiyatta katkı ~$4.
-  - P75 fiyatta (~$20–22 + kargo) katkı $8.90–$11.35.
-  - Sonuç: ya premium (P75+) konumlanma ya da daha ucuz bir süs tedarikçisi gerekiyor.
+- **Ekonomi:**
+  - Printful ($13.62) ile medyan fiyatta katkı ~$4.
+  - Printify/SwiftPOD seramik ($9.72, "from" fiyatı) ile medyanda $7.91–$8.30, P75'te $12.80–$15.25.
+  - Printify Premium ($24.99/ay yıllık) ile birim başına $1.05 daha ucuz → başabaş ~24 süs/ay.
 - **Özgün listing konsepti tahmini:** 40–60
 - **IP:** LOW APPARENT ("MY FIRST CHRISTMAS", "JUST MARRIED", "HOME SWEET HOME", "REALTOR" hariç)
 - **Rekabet:** Insights'ta LOW–MEDIUM. Arama sayfasında yerleşik mağazalar baskın.
@@ -101,7 +108,7 @@ clusters = f"""### Küme 1 — Çift ve kilometre taşı süsleri (talep en gü�
   - Medyan $13.18 + $5.99 kargo.
   - Kartların %96'sı indirimde.
   - İncelenen 5 detay sayfasının 5'i de POD ortağı beyan ediyor (Printify dahil).
-- **Ekonomi:** Printful 15oz kupa ile katkı $1.50 (medyan) / $3.85 (P75) → zayıf. Giyim versiyonu (auntie shirt, grandma sweatshirt) fiyat doğrulaması bekliyor.
+- **Ekonomi:** En iyi doğrulanmış kupa maliyeti Printful 11oz ($12.76). Katkı $4.14 (medyan) / $6.49 (P75) → ince. Printify/Taylor 11oz Premium ile $5.23 / $7.58. Giyim versiyonu (auntie shirt, grandma sweatshirt) fiyat doğrulaması bekliyor.
 - **Özgün listing konsepti tahmini:** 30–40
 - **IP:** "COOL AUNT", "MAMA", NANA/MIMI/GIGI/GLAMMA tek başına kullanılmamalı.
 
@@ -111,7 +118,7 @@ clusters = f"""### Küme 1 — Çift ve kilometre taşı süsleri (talep en gü�
 - **Doğrulanmış fiyat (retirement gifts for women):**
   - Medyan $13.46 + $5.99 kargo.
   - Mum, bardak ve kupa karışık bir pazar.
-- **Ekonomi:** Printful kupa ile katkı $1.75 / $5.49 → zayıf. Mesleğe özel sweatshirt fiyatları doğrulanmadı.
+- **Ekonomi:** Printful 11oz kupa ile katkı $4.39 / $8.13. Mesleğe özel sweatshirt fiyatları doğrulanmadı.
 - **Özgün listing konsepti tahmini:** 30–50
 - **IP:** "OFFICIALLY RETIRED", "RETIRED" (tek başına), "HAPPY RETIREMENT" (battaniye) kullanılmamalı.
 
@@ -122,7 +129,7 @@ clusters = f"""### Küme 1 — Çift ve kilometre taşı süsleri (talep en gü�
   - Çorap medyanı $9.02 (P75 $24.99).
   - Kumaş ve işlemeli ürünler baskın.
   - Kartların %94'ü indirimde.
-- **Ekonomi:** Printful rustik çorap $24.96 → medyan fiyatta katkı −$13.52, P75'te $0.93 → **REJECT**. Talep güçlü (VH, +30.3%). Ancak ~$8'ın altında maliyetli bir tedarikçiyle yeniden ele alınabilir.
+- **Ekonomi:** Printful ($24.96) → medyanda −$13.52, P75'te $0.93. Printify/MWW Premium ($19.70) → −$8.26 / $6.19. Hiçbir doğrulanmış POD çorabı medyan fiyatta kârlı değil → **REJECT**. Talep güçlü (VH, +30.3%); çok daha ucuz bir tedarikçi olmadan girilmemeli.
 """
 
 report = f"""# Etsy POD Fırsat Raporu — 25 Eylül 2026 (Marketplace Insights + doğrulanmış rakip fiyatları)
@@ -135,26 +142,36 @@ report = f"""# Etsy POD Fırsat Raporu — 25 Eylül 2026 (Marketplace Insights 
 Tüm sayılar sayfalarda gösterildiği gibi. Yorum ve favori sayıları satışa çevrilmedi.
 
 ## Ana sonuç
-**Talep ve rekabet tarafında güçlü fırsatlar var. Ama Printful maliyetleriyle marj darboğazda.**
+**Süs kümesi, doğru tedarikçiyle testi hak ediyor. Çorap ve teacher tote elendi. Kupalar ince marjlı.**
 
-Doğrulanmış fiyatlara göre durum:
-- **Süsler:** medyan ~$14 + $5.99 kargo. Printful süsüyle katkı ~$4. Ancak P75 fiyatta ~$9–11.
-- **Çorap ve teacher tote:** katkı negatif.
-- **Kupalar:** katkı $1.50–$1.75.
+Doğrulanmış rakip fiyatlarına göre süsler medyan ~$14 + $5.99 kargoya satılıyor. Katkı tedarikçiye göre değişiyor:
+- **Printful süsü ($13.62):** medyanda ~$4.
+- **Printify/SwiftPOD seramik süsü ($9.72, ABD'de üretim, 2.1 gün):** medyanda ~$8, P75'te $12.80–$15.25.
 
-Rakiplerin çoğu, üretim ortağı olarak daha ucuz POD üreticilerini beyan ediyor. Kartların %73–96'sı da "indirimli" fiyatla gösteriliyor.
+Printify fiyatları "from" fiyatı, yani en ucuz varyasyon. Çift yüz baskı ve hediye kutusu ek ücreti **NOT VERIFIED**.
 
-Bu yüzden sıradaki en değerli adım yeni bir kelime aramak değil. Aynı süs ve kupa için **daha düşük maliyetli bir üretim ortağını doğrulamak**. Master prompt kuralı gereği bu maliyetler canlı sayfadan okunmadan hesaba katılmadı.
+Diğer ürünler:
+- **Kupa:** en iyi doğrulanmış seçenek Printful 11oz ($12.76). Katkı ~$4 (medyan) / $6.5–8 (P75).
+- **Çorap:** hiçbir doğrulanmış POD tedarikçisiyle medyan fiyatta kârlı değil.
+
+Rakiplerin çoğu üretim ortağı beyan ediyor. Kartların %73–96'sı "indirimli" fiyatla gösteriliyor.
 
 ## Doğrulanmış fiyat bulguları (14 kelime, ilk 48 kart)
 
 {price_table}
 
 Notlar:
-- "Contribution" = (fiyat + gözlenen ABD kargosu) × (1 − %9.5) − $0.45 − Printful maliyeti. Reklam ve indirim kodları hariç.
+- Bu tablodaki "Contribution" Printful maliyetiyle hesaplandı: (fiyat + gözlenen ABD kargosu) × (1 − %9.5) − $0.45 − maliyet. Reklam ve indirim kodları hariç. Diğer tedarikçiler için aşağıdaki senaryo tablosuna bakın.
 - Kart fiyatı en ucuz varyasyonu gösterir ("+" fiyatlar). Özellikle yastık ve çorapta bu fiyat aşağı yanlı.
 - "1k+ review cards": kartta gösterilen yorum sayısı. Bunun listing'e mi mağazaya mı ait olduğu kartta belirtilmiyor.
 - Malzeme dağılımı yalnızca başlıktan tahmin edildi (görseller incelenmedi).
+
+## Tedarikçi senaryoları (aynı doğrulanmış rakip fiyatları, farklı doğrulanmış POD maliyetleri)
+
+{supplier_table}
+
+Printify Premium: aylık $39 veya yıllık faturada aylık $24.99 (printify.com/pricing, 25.09.2026). SwiftPOD süsünde birim başına tasarruf $1.05 → başabaş ~24 süs/ay.
+Ham sayfa metinleri: `data/printify_raw/` · veri: `data/printify_costs_2026-09-25.json`, `data/supplier_scenarios.csv`.
 
 ## Puanlama (araştırma önceliği, satış olasılığı değil)
 **Veriye dayalı bileşenler:**
@@ -176,15 +193,18 @@ Notlar:
 - **TEST NOW:** medyanda ≥ $4 ve P75'te ≥ $8 ve puan ≥ 70
 - **RESEARCH MORE:** diğerleri
 
-Kod: `scripts/analyze_prices.py`, `scripts/score_opportunities.py`, `scripts/build_report.py`.
+Marj hesabında her fırsat için **doğrulanmış en ucuz ABD tedarikçisi** kullanıldı: süslerde Printify/SwiftPOD, kupalarda Printful 11oz.
+
+Kod: `scripts/analyze_prices.py`, `scripts/supplier_scenarios.py`, `scripts/score_opportunities.py`, `scripts/build_report.py`.
 
 ## TOP 10 ÖNCELİKLİ TEST
 
 {top10}
 
-**TEST NOW olanlar:** engagement ornament, new house ornament, first christmas married ornament.
-- Üçü de yalnızca **P75 civarı fiyatla** (~$20–21 + $5.99 kargo) kârlı. Yani premium tasarım ve thumbnail şart.
-- Mevcut rakiplerin $8.99–$13.99 "indirimli" fiyatlarıyla yarışmak Printful maliyetiyle mümkün değil.
+**TEST NOW olanlar:** engagement ornament, first christmas married ornament, new house ornament, baby's first christmas ornament.
+- Dördü de Printify/SwiftPOD seramik süsü ($9.72) varsayımıyla. Medyan fiyatta ~$8, P75'te $12.80–$15.25 katkı.
+- Printful ile aynı listing'lerde katkı ~$4'a düşüyor.
+- İlk sayfada 37–41/48 kart 1k+ yorumlu. Bu yüzden yeni mağaza için ayrışan tasarım ve thumbnail yine şart.
 
 ## TOP 5 NİŞ KÜMESİ
 

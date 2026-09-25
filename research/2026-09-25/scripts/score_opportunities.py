@@ -17,6 +17,7 @@ OUT_MD = "research/2026-09-25/opportunities.md"
 # Printful: base price (standard print included) + US first-item shipping, USD, verified 2026-09-25.
 COST = {
     "ceramic2": ("Printful Ceramic Ornament, 2-side (#900)", 7.73, 5.89),
+    "swiftpod_orn": ("Printify / SwiftPOD Ceramic Ornament (bp 1632; 'from' price, 2-side/gift-box upcharge NOT VERIFIED)", 4.93, 4.79),
     "ceramic1": ("Printful Ceramic Ornament, circle (#881)", 6.34, 5.49),
     "wood_orn": ("Printful Wooden Ornament (#634)", 8.37, 5.19),
     "stocking": ("Printful Rustic Christmas Stocking (#1428)", 17.17, 7.79),
@@ -43,7 +44,7 @@ def need_price(cost, contrib):
 # IP notes, competitor evidence, design direction, why-niche, risks
 C = [
  ("engagement ornament", ["personalized engagement ornament", "first christmas engaged ornament", "engaged ornament", "engaged christmas ornament"],
-  "ceramic2", "Newly engaged couples; friends/family buying for them", "Christmas 2026 (first holiday engaged), engagement parties",
+  "swiftpod_orn", "Newly engaged couples; friends/family buying for them", "Christmas 2026 (first holiday engaged), engagement parties",
   "Both names + engagement date/year + optional city", 10, 9, 5, 5, "HIGH", "MEDIUM", "MEDIUM", "EARLY SIGNAL",
   "No live exact USPTO mark for 'engaged', 'just engaged', 'our first christmas engaged' in product classes. Avoid 'JUST MARRIED' on apparel (Reg. 2932679, IC 025).",
   "NOT VERIFIED (competitor SERP for this keyword not captured).",
@@ -51,7 +52,7 @@ C = [
   "Conversion label is High/Very high across the engaged-ornament family, and listings are 14k–52k vs 140k for generic 'personalized ornament'.",
   ["Strongly Q4-peaked; engagement demand also spikes Dec-Feb (proposal season) which helps sell-through.", "Crowded by laser-engraved wood; ceramic print must look premium in photos."]),
  ("first christmas married ornament", ["newlywed ornament", "mr and mrs ornament", "personalized wedding ornament", "married ornament"],
-  "ceramic2", "Newlyweds (2026 weddings); parents, wedding guests", "First Christmas as married couple",
+  "swiftpod_orn", "Newlyweds (2026 weddings); parents, wedding guests", "First Christmas as married couple",
   "Couple surname/first names + wedding date + 'first Christmas married 2026'", 10, 9, 5, 5, "HIGH", "HIGH", "LOW", "VERIFIED CURRENT TREND",
   "No live exact mark for 'first christmas as mr & mrs', 'newlyweds' in product classes. 'Mr & Mrs': 20 live marks contain it, none exact in product classes — still avoid it as a standalone design text.",
   "NOT VERIFIED.",
@@ -82,7 +83,7 @@ C = [
   "All three variants carry a Very high conversion label and 9.5k–18k listings — among the smallest fields in the dataset with this intent level.",
   ["Photo quality from buyers varies; needs a clear photo-guide and manual cut-out time per order.", "Uses buyer photos: buyer must have rights; seller's value is the editing/design (disclose production partner)."]),
  ("baby's first christmas ornament", ["first christmas ornament", "personalized baby ornament", "new baby ornament", "newborn christmas ornament"],
-  "ceramic2", "New parents; grandparents; baby-shower guests", "Baby's first Christmas 2026",
+  "swiftpod_orn", "New parents; grandparents; baby-shower guests", "Baby's first Christmas 2026",
   "Baby name + birth date/weight + year; optional photo on back", 10, 9, 5, 5, "HIGH", "HIGH", "MEDIUM", "EARLY SIGNAL",
   "Use 'Baby's First Christmas' — 'MY FIRST CHRISTMAS' is registered (Reg. 4530374 IC 025 baby clothing; Reg. 2040424 IC 028 stuffed toys).",
   "NOT VERIFIED.",
@@ -90,35 +91,35 @@ C = [
   "High conversion, +4.9% growth; 'first christmas ornament' alone has 19.6k searches with a 0.165 ratio.",
   ["Large, mature category (89k listings on the primary term).", "Q4-only peak."]),
  ("baptism ornament", ["christening ornament", "first holy communion ornament"],
-  "ceramic2", "Godparents, grandparents", "Baptism/christening, first Christmas", "Child name + baptism date + church/city", 9, 7, 4, 3, "MEDIUM", "LOW", "HIGH", "EVERGREEN",
+  "swiftpod_orn", "Godparents, grandparents", "Baptism/christening, first Christmas", "Child name + baptism date + church/city", 9, 7, 4, 3, "MEDIUM", "LOW", "HIGH", "EVERGREEN",
   "No specific marks found; keep religious imagery generic (dove, cross, olive branch) — no church logos.",
   "NOT VERIFIED.",
   "Minimal line-art dove or olive branch, name in serif caps, date; pairs with godparent gift bundles.",
   "Typical conversion; year-round occasion keeps it selling after Q4.",
   ["Smaller volume (2.9k); needs variety across denominations without using protected symbols/logos."]),
  ("pregnancy ornament", ["pregnancy announcement ornament", "baby announcement ornament"],
-  "ceramic2", "Expecting parents announcing to grandparents", "Christmas pregnancy reveal", "Due date + 'Grandma/Grandpa' names + baby nickname", 10, 7, 4, 5, "HIGH", "HIGH", "LOW", "EARLY SIGNAL",
+  "swiftpod_orn", "Expecting parents announcing to grandparents", "Christmas pregnancy reveal", "Due date + 'Grandma/Grandpa' names + baby nickname", 10, 7, 4, 5, "HIGH", "HIGH", "LOW", "EARLY SIGNAL",
   "No specific marks found for 'pregnancy announcement ornament'.",
   "NOT VERIFIED.",
   "Reveal-style ornament: 'Coming [month] 2027' with tiny ultrasound-frame graphic; variations for grandparents, aunts, siblings.",
   "Ties into the new-grandma cluster (new grandma gift 4.3k searches) and Christmas reveals.",
   ["Low conversion label (L) on primary; VL on announcement variant."]),
  ("family of 4 ornament", ["personalized family ornament", "family christmas ornament", "family name ornament"],
-  "ceramic2", "Parents; grandparents buying for adult children", "Christmas", "Each family member's name (+ pets) with simple figures; 'family of 3/4/5/6' variations", 10, 10, 5, 5, "HIGH", "HIGH", "MEDIUM", "EARLY SIGNAL",
+  "swiftpod_orn", "Parents; grandparents buying for adult children", "Christmas", "Each family member's name (+ pets) with simple figures; 'family of 3/4/5/6' variations", 10, 10, 5, 5, "HIGH", "HIGH", "MEDIUM", "EARLY SIGNAL",
   "No live mark for 'family of four'.",
   "NOT VERIFIED.",
   "Illustrated family-figure builder (hair/skin/pets choices) is the common format; differentiate with a typographic 'family name + names list' version and a line-art version.",
   "Micro keyword 'family of 4 ornament' shows a 0.157 ratio with Typical conversion (1.7k / 10.8k) vs 144k listings on 'family christmas ornament'.",
   ["Figure-builder listings are labour-intensive per order.", "Generic 'family christmas ornament' is crowded (144k)."]),
  ("new house ornament", ["new home ornament", "first christmas in new home ornament", "first house ornament", "our first home ornament"],
-  "ceramic2", "New homeowners; friends; real-estate agents", "First Christmas in new home; housewarming", "House illustration from buyer photo or house-style template + address/family name + year", 10, 9, 5, 5, "HIGH", "MEDIUM", "HIGH", "EARLY SIGNAL",
+  "swiftpod_orn", "New homeowners; friends; real-estate agents", "First Christmas in new home; housewarming", "House illustration from buyer photo or house-style template + address/family name + year", 10, 9, 5, 5, "HIGH", "MEDIUM", "HIGH", "EARLY SIGNAL",
   "Avoid 'HOME SWEET HOME' (Reg. 7006924, IC 021). No live mark for 'our first home' / 'first christmas in our new home'.",
   "Related 'client gift' SERP (Table B) is dominated by watercolor house-portrait ornaments: median $20.99, top shop LoveSuna shows 62.7k reviews / 371.7k shop sales.",
   "Line-art house from photo (1-colour on white ceramic) — faster than watercolor, distinct from the dominant watercolor look.",
   "High conversion on 'new house ornament' with 19.8k listings, and the same product serves the housewarming and closing-gift clusters.",
   ["House drawings from photos take time; needs a template-based faster tier.", "Dominated at the top by very large shops (verified on 'client gift')."]),
  ("client gift", ["realtor closing gift", "closing gift", "new homeowner gift"],
-  "ceramic2", "Real-estate agents, loan officers, small businesses (B2B)", "Closings; year-end client appreciation", "Client house + family name + closing date; agent's own name/business on back (no third-party logos)", 10, 9, 4, 5, "MEDIUM", "MEDIUM", "HIGH", "EARLY SIGNAL",
+  "swiftpod_orn", "Real-estate agents, loan officers, small businesses (B2B)", "Closings; year-end client appreciation", "Client house + family name + closing date; agent's own name/business on back (no third-party logos)", 10, 9, 4, 5, "MEDIUM", "MEDIUM", "HIGH", "EARLY SIGNAL",
   "Do NOT use the word 'REALTOR' in designs (collective mark, Reg. 4583156 IC 025 / 4583155 IC 014). Use 'real estate agent'/'closing gift'.",
   "VERIFIED (Table B): 36,810 search results; price $2.03–$80.99, median $20.99; 96% personalized (title proxy); 28/48 cards show 1k+ reviews; Bestseller 14, Star Seller 34. Examples: LoveSuna $12.48 (62.7k reviews, 371.7k sales); HeldDearCo $11.74 (840, 8k); SNUGAMATE $25.12 (6.4k, 36.1k); Alishannondesigns $11.99 (1.1k, 8k); SeedlingGoodsLLC $9.99 (186, 1.2k).",
   "Agent-branded bulk pack (5/10/25 ornaments) with a clean line-art house style; year-end 'thank you' client-appreciation version.",
@@ -132,14 +133,14 @@ C = [
   "Largest-volume keyword in the pet cluster (61.4k searches) with a High conversion label; evergreen demand.",
   ["428k listings — very crowded head term; winning needs long-tail listing titles (breed + memorial)."]),
  ("cat memorial ornament", ["cat memorial gift", "cat remembrance gift", "pet memorial ornament"],
-  "ceramic2", "Cat owners after loss; friends", "Pet loss; memorial Christmas", "Cat photo or breed art + name + dates", 10, 8, 4, 4, "MEDIUM", "LOW", "HIGH", "EVERGREEN",
+  "swiftpod_orn", "Cat owners after loss; friends", "Pet loss; memorial Christmas", "Cat photo or breed art + name + dates", 10, 8, 4, 4, "MEDIUM", "LOW", "HIGH", "EVERGREEN",
   "Same memorial phrase exclusions as dog memorial.",
   "NOT VERIFIED.",
   "Minimal cat silhouette in cat's own coat colours chosen by buyer + name + dates; photo option on back.",
   "Cat-specific memorial ornaments have 46.7k listings vs 115.7k for dog; related 'cat memorial gift' has 14.1k searches.",
   ["Low conversion label (L) on the ornament term."]),
  ("auntie mug", ["aunt mug", "auntie gifts", "gift for auntie", "auntie birthday gift"],
-  "mug15", "Nieces/nephews (often parents buying for kids); siblings", "Christmas, birthdays, pregnancy announcement ('promoted to auntie')", "Nieces'/nephews' names + 'Auntie' + est. year", 9, 9, 5, 4, "LOW", "LOW", "HIGH", "EVERGREEN",
+  "mug11", "Nieces/nephews (often parents buying for kids); siblings", "Christmas, birthdays, pregnancy announcement ('promoted to auntie')", "Nieces'/nephews' names + 'Auntie' + est. year", 9, 9, 5, 4, "LOW", "LOW", "HIGH", "EVERGREEN",
   "Avoid 'COOL AUNT' (Reg. 7232375, IC 025). No live exact marks for 'auntie', 'best auntie', 'auntie est', 'promoted to auntie' in product classes.",
   "NOT VERIFIED.",
   "Typography-first mug: 'Auntie' in bold serif + kids' names in a stacked list; variants 'promoted to', 'est. 20XX', photo version.",
@@ -153,7 +154,7 @@ C = [
   "High conversion on 'auntie shirt' (3.8k searches); pairs with the auntie-mug niche.",
   ["45.7k listings — medium competition.", "Apparel sizing returns."]),
  ("uncle mug", ["uncle birthday gift", "gift for uncle", "new uncle gift"],
-  "mug15", "Nieces/nephews; siblings", "Christmas, birthdays", "Kids' names + 'Uncle'", 9, 7, 4, 4, "LOW", "LOW", "HIGH", "EVERGREEN",
+  "mug11", "Nieces/nephews; siblings", "Christmas, birthdays", "Kids' names + 'Uncle'", 9, 7, 4, 4, "LOW", "LOW", "HIGH", "EVERGREEN",
   "No specific marks found.",
   "NOT VERIFIED.",
   "Mirror of the auntie line with a more rugged palette; 'uncle birthday gift' angle.",
@@ -167,7 +168,7 @@ C = [
   "Very high conversion across the grandma-sweatshirt terms; seed 'grandma sweatshirt with names' grew +53.8%.",
   ["Low search volume per term (226–763).", "Sleeve print raises cost to $33.91."]),
  ("new grandma mug", ["new grandma gift", "new grandparent gift", "custom grandpa mug", "new grandpa gift"],
-  "mug15", "Expecting parents announcing; friends of new grandparents", "Pregnancy reveal, Christmas, birth", "Baby's due date/name + 'Grandma est. 2026/2027'", 9, 8, 4, 4, "LOW", "LOW", "HIGH", "EVERGREEN",
+  "mug11", "Expecting parents announcing; friends of new grandparents", "Pregnancy reveal, Christmas, birth", "Baby's due date/name + 'Grandma est. 2026/2027'", 9, 8, 4, 4, "LOW", "LOW", "HIGH", "EVERGREEN",
   "Avoid NANA/MIMI/GIGI/GLAMMA as standalone design text.",
   "NOT VERIFIED.",
   "'Promoted to Grandma' reveal mug with due-date; matching grandpa version.",
@@ -209,7 +210,7 @@ C = [
   "Very high conversion on 'teacher thank you gift' (3k searches); 'teacher christmas gift' grew +20.2%.",
   ["Teacher gift budgets are often low.", "Personalization with many student names is error-prone."]),
  ("retirement gifts for women", ["retirement mug", "retirement coffee mug", "nurse retirement gift", "retirement ornament"],
-  "mug15", "Coworkers, adult children", "Retirement parties (year-round), Christmas", "Name + career years + profession icon", 8, 9, 4, 3, "LOW", "LOW", "HIGH", "EVERGREEN",
+  "mug11", "Coworkers, adult children", "Retirement parties (year-round), Christmas", "Name + career years + profession icon", 8, 9, 4, 3, "LOW", "LOW", "HIGH", "EVERGREEN",
   "Avoid 'OFFICIALLY RETIRED' (Reg. 5201467, IC 014/016/021/025), 'RETIRED' standalone (pending IC 025), 'HAPPY RETIREMENT' on blankets (Reg. 7173581, IC 024).",
   "Related 'leaving work gifts' SERP (Table B) is dominated by funny-label candles/mugs at median $12.39 — below a POD mug's $12.76 cost.",
   "Profession-specific retirement mugs (nurse, teacher, office) with career-years timeline; avoid the 'funny candle' price segment.",
@@ -300,7 +301,8 @@ for (kw, sec, pk, buyer, occ, pmeth, pers, exp, thumb, q4, season, peak, ever, t
         pa = [P[k] for k in PRICE_KW[kw]]
         a = pa[0]
         ship = 0.0 if a["detail_ship_median"] == "all free" else float(a["detail_ship_median"])
-        c_med, c_p75 = float(a["contrib_with_ship_at_median"]), float(a["contrib_at_p75_with_ship"])
+        c_med = round((float(a["median"]) + ship) * (1 - FEE_PCT) - FEE_FIX - cost, 2)
+        c_p75 = round((float(a["p75"]) + ship) * (1 - FEE_PCT) - FEE_FIX - cost, 2)
         price_range = f'${float(a["p25"]):.2f}–${float(a["p75"]):.2f} (P25–P75), median ${float(a["median"]):.2f}, full ${float(a["min"]):.2f}–${float(a["max"]):.2f}; typical US shipping ${ship:.2f}'
         price_ev = "; ".join(
             f'"{x["keyword"]}": {x["cards"]} cards, median ${float(x["median"]):.2f}, {x["on_sale_pct"]}% shown on sale, {x["free_ship_cards_pct"]}% free-shipping badge, '
@@ -354,7 +356,7 @@ for r in rows:
     if r["c_med"] is not None:
         p75_txt = f'; ${r["c_p75"]:.2f} at P75' if r["c_p75"] is not None else "; P75 not recorded"
         marg = (f'VERIFIED: contribution ${r["c_med"]:.2f} at median buyer price incl. shipping{p75_txt} '
-                f'(Printful cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: ${r["price10"]} total incl. shipping.')
+                f'(listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: ${r["price10"]} total incl. shipping.')
     elif r["keyword"] in PRICE_UNRESOLVED:
         marg = "UNRESOLVED — " + PRICE_UNRESOLVED[r["keyword"]] + f'. Needed for $10 contribution: ${r["price10"]} total incl. shipping.'
     elif r["cost"]:

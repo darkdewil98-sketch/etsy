@@ -1,9 +1,9 @@
 ### #01 — engagement ornament
-**Opportunity Score:** 81/100 (Demand 20 · Competition 20 · Intent 12 · Margin 10 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 5* · Penalty -10) — *analyst rating
+**Opportunity Score:** 85/100 (Demand 20 · Competition 20 · Intent 12 · Margin 14 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 5* · Penalty -10) — *analyst rating
 
 | Field | Value |
 |---|---|
-| Product | Printful Ceramic Ornament, 2-side (#900) |
+| Product | Printify / SwiftPOD Ceramic Ornament (bp 1632; 'from' price, 2-side/gift-box upcharge NOT VERIFIED) |
 | Primary buyer | Newly engaged couples; friends/family buying for them |
 | Occasion | Christmas 2026 (first holiday engaged), engagement parties |
 | Primary keyword | engagement ornament |
@@ -18,9 +18,9 @@
 | Competition | LOW |
 | New Shop Accessibility | HIGH |
 | Observed competitor evidence | "engagement ornament": 48 cards, median $13.99, 81% shown on sale, 12% free-shipping badge, 41/48 cards with 1k+ reviews, Bestseller 24, Star Seller 36, ads 3; detail pages: 4/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 37, ceramic 6, acrylic 2, porcelain 1; "personalized engagement ornament": 48 cards, median $13.24, 81% shown on sale, 12% free-shipping badge, 41/48 cards with 1k+ reviews, Bestseller 21, Star Seller 37, ads 3; detail pages: 4/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 39, ceramic 5, porcelain 1, acrylic 1 |
-| Observed POD cost (Printful) | $13.62 (base $7.73 + US ship $5.99) |
+| Observed POD cost (Printful) | $9.72 (base $4.93 + US ship $5.99) |
 | Selling price range | $9.96–$20.76 (P25–P75), median $13.99, full $4.49–$30.00; typical US shipping $5.99 |
-| Margin | VERIFIED: contribution $4.01 at median buyer price incl. shipping; $10.14 at P75 (Printful cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $26.6 total incl. shipping. |
+| Margin | VERIFIED: contribution $7.91 at median buyer price incl. shipping; $14.04 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $22.29 total incl. shipping. |
 | Personalization | YES — Both names + engagement date/year + optional city |
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
@@ -33,7 +33,77 @@
 **Design direction:** Typography-led ceramic disc: two first names joined by a hand-drawn ring line, 'Engaged' + year, date on back. Offer 3-4 colourways (champagne, sage, navy, blush) as variations.
 **Primary risks:** Strongly Q4-peaked; engagement demand also spikes Dec-Feb (proposal season) which helps sell-through. / Crowded by laser-engraved wood; ceramic print must look premium in photos.
 
-### #02 — custom pet pillow
+### #02 — auntie mug
+**Opportunity Score:** 81/100 (Demand 11 · Competition 20 · Intent 15 · Margin 8 · Personalization 9* · Expansion 9* · Thumbnail 5* · Q4 4* · Penalty 0) — *analyst rating
+
+| Field | Value |
+|---|---|
+| Product | Printful White Glossy Mug 11oz (#19) |
+| Primary buyer | Nieces/nephews (often parents buying for kids); siblings |
+| Occasion | Christmas, birthdays, pregnancy announcement ('promoted to auntie') |
+| Primary keyword | auntie mug |
+| Etsy searches | 1.8k |
+| Etsy listings | 7.9k |
+| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
+| Period change | not shown |
+| Etsy conversion label | Very high |
+| Searches/listings | 0.228 |
+| Secondary keywords (searches/listings conv) | aunt mug 626/11.5k H; auntie gifts 8.1k/42.6k T; gift for auntie 598/45.4k H; auntie birthday gift 2.1k/26.3k H |
+| Trend | EVERGREEN |
+| Competition | LOW |
+| New Shop Accessibility | HIGH |
+| Observed competitor evidence | "auntie mug": 48 cards, median $13.18, 96% shown on sale, 0% free-shipping badge, 25/48 cards with 1k+ reviews, Bestseller 16, Star Seller 35, ads 17; detail pages: 5/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 43, ceramic 4, glass 1 |
+| Observed POD cost (Printful) | $12.76 (base $6.07 + US ship $5.99) |
+| Selling price range | $10.99–$15.78 (P25–P75), median $13.18, full $4.25–$26.22; typical US shipping $5.99 |
+| Margin | VERIFIED: contribution $4.14 at median buyer price incl. shipping; $6.49 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $25.65 total incl. shipping. |
+| Personalization | YES — Nieces'/nephews' names + 'Auntie' + est. year |
+| Expansion potential | VERY HIGH |
+| Thumbnail potential | HIGH |
+| Q4 | YES · Seasonality LOW · Peak-risk LOW · Evergreen HIGH |
+| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'COOL AUNT' (Reg. 7232375, IC 025). No live exact marks for 'auntie', 'best auntie', 'auntie est', 'promoted to auntie' in product classes. |
+| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
+| Recommended next step | RESEARCH MORE |
+
+**Why:** Very high conversion with only 7.9k listings (0.228 ratio); 'auntie gifts' adds 8.1k searches with a 0.190 ratio.
+**Design direction:** Typography-first mug: 'Auntie' in bold serif + kids' names in a stacked list; variants 'promoted to', 'est. 20XX', photo version.
+**Primary risks:** Mug price ceiling is typically low; 15oz mug cost is $15.40.
+
+### #03 — first christmas married ornament
+**Opportunity Score:** 79/100 (Demand 17 · Competition 17 · Intent 12 · Margin 14 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 5* · Penalty -10) — *analyst rating
+
+| Field | Value |
+|---|---|
+| Product | Printify / SwiftPOD Ceramic Ornament (bp 1632; 'from' price, 2-side/gift-box upcharge NOT VERIFIED) |
+| Primary buyer | Newlyweds (2026 weddings); parents, wedding guests |
+| Occasion | First Christmas as married couple |
+| Primary keyword | first christmas married ornament |
+| Etsy searches | 6.7k |
+| Etsy listings | 33.8k |
+| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
+| Period change | +11.4% |
+| Etsy conversion label | High |
+| Searches/listings | 0.198 |
+| Secondary keywords (searches/listings conv) | newlywed ornament 4.6k/16.5k L; mr and mrs ornament 2.1k/13.5k VL; personalized wedding ornament 3.2k/24.8k H; married ornament 2.8k/47.3k T |
+| Trend | VERIFIED CURRENT TREND |
+| Competition | LOW |
+| New Shop Accessibility | HIGH |
+| Observed competitor evidence | "first christmas married ornament": 48 cards, median $14.00, 88% shown on sale, 8% free-shipping badge, 39/48 cards with 1k+ reviews, Bestseller 21, Star Seller 40, ads 1; detail pages: 3/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 39, ceramic 4, wood 2, glass 1; "newlywed ornament": 48 cards, median $13.99, 85% shown on sale, 8% free-shipping badge, 40/48 cards with 1k+ reviews, Bestseller 26, Star Seller 41, ads 1; detail pages: 3/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 42, ceramic 4, glass 2 |
+| Observed POD cost (Printful) | $9.72 (base $4.93 + US ship $5.99) |
+| Selling price range | $9.90–$19.39 (P25–P75), median $14.00, full $3.45–$40.00; typical US shipping $5.99 |
+| Margin | VERIFIED: contribution $7.92 at median buyer price incl. shipping; $12.80 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $22.29 total incl. shipping. |
+| Personalization | YES — Couple surname/first names + wedding date + 'first Christmas married 2026' |
+| Expansion potential | VERY HIGH |
+| Thumbnail potential | HIGH |
+| Q4 | YES · Seasonality HIGH · Peak-risk HIGH · Evergreen LOW |
+| IP risk | LOW APPARENT IP RISK (screen only) — No live exact mark for 'first christmas as mr & mrs', 'newlyweds' in product classes. 'Mr & Mrs': 20 live marks contain it, none exact in product classes — still avoid it as a standalone design text. |
+| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
+| Recommended next step | TEST NOW |
+
+**Why:** Insights shows +11.4% period growth with High conversion; 'newlywed ornament' has one of the best ratios in the ornament family (4.6k / 16.5k).
+**Design direction:** Minimal 'est.' style layout: surname large, 'Married 2026' small caps, wedding date; back side with venue city or vows line typed by buyer.
+**Primary risks:** Very date-bound ('2026'): unsold designs need a year swap for 2027. / Wedding-season overlap: demand is highest Oct–Dec only.
+
+### #04 — custom pet pillow
 **Opportunity Score:** 78/100 (Demand 14 · Competition 17 · Intent 15 · Margin 6 · Personalization 10* · Expansion 8* · Thumbnail 5* · Q4 3* · Penalty 0) — *analyst rating
 
 | Field | Value |
@@ -68,47 +138,12 @@
 **Design direction:** Photo cut-out with clean white border; add a subtle printed name/paw-date on the reverse. Thumbnail: pillow next to the real-pet photo.
 **Primary risks:** Photo quality from buyers varies; needs a clear photo-guide and manual cut-out time per order. / Uses buyer photos: buyer must have rights; seller's value is the editing/design (disclose production partner).
 
-### #03 — auntie mug
-**Opportunity Score:** 77/100 (Demand 11 · Competition 20 · Intent 15 · Margin 4 · Personalization 9* · Expansion 9* · Thumbnail 5* · Q4 4* · Penalty 0) — *analyst rating
+### #05 — new house ornament
+**Opportunity Score:** 78/100 (Demand 14 · Competition 14 · Intent 12 · Margin 14 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 5* · Penalty -5) — *analyst rating
 
 | Field | Value |
 |---|---|
-| Product | Printful White Glossy Mug 15oz (#19) |
-| Primary buyer | Nieces/nephews (often parents buying for kids); siblings |
-| Occasion | Christmas, birthdays, pregnancy announcement ('promoted to auntie') |
-| Primary keyword | auntie mug |
-| Etsy searches | 1.8k |
-| Etsy listings | 7.9k |
-| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
-| Period change | not shown |
-| Etsy conversion label | Very high |
-| Searches/listings | 0.228 |
-| Secondary keywords (searches/listings conv) | aunt mug 626/11.5k H; auntie gifts 8.1k/42.6k T; gift for auntie 598/45.4k H; auntie birthday gift 2.1k/26.3k H |
-| Trend | EVERGREEN |
-| Competition | LOW |
-| New Shop Accessibility | HIGH |
-| Observed competitor evidence | "auntie mug": 48 cards, median $13.18, 96% shown on sale, 0% free-shipping badge, 25/48 cards with 1k+ reviews, Bestseller 16, Star Seller 35, ads 17; detail pages: 5/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 43, ceramic 4, glass 1 |
-| Observed POD cost (Printful) | $15.40 (base $8.11 + US ship $5.99) |
-| Selling price range | $10.99–$15.78 (P25–P75), median $13.18, full $4.25–$26.22; typical US shipping $5.99 |
-| Margin | VERIFIED: contribution $1.50 at median buyer price incl. shipping; $3.85 at P75 (Printful cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $28.56 total incl. shipping. |
-| Personalization | YES — Nieces'/nephews' names + 'Auntie' + est. year |
-| Expansion potential | VERY HIGH |
-| Thumbnail potential | HIGH |
-| Q4 | YES · Seasonality LOW · Peak-risk LOW · Evergreen HIGH |
-| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'COOL AUNT' (Reg. 7232375, IC 025). No live exact marks for 'auntie', 'best auntie', 'auntie est', 'promoted to auntie' in product classes. |
-| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
-| Recommended next step | RESEARCH MORE |
-
-**Why:** Very high conversion with only 7.9k listings (0.228 ratio); 'auntie gifts' adds 8.1k searches with a 0.190 ratio.
-**Design direction:** Typography-first mug: 'Auntie' in bold serif + kids' names in a stacked list; variants 'promoted to', 'est. 20XX', photo version.
-**Primary risks:** Mug price ceiling is typically low; 15oz mug cost is $15.40.
-
-### #04 — new house ornament
-**Opportunity Score:** 74/100 (Demand 14 · Competition 14 · Intent 12 · Margin 10 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 5* · Penalty -5) — *analyst rating
-
-| Field | Value |
-|---|---|
-| Product | Printful Ceramic Ornament, 2-side (#900) |
+| Product | Printify / SwiftPOD Ceramic Ornament (bp 1632; 'from' price, 2-side/gift-box upcharge NOT VERIFIED) |
 | Primary buyer | New homeowners; friends; real-estate agents |
 | Occasion | First Christmas in new home; housewarming |
 | Primary keyword | new house ornament |
@@ -123,9 +158,9 @@
 | Competition | MEDIUM |
 | New Shop Accessibility | MEDIUM |
 | Observed competitor evidence | Related 'client gift' SERP (Table B) is dominated by watercolor house-portrait ornaments: median $20.99, top shop LoveSuna shows 62.7k reviews / 371.7k shop sales. | "new house ornament": 48 cards, median $14.41, 75% shown on sale, 8% free-shipping badge, 37/48 cards with 1k+ reviews, Bestseller 17, Star Seller 38, ads 1; detail pages: 2/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 42, ceramic 4, embroidered 1, wood 1 |
-| Observed POD cost (Printful) | $13.62 (base $7.73 + US ship $5.99) |
+| Observed POD cost (Printful) | $9.72 (base $4.93 + US ship $5.99) |
 | Selling price range | $9.99–$20.96 (P25–P75), median $14.41, full $3.99–$80.00; typical US shipping $5.99 |
-| Margin | VERIFIED: contribution $4.40 at median buyer price incl. shipping; $10.32 at P75 (Printful cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $26.6 total incl. shipping. |
+| Margin | VERIFIED: contribution $8.30 at median buyer price incl. shipping; $14.22 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $22.29 total incl. shipping. |
 | Personalization | YES — House illustration from buyer photo or house-style template + address/family name + year |
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
@@ -138,42 +173,78 @@
 **Design direction:** Line-art house from photo (1-colour on white ceramic) — faster than watercolor, distinct from the dominant watercolor look.
 **Primary risks:** House drawings from photos take time; needs a template-based faster tier. / Dominated at the top by very large shops (verified on 'client gift').
 
-### #05 — first christmas married ornament
-**Opportunity Score:** 73/100 (Demand 17 · Competition 17 · Intent 12 · Margin 8 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 5* · Penalty -10) — *analyst rating
+### #06 — baby's first christmas ornament
+**Opportunity Score:** 73/100 (Demand 17 · Competition 11 · Intent 12 · Margin 14 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 5* · Penalty -10) — *analyst rating
 
 | Field | Value |
 |---|---|
-| Product | Printful Ceramic Ornament, 2-side (#900) |
-| Primary buyer | Newlyweds (2026 weddings); parents, wedding guests |
-| Occasion | First Christmas as married couple |
-| Primary keyword | first christmas married ornament |
-| Etsy searches | 6.7k |
-| Etsy listings | 33.8k |
+| Product | Printify / SwiftPOD Ceramic Ornament (bp 1632; 'from' price, 2-side/gift-box upcharge NOT VERIFIED) |
+| Primary buyer | New parents; grandparents; baby-shower guests |
+| Occasion | Baby's first Christmas 2026 |
+| Primary keyword | baby's first christmas ornament |
+| Etsy searches | 8.2k |
+| Etsy listings | 88.9k |
 | Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
-| Period change | +11.4% |
+| Period change | +4.9% |
 | Etsy conversion label | High |
-| Searches/listings | 0.198 |
-| Secondary keywords (searches/listings conv) | newlywed ornament 4.6k/16.5k L; mr and mrs ornament 2.1k/13.5k VL; personalized wedding ornament 3.2k/24.8k H; married ornament 2.8k/47.3k T |
-| Trend | VERIFIED CURRENT TREND |
-| Competition | LOW |
-| New Shop Accessibility | HIGH |
-| Observed competitor evidence | "first christmas married ornament": 48 cards, median $14.00, 88% shown on sale, 8% free-shipping badge, 39/48 cards with 1k+ reviews, Bestseller 21, Star Seller 40, ads 1; detail pages: 3/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 39, ceramic 4, wood 2, glass 1; "newlywed ornament": 48 cards, median $13.99, 85% shown on sale, 8% free-shipping badge, 40/48 cards with 1k+ reviews, Bestseller 26, Star Seller 41, ads 1; detail pages: 3/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 42, ceramic 4, glass 2 |
-| Observed POD cost (Printful) | $13.62 (base $7.73 + US ship $5.99) |
-| Selling price range | $9.90–$19.39 (P25–P75), median $14.00, full $3.45–$40.00; typical US shipping $5.99 |
-| Margin | VERIFIED: contribution $4.02 at median buyer price incl. shipping; $8.90 at P75 (Printful cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $26.6 total incl. shipping. |
-| Personalization | YES — Couple surname/first names + wedding date + 'first Christmas married 2026' |
+| Searches/listings | 0.092 |
+| Secondary keywords (searches/listings conv) | first christmas ornament 19.6k/119.1k L; personalized baby ornament 3.2k/25.3k L; new baby ornament 3.5k/29.5k L; newborn christmas ornament 1.3k/20.2k T |
+| Trend | EARLY SIGNAL |
+| Competition | MEDIUM |
+| New Shop Accessibility | MEDIUM |
+| Observed competitor evidence | "baby's first christmas ornament": 48 cards, median $14.00, 73% shown on sale, 15% free-shipping badge, 40/48 cards with 1k+ reviews, Bestseller 13, Star Seller 32, ads 1; detail pages: 1/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 37, ceramic 3, wood 3, embroidered 2 |
+| Observed POD cost (Printful) | $9.72 (base $4.93 + US ship $5.99) |
+| Selling price range | $9.96–$22.10 (P25–P75), median $14.00, full $2.97–$41.59; typical US shipping $5.99 |
+| Margin | VERIFIED: contribution $7.92 at median buyer price incl. shipping; $15.25 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $22.29 total incl. shipping. |
+| Personalization | YES — Baby name + birth date/weight + year; optional photo on back |
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
-| Q4 | YES · Seasonality HIGH · Peak-risk HIGH · Evergreen LOW |
-| IP risk | LOW APPARENT IP RISK (screen only) — No live exact mark for 'first christmas as mr & mrs', 'newlyweds' in product classes. 'Mr & Mrs': 20 live marks contain it, none exact in product classes — still avoid it as a standalone design text. |
+| Q4 | YES · Seasonality HIGH · Peak-risk HIGH · Evergreen MEDIUM |
+| IP risk | LOW APPARENT IP RISK (screen only) — Use 'Baby's First Christmas' — 'MY FIRST CHRISTMAS' is registered (Reg. 4530374 IC 025 baby clothing; Reg. 2040424 IC 028 stuffed toys). |
 | Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
 | Recommended next step | TEST NOW |
 
-**Why:** Insights shows +11.4% period growth with High conversion; 'newlywed ornament' has one of the best ratios in the ornament family (4.6k / 16.5k).
-**Design direction:** Minimal 'est.' style layout: surname large, 'Married 2026' small caps, wedding date; back side with venue city or vows line typed by buyer.
-**Primary risks:** Very date-bound ('2026'): unsold designs need a year swap for 2027. / Wedding-season overlap: demand is highest Oct–Dec only.
+**Why:** High conversion, +4.9% growth; 'first christmas ornament' alone has 19.6k searches with a 0.165 ratio.
+**Design direction:** Soft watercolour motif per month-of-birth (birth flower) + name + stats; back side photo. Blue/pink/neutral variations.
+**Primary risks:** Large, mature category (89k listings on the primary term). / Q4-only peak.
 
-### #06 — dog memorial gift
+### #07 — client gift
+**Opportunity Score:** 73/100 (Demand 20 · Competition 20 · Intent 3 · Margin 12 · Personalization 10* · Expansion 9* · Thumbnail 4* · Q4 5* · Penalty -10) — *analyst rating
+
+| Field | Value |
+|---|---|
+| Product | Printify / SwiftPOD Ceramic Ornament (bp 1632; 'from' price, 2-side/gift-box upcharge NOT VERIFIED) |
+| Primary buyer | Real-estate agents, loan officers, small businesses (B2B) |
+| Occasion | Closings; year-end client appreciation |
+| Primary keyword | client gift |
+| Etsy searches | 15.9k |
+| Etsy listings | 21.1k |
+| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
+| Period change | not shown |
+| Etsy conversion label | Very low |
+| Searches/listings | 0.754 |
+| Secondary keywords (searches/listings conv) | realtor closing gift 4.8k/25.1k VL; new homeowner gift 2.8k/23.3k T |
+| Trend | EARLY SIGNAL |
+| Competition | LOW |
+| New Shop Accessibility | MEDIUM |
+| Observed competitor evidence | VERIFIED (Table B): 36,810 search results; price $2.03–$80.99, median $20.99; 96% personalized (title proxy); 28/48 cards show 1k+ reviews; Bestseller 14, Star Seller 34. Examples: LoveSuna $12.48 (62.7k reviews, 371.7k sales); HeldDearCo $11.74 (840, 8k); SNUGAMATE $25.12 (6.4k, 36.1k); Alishannondesigns $11.99 (1.1k, 8k); SeedlingGoodsLLC $9.99 (186, 1.2k). |
+| Observed POD cost (Printful) | $9.72 (base $4.93 + US ship $4.79) |
+| Selling price range | See competitor evidence (verified) |
+| Margin | VERIFIED: contribution $8.83 at median buyer price incl. shipping; P75 not recorded (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $22.29 total incl. shipping. |
+| Personalization | YES — Client house + family name + closing date; agent's own name/business on back (no third-party logos) |
+| Expansion potential | VERY HIGH |
+| Thumbnail potential | HIGH |
+| Q4 | YES · Seasonality MEDIUM · Peak-risk MEDIUM · Evergreen HIGH |
+| IP risk | LOW APPARENT IP RISK (screen only) — Do NOT use the word 'REALTOR' in designs (collective mark, Reg. 4583156 IC 025 / 4583155 IC 014). Use 'real estate agent'/'closing gift'. |
+| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
+| Recommended next step | RESEARCH MORE |
+
+**Why:** Best ratio of any POD-able keyword (0.754: 15.9k searches vs 21.1k listings); B2B buyers order multiples.
+**Design direction:** Agent-branded bulk pack (5/10/25 ornaments) with a clean line-art house style; year-end 'thank you' client-appreciation version.
+**Primary risks:** Very low conversion label (VL) and heavy concentration of 1k+ review shops on page one (verified). / Verified median price $20.99 vs $13.62 cost → about $4.9 contribution at median; bulk pricing needed.
+**Verified penalty:** extreme competition verified (28/48 page-one cards show 1k+ reviews) -10
+
+### #08 — dog memorial gift
 **Opportunity Score:** 70/100 (Demand 20 · Competition 14 · Intent 12 · Margin 8 · Personalization 10* · Expansion 9* · Thumbnail 4* · Q4 3* · Penalty -10) — *analyst rating
 
 | Field | Value |
@@ -208,7 +279,7 @@
 **Design direction:** Soft painted-style portrait from photo on canvas with name + dates; companion ornament and pillow versions for the same order.
 **Primary risks:** 428k listings — very crowded head term; winning needs long-tail listing titles (breed + memorial).
 
-### #07 — auntie shirt
+### #09 — auntie shirt
 **Opportunity Score:** 70/100 (Demand 14 · Competition 11 · Intent 12 · Margin 8 · Personalization 9* · Expansion 9* · Thumbnail 4* · Q4 3* · Penalty 0) — *analyst rating
 
 | Field | Value |
@@ -243,78 +314,42 @@
 **Design direction:** Clean 'Auntie' wordmark with names on sleeve; matching 'Uncle' tee as cross-sell.
 **Primary risks:** 45.7k listings — medium competition. / Apparel sizing returns.
 
-### #08 — baby's first christmas ornament
-**Opportunity Score:** 69/100 (Demand 17 · Competition 11 · Intent 12 · Margin 10 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 5* · Penalty -10) — *analyst rating
+### #10 — retirement gifts for women
+**Opportunity Score:** 68/100 (Demand 20 · Competition 20 · Intent 6 · Margin 8 · Personalization 8* · Expansion 9* · Thumbnail 4* · Q4 3* · Penalty -10) — *analyst rating
 
 | Field | Value |
 |---|---|
-| Product | Printful Ceramic Ornament, 2-side (#900) |
-| Primary buyer | New parents; grandparents; baby-shower guests |
-| Occasion | Baby's first Christmas 2026 |
-| Primary keyword | baby's first christmas ornament |
-| Etsy searches | 8.2k |
-| Etsy listings | 88.9k |
-| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
-| Period change | +4.9% |
-| Etsy conversion label | High |
-| Searches/listings | 0.092 |
-| Secondary keywords (searches/listings conv) | first christmas ornament 19.6k/119.1k L; personalized baby ornament 3.2k/25.3k L; new baby ornament 3.5k/29.5k L; newborn christmas ornament 1.3k/20.2k T |
-| Trend | EARLY SIGNAL |
-| Competition | MEDIUM |
-| New Shop Accessibility | MEDIUM |
-| Observed competitor evidence | "baby's first christmas ornament": 48 cards, median $14.00, 73% shown on sale, 15% free-shipping badge, 40/48 cards with 1k+ reviews, Bestseller 13, Star Seller 32, ads 1; detail pages: 1/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 37, ceramic 3, wood 3, embroidered 2 |
-| Observed POD cost (Printful) | $13.62 (base $7.73 + US ship $5.99) |
-| Selling price range | $9.96–$22.10 (P25–P75), median $14.00, full $2.97–$41.59; typical US shipping $5.99 |
-| Margin | VERIFIED: contribution $4.02 at median buyer price incl. shipping; $11.35 at P75 (Printful cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $26.6 total incl. shipping. |
-| Personalization | YES — Baby name + birth date/weight + year; optional photo on back |
-| Expansion potential | VERY HIGH |
-| Thumbnail potential | HIGH |
-| Q4 | YES · Seasonality HIGH · Peak-risk HIGH · Evergreen MEDIUM |
-| IP risk | LOW APPARENT IP RISK (screen only) — Use 'Baby's First Christmas' — 'MY FIRST CHRISTMAS' is registered (Reg. 4530374 IC 025 baby clothing; Reg. 2040424 IC 028 stuffed toys). |
-| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
-| Recommended next step | RESEARCH MORE |
-
-**Why:** High conversion, +4.9% growth; 'first christmas ornament' alone has 19.6k searches with a 0.165 ratio.
-**Design direction:** Soft watercolour motif per month-of-birth (birth flower) + name + stats; back side photo. Blue/pink/neutral variations.
-**Primary risks:** Large, mature category (89k listings on the primary term). / Q4-only peak.
-
-### #09 — client gift
-**Opportunity Score:** 69/100 (Demand 20 · Competition 20 · Intent 3 · Margin 8 · Personalization 10* · Expansion 9* · Thumbnail 4* · Q4 5* · Penalty -10) — *analyst rating
-
-| Field | Value |
-|---|---|
-| Product | Printful Ceramic Ornament, 2-side (#900) |
-| Primary buyer | Real-estate agents, loan officers, small businesses (B2B) |
-| Occasion | Closings; year-end client appreciation |
-| Primary keyword | client gift |
-| Etsy searches | 15.9k |
-| Etsy listings | 21.1k |
+| Product | Printful White Glossy Mug 11oz (#19) |
+| Primary buyer | Coworkers, adult children |
+| Occasion | Retirement parties (year-round), Christmas |
+| Primary keyword | retirement gifts for women |
+| Etsy searches | 15.5k |
+| Etsy listings | 48.3k |
 | Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
 | Period change | not shown |
-| Etsy conversion label | Very low |
-| Searches/listings | 0.754 |
-| Secondary keywords (searches/listings conv) | realtor closing gift 4.8k/25.1k VL; new homeowner gift 2.8k/23.3k T |
-| Trend | EARLY SIGNAL |
+| Etsy conversion label | Low |
+| Searches/listings | 0.321 |
+| Secondary keywords (searches/listings conv) | retirement mug 1.8k/45.1k T; retirement coffee mug 358/30.5k VH; nurse retirement gift 1.1k/18.7k H; retirement ornament 999/22.4k L |
+| Trend | EVERGREEN |
 | Competition | LOW |
 | New Shop Accessibility | MEDIUM |
-| Observed competitor evidence | VERIFIED (Table B): 36,810 search results; price $2.03–$80.99, median $20.99; 96% personalized (title proxy); 28/48 cards show 1k+ reviews; Bestseller 14, Star Seller 34. Examples: LoveSuna $12.48 (62.7k reviews, 371.7k sales); HeldDearCo $11.74 (840, 8k); SNUGAMATE $25.12 (6.4k, 36.1k); Alishannondesigns $11.99 (1.1k, 8k); SeedlingGoodsLLC $9.99 (186, 1.2k). |
-| Observed POD cost (Printful) | $13.62 (base $7.73 + US ship $5.89) |
-| Selling price range | See competitor evidence (verified) |
-| Margin | VERIFIED: contribution $4.93 at median buyer price incl. shipping; P75 not recorded (Printful cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $26.6 total incl. shipping. |
-| Personalization | YES — Client house + family name + closing date; agent's own name/business on back (no third-party logos) |
+| Observed competitor evidence | Related 'leaving work gifts' SERP (Table B) is dominated by funny-label candles/mugs at median $12.39 — below a POD mug's $12.76 cost. | "retirement gifts for women": 48 cards, median $13.46, 94% shown on sale, 6% free-shipping badge, 38/48 cards with 1k+ reviews, Bestseller 25, Star Seller 37, ads 8; detail pages: 4/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 36, glass 3, printed 2, embroidered/fabric 2 |
+| Observed POD cost (Printful) | $12.76 (base $6.07 + US ship $5.99) |
+| Selling price range | $11.86–$17.59 (P25–P75), median $13.46, full $4.04–$64.50; typical US shipping $5.99 |
+| Margin | VERIFIED: contribution $4.39 at median buyer price incl. shipping; $8.13 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $25.65 total incl. shipping. |
+| Personalization | YES — Name + career years + profession icon |
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
-| Q4 | YES · Seasonality MEDIUM · Peak-risk MEDIUM · Evergreen HIGH |
-| IP risk | LOW APPARENT IP RISK (screen only) — Do NOT use the word 'REALTOR' in designs (collective mark, Reg. 4583156 IC 025 / 4583155 IC 014). Use 'real estate agent'/'closing gift'. |
+| Q4 | PARTIAL · Seasonality LOW · Peak-risk LOW · Evergreen HIGH |
+| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'OFFICIALLY RETIRED' (Reg. 5201467, IC 014/016/021/025), 'RETIRED' standalone (pending IC 025), 'HAPPY RETIREMENT' on blankets (Reg. 7173581, IC 024). |
 | Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
 | Recommended next step | RESEARCH MORE |
 
-**Why:** Best ratio of any POD-able keyword (0.754: 15.9k searches vs 21.1k listings); B2B buyers order multiples.
-**Design direction:** Agent-branded bulk pack (5/10/25 ornaments) with a clean line-art house style; year-end 'thank you' client-appreciation version.
-**Primary risks:** Very low conversion label (VL) and heavy concentration of 1k+ review shops on page one (verified). / Verified median price $20.99 vs $13.62 cost → about $4.9 contribution at median; bulk pricing needed.
-**Verified penalty:** extreme competition verified (28/48 page-one cards show 1k+ reviews) -10
+**Why:** 15.5k searches with a 0.321 ratio on 'retirement gifts for women'; 'nurse retirement gift' shows High conversion.
+**Design direction:** Profession-specific retirement mugs (nurse, teacher, office) with career-years timeline; avoid the 'funny candle' price segment.
+**Primary risks:** Verified low price anchor ($12.39 median) in the adjacent leaving-work segment. / Conversion label only Low on the head term.
 
-### #10 — bookish stickers
+### #11 — bookish stickers
 **Opportunity Score:** 68/100 (Demand 17 · Competition 14 · Intent 9 · Margin 8 · Personalization 4* · Expansion 8* · Thumbnail 4* · Q4 4* · Penalty 0) — *analyst rating
 
 | Field | Value |
@@ -349,7 +384,42 @@
 **Design direction:** Original reading-life sticker packs (tbr, annotation tabs aesthetic) — no book titles or quotes.
 **Primary risks:** Low price point; 'book lover gift' shows an unusual -49.5% swing (98.4k searches) — treat head-term volume with caution.
 
-### #11 — personalized bookmark
+### #12 — family of 4 ornament
+**Opportunity Score:** 66/100 (Demand 11 · Competition 17 · Intent 9 · Margin 4 · Personalization 10* · Expansion 10* · Thumbnail 5* · Q4 5* · Penalty -5) — *analyst rating
+
+| Field | Value |
+|---|---|
+| Product | Printify / SwiftPOD Ceramic Ornament (bp 1632; 'from' price, 2-side/gift-box upcharge NOT VERIFIED) |
+| Primary buyer | Parents; grandparents buying for adult children |
+| Occasion | Christmas |
+| Primary keyword | family of 4 ornament |
+| Etsy searches | 1.7k |
+| Etsy listings | 10.8k |
+| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
+| Period change | not shown |
+| Etsy conversion label | Typical |
+| Searches/listings | 0.157 |
+| Secondary keywords (searches/listings conv) | personalized family ornament 2.8k/32.4k L; family christmas ornament 11.8k/144.3k L; family name ornament 1.8k/60.8k VL |
+| Trend | EARLY SIGNAL |
+| Competition | LOW |
+| New Shop Accessibility | HIGH |
+| Observed competitor evidence | "family of 4 ornament": 48 cards, median $9.41, 85% shown on sale, 15% free-shipping badge, 36/48 cards with 1k+ reviews, Bestseller 7, Star Seller 33, ads 13; detail pages: 2/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 31, wood 9, acrylic 2, glass 2 |
+| Observed POD cost (Printful) | $9.72 (base $4.93 + US ship $5.99) |
+| Selling price range | $5.69–$15.99 (P25–P75), median $9.41, full $0.44–$55.00; typical US shipping $5.99 |
+| Margin | VERIFIED: contribution $3.77 at median buyer price incl. shipping; $9.72 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $22.29 total incl. shipping. |
+| Personalization | YES — Each family member's name (+ pets) with simple figures; 'family of 3/4/5/6' variations |
+| Expansion potential | VERY HIGH |
+| Thumbnail potential | HIGH |
+| Q4 | YES · Seasonality HIGH · Peak-risk HIGH · Evergreen MEDIUM |
+| IP risk | LOW APPARENT IP RISK (screen only) — No live mark for 'family of four'. |
+| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
+| Recommended next step | RESEARCH MORE |
+
+**Why:** Micro keyword 'family of 4 ornament' shows a 0.157 ratio with Typical conversion (1.7k / 10.8k) vs 144k listings on 'family christmas ornament'.
+**Design direction:** Illustrated family-figure builder (hair/skin/pets choices) is the common format; differentiate with a typographic 'family name + names list' version and a line-art version.
+**Primary risks:** Figure-builder listings are labour-intensive per order. / Generic 'family christmas ornament' is crowded (144k).
+
+### #13 — personalized bookmark
 **Opportunity Score:** 66/100 (Demand 17 · Competition 17 · Intent 15 · Margin 3 · Personalization 9* · Expansion 7* · Thumbnail 4* · Q4 4* · Penalty -10) — *analyst rating
 
 | Field | Value |
@@ -384,12 +454,12 @@
 **Design direction:** Printed name bookmark with tassel; teacher and grandparent variants.
 **Primary risks:** SUPPLIER COST NOT VERIFIED — Printful has no bookmark product; another POD provider must be verified first.
 
-### #12 — baptism ornament
+### #14 — baptism ornament
 **Opportunity Score:** 65/100 (Demand 14 · Competition 11 · Intent 9 · Margin 8 · Personalization 9* · Expansion 7* · Thumbnail 4* · Q4 3* · Penalty 0) — *analyst rating
 
 | Field | Value |
 |---|---|
-| Product | Printful Ceramic Ornament, 2-side (#900) |
+| Product | Printify / SwiftPOD Ceramic Ornament (bp 1632; 'from' price, 2-side/gift-box upcharge NOT VERIFIED) |
 | Primary buyer | Godparents, grandparents |
 | Occasion | Baptism/christening, first Christmas |
 | Primary keyword | baptism ornament |
@@ -404,9 +474,9 @@
 | Competition | MEDIUM |
 | New Shop Accessibility | MEDIUM |
 | Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $13.62 (base $7.73 + US ship $5.89) |
+| Observed POD cost (Printful) | $9.72 (base $4.93 + US ship $4.79) |
 | Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $26.6; for $15: $32.12 (total incl. shipping). |
+| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $22.29; for $15: $27.81 (total incl. shipping). |
 | Personalization | YES — Child name + baptism date + church/city |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -419,7 +489,7 @@
 **Design direction:** Minimal line-art dove or olive branch, name in serif caps, date; pairs with godparent gift bundles.
 **Primary risks:** Smaller volume (2.9k); needs variety across denominations without using protected symbols/logos.
 
-### #13 — custom dog shirt
+### #15 — custom dog shirt
 **Opportunity Score:** 65/100 (Demand 17 · Competition 8 · Intent 15 · Margin 8 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 3* · Penalty -10) — *analyst rating
 
 | Field | Value |
@@ -454,7 +524,7 @@
 **Design direction:** Minimal line-portrait of the pet + name in small caps; sweatshirt/hoodie upsell variations.
 **Primary risks:** 136.6k listings — crowded. / Illustration labour per order.
 
-### #14 — personalized grandma sweatshirt
+### #16 — personalized grandma sweatshirt
 **Opportunity Score:** 64/100 (Demand 8 · Competition 5 · Intent 15 · Margin 8 · Personalization 10* · Expansion 9* · Thumbnail 4* · Q4 5* · Penalty 0) — *analyst rating
 
 | Field | Value |
@@ -489,7 +559,7 @@
 **Design direction:** Embroidered-look 'Grandma' with grandkids' names down the sleeve (Printful sleeve print +$5.95); embroidery upgrade variation.
 **Primary risks:** Low search volume per term (226–763). / Sleeve print raises cost to $33.91.
 
-### #15 — custom embroidered sweatshirt
+### #17 — custom embroidered sweatshirt
 **Opportunity Score:** 64/100 (Demand 20 · Competition 11 · Intent 9 · Margin 8 · Personalization 9* · Expansion 9* · Thumbnail 4* · Q4 4* · Penalty -10) — *analyst rating
 
 | Field | Value |
@@ -524,47 +594,12 @@
 **Design direction:** Tonal embroidery on garment-dyed look colours; mini-icon + name; seasonal colour drops.
 **Primary risks:** 111k listings; embroidery digitisation quality matters.
 
-### #16 — retirement gifts for women
-**Opportunity Score:** 64/100 (Demand 20 · Competition 20 · Intent 6 · Margin 4 · Personalization 8* · Expansion 9* · Thumbnail 4* · Q4 3* · Penalty -10) — *analyst rating
-
-| Field | Value |
-|---|---|
-| Product | Printful White Glossy Mug 15oz (#19) |
-| Primary buyer | Coworkers, adult children |
-| Occasion | Retirement parties (year-round), Christmas |
-| Primary keyword | retirement gifts for women |
-| Etsy searches | 15.5k |
-| Etsy listings | 48.3k |
-| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
-| Period change | not shown |
-| Etsy conversion label | Low |
-| Searches/listings | 0.321 |
-| Secondary keywords (searches/listings conv) | retirement mug 1.8k/45.1k T; retirement coffee mug 358/30.5k VH; nurse retirement gift 1.1k/18.7k H; retirement ornament 999/22.4k L |
-| Trend | EVERGREEN |
-| Competition | LOW |
-| New Shop Accessibility | MEDIUM |
-| Observed competitor evidence | Related 'leaving work gifts' SERP (Table B) is dominated by funny-label candles/mugs at median $12.39 — below a POD mug's $12.76 cost. | "retirement gifts for women": 48 cards, median $13.46, 94% shown on sale, 6% free-shipping badge, 38/48 cards with 1k+ reviews, Bestseller 25, Star Seller 37, ads 8; detail pages: 4/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 36, glass 3, printed 2, embroidered/fabric 2 |
-| Observed POD cost (Printful) | $15.40 (base $8.11 + US ship $5.99) |
-| Selling price range | $11.86–$17.59 (P25–P75), median $13.46, full $4.04–$64.50; typical US shipping $5.99 |
-| Margin | VERIFIED: contribution $1.75 at median buyer price incl. shipping; $5.49 at P75 (Printful cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $28.56 total incl. shipping. |
-| Personalization | YES — Name + career years + profession icon |
-| Expansion potential | VERY HIGH |
-| Thumbnail potential | HIGH |
-| Q4 | PARTIAL · Seasonality LOW · Peak-risk LOW · Evergreen HIGH |
-| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'OFFICIALLY RETIRED' (Reg. 5201467, IC 014/016/021/025), 'RETIRED' standalone (pending IC 025), 'HAPPY RETIREMENT' on blankets (Reg. 7173581, IC 024). |
-| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
-| Recommended next step | RESEARCH MORE |
-
-**Why:** 15.5k searches with a 0.321 ratio on 'retirement gifts for women'; 'nurse retirement gift' shows High conversion.
-**Design direction:** Profession-specific retirement mugs (nurse, teacher, office) with career-years timeline; avoid the 'funny candle' price segment.
-**Primary risks:** Verified low price anchor ($12.39 median) in the adjacent leaving-work segment. / Conversion label only Low on the head term.
-
-### #17 — pregnancy ornament
+### #18 — pregnancy ornament
 **Opportunity Score:** 62/100 (Demand 11 · Competition 11 · Intent 6 · Margin 8 · Personalization 10* · Expansion 7* · Thumbnail 4* · Q4 5* · Penalty 0) — *analyst rating
 
 | Field | Value |
 |---|---|
-| Product | Printful Ceramic Ornament, 2-side (#900) |
+| Product | Printify / SwiftPOD Ceramic Ornament (bp 1632; 'from' price, 2-side/gift-box upcharge NOT VERIFIED) |
 | Primary buyer | Expecting parents announcing to grandparents |
 | Occasion | Christmas pregnancy reveal |
 | Primary keyword | pregnancy ornament |
@@ -579,9 +614,9 @@
 | Competition | MEDIUM |
 | New Shop Accessibility | MEDIUM |
 | Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $13.62 (base $7.73 + US ship $5.89) |
+| Observed POD cost (Printful) | $9.72 (base $4.93 + US ship $4.79) |
 | Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $26.6; for $15: $32.12 (total incl. shipping). |
+| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $22.29; for $15: $27.81 (total incl. shipping). |
 | Personalization | YES — Due date + 'Grandma/Grandpa' names + baby nickname |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -594,47 +629,12 @@
 **Design direction:** Reveal-style ornament: 'Coming [month] 2027' with tiny ultrasound-frame graphic; variations for grandparents, aunts, siblings.
 **Primary risks:** Low conversion label (L) on primary; VL on announcement variant.
 
-### #18 — family of 4 ornament
-**Opportunity Score:** 62/100 (Demand 11 · Competition 17 · Intent 9 · Margin 0 · Personalization 10* · Expansion 10* · Thumbnail 5* · Q4 5* · Penalty -5) — *analyst rating
-
-| Field | Value |
-|---|---|
-| Product | Printful Ceramic Ornament, 2-side (#900) |
-| Primary buyer | Parents; grandparents buying for adult children |
-| Occasion | Christmas |
-| Primary keyword | family of 4 ornament |
-| Etsy searches | 1.7k |
-| Etsy listings | 10.8k |
-| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
-| Period change | not shown |
-| Etsy conversion label | Typical |
-| Searches/listings | 0.157 |
-| Secondary keywords (searches/listings conv) | personalized family ornament 2.8k/32.4k L; family christmas ornament 11.8k/144.3k L; family name ornament 1.8k/60.8k VL |
-| Trend | EARLY SIGNAL |
-| Competition | LOW |
-| New Shop Accessibility | HIGH |
-| Observed competitor evidence | "family of 4 ornament": 48 cards, median $9.41, 85% shown on sale, 15% free-shipping badge, 36/48 cards with 1k+ reviews, Bestseller 7, Star Seller 33, ads 13; detail pages: 2/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 31, wood 9, acrylic 2, glass 2 |
-| Observed POD cost (Printful) | $13.62 (base $7.73 + US ship $5.99) |
-| Selling price range | $5.69–$15.99 (P25–P75), median $9.41, full $0.44–$55.00; typical US shipping $5.99 |
-| Margin | VERIFIED: contribution $-0.13 at median buyer price incl. shipping; $5.82 at P75 (Printful cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $26.6 total incl. shipping. |
-| Personalization | YES — Each family member's name (+ pets) with simple figures; 'family of 3/4/5/6' variations |
-| Expansion potential | VERY HIGH |
-| Thumbnail potential | HIGH |
-| Q4 | YES · Seasonality HIGH · Peak-risk HIGH · Evergreen MEDIUM |
-| IP risk | LOW APPARENT IP RISK (screen only) — No live mark for 'family of four'. |
-| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
-| Recommended next step | RESEARCH MORE |
-
-**Why:** Micro keyword 'family of 4 ornament' shows a 0.157 ratio with Typical conversion (1.7k / 10.8k) vs 144k listings on 'family christmas ornament'.
-**Design direction:** Illustrated family-figure builder (hair/skin/pets choices) is the common format; differentiate with a typographic 'family name + names list' version and a line-art version.
-**Primary risks:** Figure-builder listings are labour-intensive per order. / Generic 'family christmas ornament' is crowded (144k).
-
 ### #19 — cat memorial ornament
 **Opportunity Score:** 62/100 (Demand 14 · Competition 8 · Intent 6 · Margin 8 · Personalization 10* · Expansion 8* · Thumbnail 4* · Q4 4* · Penalty 0) — *analyst rating
 
 | Field | Value |
 |---|---|
-| Product | Printful Ceramic Ornament, 2-side (#900) |
+| Product | Printify / SwiftPOD Ceramic Ornament (bp 1632; 'from' price, 2-side/gift-box upcharge NOT VERIFIED) |
 | Primary buyer | Cat owners after loss; friends |
 | Occasion | Pet loss; memorial Christmas |
 | Primary keyword | cat memorial ornament |
@@ -649,9 +649,9 @@
 | Competition | MEDIUM |
 | New Shop Accessibility | MEDIUM |
 | Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $13.62 (base $7.73 + US ship $5.89) |
+| Observed POD cost (Printful) | $9.72 (base $4.93 + US ship $4.79) |
 | Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $26.6; for $15: $32.12 (total incl. shipping). |
+| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $22.29; for $15: $27.81 (total incl. shipping). |
 | Personalization | YES — Cat photo or breed art + name + dates |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -704,7 +704,7 @@
 
 | Field | Value |
 |---|---|
-| Product | Printful White Glossy Mug 15oz (#19) |
+| Product | Printful White Glossy Mug 11oz (#19) |
 | Primary buyer | Nieces/nephews; siblings |
 | Occasion | Christmas, birthdays |
 | Primary keyword | uncle mug |
@@ -719,9 +719,9 @@
 | Competition | MEDIUM |
 | New Shop Accessibility | MEDIUM |
 | Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $15.40 (base $8.11 + US ship $7.29) |
+| Observed POD cost (Printful) | $12.76 (base $6.07 + US ship $6.69) |
 | Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $28.56; for $15: $34.09 (total incl. shipping). |
+| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $25.65; for $15: $31.17 (total incl. shipping). |
 | Personalization | YES — Kids' names + 'Uncle' |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -774,7 +774,7 @@
 
 | Field | Value |
 |---|---|
-| Product | Printful White Glossy Mug 15oz (#19) |
+| Product | Printful White Glossy Mug 11oz (#19) |
 | Primary buyer | Expecting parents announcing; friends of new grandparents |
 | Occasion | Pregnancy reveal, Christmas, birth |
 | Primary keyword | new grandma mug |
@@ -789,9 +789,9 @@
 | Competition | HIGH |
 | New Shop Accessibility | LOW |
 | Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $15.40 (base $8.11 + US ship $7.29) |
+| Observed POD cost (Printful) | $12.76 (base $6.07 + US ship $6.69) |
 | Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $28.56; for $15: $34.09 (total incl. shipping). |
+| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $25.65; for $15: $31.17 (total incl. shipping). |
 | Personalization | YES — Baby's due date/name + 'Grandma est. 2026/2027' |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -861,7 +861,7 @@
 | Observed competitor evidence | "dog christmas stocking": 48 cards, median $15.47, 83% shown on sale, 29% free-shipping badge, 31/48 cards with 1k+ reviews, Bestseller 15, Star Seller 33, ads 19; detail pages: 0/5 disclose a production partner, median US shipping 5.95; materials (title guess): fabric 26, embroidered/fabric 16, unclear 5, fabric/leather 1 |
 | Observed POD cost (Printful) | $24.96 (base $17.17 + US ship $5.95) |
 | Selling price range | $5.97–$28.68 (P25–P75), median $15.47, full $3.00–$215.00; typical US shipping $5.95 |
-| Margin | VERIFIED: contribution $-6.02 at median buyer price incl. shipping; $5.93 at P75 (Printful cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $39.13 total incl. shipping. |
+| Margin | VERIFIED: contribution $-6.02 at median buyer price incl. shipping; $5.93 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $39.13 total incl. shipping. |
 | Personalization | YES — Pet name + breed-specific illustration or pet photo |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -931,7 +931,7 @@
 | Observed competitor evidence | "personalized christmas stocking": 48 cards, median $9.02, 94% shown on sale, 29% free-shipping badge, 37/48 cards with 1k+ reviews, Bestseller 15, Star Seller 38, ads 20; detail pages: 1/5 disclose a production partner, median US shipping 4.115; materials (title guess): embroidered/fabric 26, fabric 16, fabric/leather 2, fabric/printed 2 |
 | Observed POD cost (Printful) | $24.96 (base $17.17 + US ship $4.12) |
 | Selling price range | $4.13–$24.99 (P25–P75), median $9.02, full $1.95–$79.95; typical US shipping $4.12 |
-| Margin | VERIFIED: contribution $-13.52 at median buyer price incl. shipping; $0.93 at P75 (Printful cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $39.13 total incl. shipping. |
+| Margin | VERIFIED: contribution $-13.52 at median buyer price incl. shipping; $0.93 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $39.13 total incl. shipping. |
 | Personalization | YES — Family member name per stocking, optional year; sold as individual stockings so families buy 3–6 |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -966,7 +966,7 @@
 | Observed competitor evidence | "teacher thank you gift": 48 cards, median $10.98, 81% shown on sale, 4% free-shipping badge, 34/48 cards with 1k+ reviews, Bestseller 16, Star Seller 35, ads 17; detail pages: 3/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 32, glass 6, wood 3, ceramic 2 |
 | Observed POD cost (Printful) | $20.56 (base $15.87 + US ship $5.99) |
 | Selling price range | $6.04–$14.99 (P25–P75), median $10.98, full $1.80–$39.99; typical US shipping $5.99 |
-| Margin | VERIFIED: contribution $-5.65 at median buyer price incl. shipping; $-2.02 at P75 (Printful cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $34.27 total incl. shipping. |
+| Margin | VERIFIED: contribution $-5.65 at median buyer price incl. shipping; $-2.02 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $34.27 total incl. shipping. |
 | Personalization | YES — Teacher name + class/grade + student names |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
