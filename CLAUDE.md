@@ -25,5 +25,5 @@ https://www.etsy.com/your/shops/me/marketplace-insights?ref=seller-platform-mcna
 ## Research outputs
 
 - `research/<date>/` holds dated research runs (Trends, Printful costs, USPTO screens).
-  See `research/2026-09-25/README.md` for the latest, including the 15 recommended Marketplace
-  Insights searches.
+  Latest: `research/2026-09-25/FINAL_REPORT.md` (28 scored opportunities from real Insights data,
+  Top 10, Top 5 clusters, copyable table). Re-score with `research/2026-09-25/scripts/score_opportunities.py`.
