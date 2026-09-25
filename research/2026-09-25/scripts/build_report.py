@@ -18,7 +18,7 @@ def money(v):
 SC = list(csv.DictReader(open(D + "data/supplier_scenarios.csv")))
 REASON = {
     "engagement ornament": "Highest demand + competition score; with Printify/SwiftPOD cost ($9.72) verified contribution $7.91 at median, $14.04 at P75.",
-    "custom pet pillow": "Very high conversion, smallest field (18.2k listings); size-matched price still unresolved.",
+    "custom pet pillow": "Very high conversion, smallest field (18.2k listings); ~16in size-matched median $30.16 total → $4.05, P75 $42.94 → $15.62 (Printful 16in).",
     "auntie mug": "Very high conversion, 7.9k listings; best verified mug cost (Printful 11oz $12.76) leaves $4.14 at median / $6.49 at P75.",
     "new house ornament": "High conversion; SwiftPOD cost gives $8.30 at median / $14.22 at P75; doubles as housewarming/closing gift.",
     "first christmas married ornament": "+11.4% growth, High conversion; SwiftPOD cost gives $7.92 at median / $12.80 at P75.",
@@ -53,7 +53,7 @@ for i, r in enumerate(live[:10], 1):
     if r["c_med"]:
         m = f'VERIFIED: {money(r["c_med"])} at median' + (f', {money(r["c_p75"])} at P75' if r["c_p75"] else "")
     elif r["keyword"] == "custom pet pillow":
-        m = "UNRESOLVED (size-matched price not recorded)"
+        m = "UNRESOLVED"
     else:
         m = f'Cost {money(r["cost"])} verified; price NOT VERIFIED' if r["cost"] else "SUPPLIER COST NOT VERIFIED"
     T.append(f'| {i} | {r["id"]} | {r["keyword"]} | {r["product"]} | {r["searches"]} | {r["listings"]} | ratio {r["ratio"]}, conv {CONV[r["conv"]]} ({r["competition"]}) | '
@@ -86,7 +86,9 @@ clusters = f"""### Küme 1 — Çift ve kilometre taşı süsleri (talep en gü�
   - Detay sayfalarının çoğu üretim ortağı beyan ediyor: Printway, Inner Circle Prints (Spokane), Ballston Spa NY, Strongsville OH seramik atölyesi.
 - **Ekonomi:**
   - Printful ($13.62) ile medyan fiyatta katkı ~$4.
-  - Printify/SwiftPOD seramik ($9.72, "from" fiyatı) ile medyanda $7.91–$8.30, P75'te $12.80–$15.25.
+  - Printify/SwiftPOD seramik Round ($4.93 + $4.79 Economy kargo = $9.72, round 3'te varyant olarak doğrulandı) ile medyanda $7.91–$8.30, P75'te $12.80–$15.25.
+  - Aynı siparişteki her ek süs: SwiftPOD +$0.49 kargo → medyan fiyatta ek birim katkısı ~$7.04–$7.43.
+  - Hediye kutulu varyant $7.06 (+$2.13). Arka yüz baskı ek ücreti hâlâ **NOT VERIFIED**.
   - Printify Premium ($24.99/ay yıllık) ile birim başına $1.05 daha ucuz → başabaş ~24 süs/ay.
 - **Özgün listing konsepti tahmini:** 40–60
 - **IP:** LOW APPARENT ("MY FIRST CHRISTMAS", "JUST MARRIED", "HOME SWEET HOME", "REALTOR" hariç)
@@ -95,8 +97,10 @@ clusters = f"""### Küme 1 — Çift ve kilometre taşı süsleri (talep en gü�
 ### Küme 2 — Evcil hayvan fotoğraf ürünleri
 - **Ana kelime:** {kw("custom pet pillow")}
 - **İlgili kelimeler:** {kw("custom dog pillow")}; {kw("custom cat pillow")}; {kw("dog memorial gift")}; {kw("pet memorial gift")}; {kw("cat memorial ornament")}; {kw("custom dog shirt")}
-- **Doğrulanmış fiyat:** Kart fiyatları anahtarlık ve mini boy varyasyonlarından başlıyor (medyan $10.43). Detay sayfalarında yastık varyasyon aralıkları $9.90–$38.99 (bir mağazada $144.50'ye kadar).
-- **Ekonomi:** Printful 16" yastık $22.79. 16" boyun gerçek fiyatı kaydedilmedi → **UNRESOLVED**.
+- **Doğrulanmış fiyat:** Kart fiyatları anahtarlık/mini boylardan başlıyor (medyan $10.43), bu yüzden round 3'te boy eşleştirildi. ~16" boyda 12 listing'in fiyat + kargo toplamı:
+  - Medyan $30.16, P25–P75 $27.96–$42.94, aralık $22.19–$52.70.
+  - Detay: `data/pillow_16in_prices.csv`.
+- **Ekonomi:** Printful 16" özel kesim yastık $22.79 → katkı medyanda $4.05, P75'te $15.62. Yani premium (~$40+) konumlanma gerekiyor. Printify'da ABD'de bu ürün için yerel üretici yok.
 - **Özgün listing konsepti tahmini:** 30–50
 - **IP:** "FUR BABY" (yastık sınıfında başvuru), "RAINBOW BRIDGE", "FOREVER IN MY HEART", "PAWSOME" kullanılmamalı.
 - **Rekabet:** yastıkta LOW. Anma baş kelimesinde HIGH (428k ilan).
@@ -148,7 +152,10 @@ Doğrulanmış rakip fiyatlarına göre süsler medyan ~$14 + $5.99 kargoya sat�
 - **Printful süsü ($13.62):** medyanda ~$4.
 - **Printify/SwiftPOD seramik süsü ($9.72, ABD'de üretim, 2.1 gün):** medyanda ~$8, P75'te $12.80–$15.25.
 
-Printify fiyatları "from" fiyatı, yani en ucuz varyasyon. Çift yüz baskı ve hediye kutusu ek ücreti **NOT VERIFIED**.
+Round 3'te SwiftPOD varyantları doğrulandı:
+- Round $4.93, Heart $5.25, hediye kutulu $7.06–$7.39.
+- Economy kargo $4.79 + ek ürün başına $0.49.
+- Arka yüz baskı ek ücreti **NOT VERIFIED**. Editör, arka yüze tasarım eklenmeden toplam göstermiyor.
 
 Diğer ürünler:
 - **Kupa:** en iyi doğrulanmış seçenek Printful 11oz ($12.76). Katkı ~$4 (medyan) / $6.5–8 (P75).
@@ -172,6 +179,19 @@ Notlar:
 
 Printify Premium: aylık $39 veya yıllık faturada aylık $24.99 (printify.com/pricing, 25.09.2026). SwiftPOD süsünde birim başına tasarruf $1.05 → başabaş ~24 süs/ay.
 Ham sayfa metinleri: `data/printify_raw/` · veri: `data/printify_costs_2026-09-25.json`, `data/supplier_scenarios.csv`.
+
+## Round 3 — doğrulanmış varyant maliyetleri ve pet pillow boy fiyatları
+- **Kaynak:** `data/round3_printify_variants_and_pillow_sizes_raw.txt`. Printify verisi, katalog sayfası ve editörün yüklediği herkese açık veriden okundu. Giriş yapılmadı, hiçbir ürün kaydedilmedi.
+- **SwiftPOD seramik süs (bp 1632):**
+  - Round $4.93 (Premium $3.88), Heart $5.25, Round + hediye kutusu $7.06, Heart + hediye kutusu $7.39.
+  - Baskı alanları: ön ve arka. Economy kargo $4.79 / +$0.49. Standard kargo $5.89 / +$0.69. Üretim 2.1 gün.
+- **Imagine Your Photos 2-side (bp 1370):** 1 adet $7.73, 3'lü $23.20, 5'li $38.67, 10'lu $77.32. Paketlerde birim fiyat indirimi yok.
+- **Pic The Gift metal (bp 1182):** $4.75, kargo $5.89 / +$0.69.
+- **SwiftPOD cam süs (bp 2769):** $5.59, hediye kutulu $7.73.
+- **Taylor 11oz kupa (bp 1244):** $5.86, kargo $7.29 / +$3.09.
+- **Pet pillow ~16" (12 listing):** fiyat + kargo medyanı $30.16, P75 $42.94.
+  - Aralık: habinisi $19.20 + $2.99 kargo ile aurespaces $52.70 (ücretsiz kargo) arası.
+  - Üretim ortağı beyan eden satıcılar: Spreadshirt, Printcious (HK), Print Shop 3 (MN), Charlotte NC, Printify.
 
 ## Puanlama (araştırma önceliği, satış olasılığı değil)
 **Veriye dayalı bileşenler:**
@@ -201,8 +221,9 @@ Kod: `scripts/analyze_prices.py`, `scripts/supplier_scenarios.py`, `scripts/scor
 
 {top10}
 
-**TEST NOW olanlar:** engagement ornament, first christmas married ornament, new house ornament, baby's first christmas ornament.
-- Dördü de Printify/SwiftPOD seramik süsü ($9.72) varsayımıyla. Medyan fiyatta ~$8, P75'te $12.80–$15.25 katkı.
+**TEST NOW olanlar:** engagement ornament, first christmas married ornament, new house ornament, baby's first christmas ornament, custom pet pillow.
+- **Süsler:** SwiftPOD Round ($9.72, doğrulanmış varyant) ile medyanda ~$8, P75'te $12.80–$15.25 katkı. Aynı siparişteki her ek süs ~$7 daha ekliyor.
+- **Pet pillow:** boy eşleştirilmiş medyanda $4.05, P75'te $15.62 → ancak ~$40+ fiyatla.
 - Printful ile aynı listing'lerde katkı ~$4'a düşüyor.
 - İlk sayfada 37–41/48 kart 1k+ yorumlu. Bu yüzden yeni mağaza için ayrışan tasarım ve thumbnail yine şart.
 

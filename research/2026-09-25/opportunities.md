@@ -3,7 +3,7 @@
 
 | Field | Value |
 |---|---|
-| Product | Printify / SwiftPOD Ceramic Ornament (bp 1632; 'from' price, 2-side/gift-box upcharge NOT VERIFIED) |
+| Product | Printify / SwiftPOD Ceramic Ornament Round (bp 1632; Economy ship; back-side upcharge NOT VERIFIED) |
 | Primary buyer | Newly engaged couples; friends/family buying for them |
 | Occasion | Christmas 2026 (first holiday engaged), engagement parties |
 | Primary keyword | engagement ornament |
@@ -33,7 +33,42 @@
 **Design direction:** Typography-led ceramic disc: two first names joined by a hand-drawn ring line, 'Engaged' + year, date on back. Offer 3-4 colourways (champagne, sage, navy, blush) as variations.
 **Primary risks:** Strongly Q4-peaked; engagement demand also spikes Dec-Feb (proposal season) which helps sell-through. / Crowded by laser-engraved wood; ceramic print must look premium in photos.
 
-### #02 — auntie mug
+### #02 — custom pet pillow
+**Opportunity Score:** 82/100 (Demand 14 · Competition 17 · Intent 15 · Margin 10 · Personalization 10* · Expansion 8* · Thumbnail 5* · Q4 3* · Penalty 0) — *analyst rating
+
+| Field | Value |
+|---|---|
+| Product | Printful Custom Shaped Pillow 16x16 (#743) |
+| Primary buyer | Pet owners; gift-givers for pet owners; pet memorial buyers |
+| Occasion | Christmas, birthdays, pet memorial |
+| Primary keyword | custom pet pillow |
+| Etsy searches | 3.2k |
+| Etsy listings | 18.2k |
+| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
+| Period change | not shown |
+| Etsy conversion label | Very high |
+| Searches/listings | 0.176 |
+| Secondary keywords (searches/listings conv) | custom dog pillow 2.5k/17.3k VH; custom cat pillow 1.4k/9.5k VH |
+| Trend | EVERGREEN |
+| Competition | LOW |
+| New Shop Accessibility | HIGH |
+| Observed competitor evidence | "custom pet pillow": 48 cards, median $10.43, 96% shown on sale, 44% free-shipping badge, 23/48 cards with 1k+ reviews, Bestseller 21, Star Seller 31, ads 19; detail pages: 1/5 disclose a production partner, median US shipping 6.22; materials (title guess): fabric 37, unclear 5, ceramic 3, fabric/printed 2; "custom dog pillow": 48 cards, median $12.39, 96% shown on sale, 42% free-shipping badge, 24/48 cards with 1k+ reviews, Bestseller 22, Star Seller 34, ads 18; detail pages: 1/5 disclose a production partner, median US shipping 6.22; materials (title guess): fabric 35, ceramic 5, unclear 4, fabric/printed 2 |
+| Observed POD cost (Printful) | $22.79 (base $16.60 + US ship $6.22) |
+| Selling price range | ~16in size-matched buyer totals (price+shipping), 12 listings: $27.96–$42.94 (P25–P75), median $30.16, full $22.19–$52.70 |
+| Margin | VERIFIED: contribution $4.05 at median buyer price incl. shipping; $15.62 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $36.73 total incl. shipping. |
+| Personalization | YES — Buyer uploads pet photo → cut-out shaped pillow; optional name on back |
+| Expansion potential | HIGH |
+| Thumbnail potential | HIGH |
+| Q4 | PARTIAL · Seasonality MEDIUM · Peak-risk LOW · Evergreen HIGH |
+| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'FUR BABY' (pending IC 020 — covers cushions/pillows) and 'FOREVER IN MY HEART' (Reg. 7359901, IC 020). |
+| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
+| Recommended next step | TEST NOW |
+
+**Why:** All three variants carry a Very high conversion label and 9.5k–18k listings — among the smallest fields in the dataset with this intent level.
+**Design direction:** Photo cut-out with clean white border; add a subtle printed name/paw-date on the reverse. Thumbnail: pillow next to the real-pet photo.
+**Primary risks:** Photo quality from buyers varies; needs a clear photo-guide and manual cut-out time per order. / Uses buyer photos: buyer must have rights; seller's value is the editing/design (disclose production partner).
+
+### #03 — auntie mug
 **Opportunity Score:** 81/100 (Demand 11 · Competition 20 · Intent 15 · Margin 8 · Personalization 9* · Expansion 9* · Thumbnail 5* · Q4 4* · Penalty 0) — *analyst rating
 
 | Field | Value |
@@ -68,12 +103,12 @@
 **Design direction:** Typography-first mug: 'Auntie' in bold serif + kids' names in a stacked list; variants 'promoted to', 'est. 20XX', photo version.
 **Primary risks:** Mug price ceiling is typically low; 15oz mug cost is $15.40.
 
-### #03 — first christmas married ornament
+### #04 — first christmas married ornament
 **Opportunity Score:** 79/100 (Demand 17 · Competition 17 · Intent 12 · Margin 14 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 5* · Penalty -10) — *analyst rating
 
 | Field | Value |
 |---|---|
-| Product | Printify / SwiftPOD Ceramic Ornament (bp 1632; 'from' price, 2-side/gift-box upcharge NOT VERIFIED) |
+| Product | Printify / SwiftPOD Ceramic Ornament Round (bp 1632; Economy ship; back-side upcharge NOT VERIFIED) |
 | Primary buyer | Newlyweds (2026 weddings); parents, wedding guests |
 | Occasion | First Christmas as married couple |
 | Primary keyword | first christmas married ornament |
@@ -103,47 +138,12 @@
 **Design direction:** Minimal 'est.' style layout: surname large, 'Married 2026' small caps, wedding date; back side with venue city or vows line typed by buyer.
 **Primary risks:** Very date-bound ('2026'): unsold designs need a year swap for 2027. / Wedding-season overlap: demand is highest Oct–Dec only.
 
-### #04 — custom pet pillow
-**Opportunity Score:** 78/100 (Demand 14 · Competition 17 · Intent 15 · Margin 6 · Personalization 10* · Expansion 8* · Thumbnail 5* · Q4 3* · Penalty 0) — *analyst rating
-
-| Field | Value |
-|---|---|
-| Product | Printful Custom Shaped Pillow 16x16 (#743) |
-| Primary buyer | Pet owners; gift-givers for pet owners; pet memorial buyers |
-| Occasion | Christmas, birthdays, pet memorial |
-| Primary keyword | custom pet pillow |
-| Etsy searches | 3.2k |
-| Etsy listings | 18.2k |
-| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
-| Period change | not shown |
-| Etsy conversion label | Very high |
-| Searches/listings | 0.176 |
-| Secondary keywords (searches/listings conv) | custom dog pillow 2.5k/17.3k VH; custom cat pillow 1.4k/9.5k VH |
-| Trend | EVERGREEN |
-| Competition | LOW |
-| New Shop Accessibility | HIGH |
-| Observed competitor evidence | "custom pet pillow": 48 cards, median $10.43, 96% shown on sale, 44% free-shipping badge, 23/48 cards with 1k+ reviews, Bestseller 21, Star Seller 31, ads 19; detail pages: 1/5 disclose a production partner, median US shipping 6.22; materials (title guess): fabric 37, unclear 5, ceramic 3, fabric/printed 2; "custom dog pillow": 48 cards, median $12.39, 96% shown on sale, 42% free-shipping badge, 24/48 cards with 1k+ reviews, Bestseller 22, Star Seller 34, ads 18; detail pages: 1/5 disclose a production partner, median US shipping 6.22; materials (title guess): fabric 35, ceramic 5, unclear 4, fabric/printed 2 |
-| Observed POD cost (Printful) | $22.79 (base $16.60 + US ship $6.22) |
-| Selling price range | $8.40–$17.85 (P25–P75), median $10.43, full $4.69–$44.13; typical US shipping $6.22 |
-| Margin | UNRESOLVED — card prices start at keychain/mini sizes (detail ranges $9.90–$38.99 up to $144.50); a size-matched 16in price was not recorded -> margin unresolved. Needed for $10 contribution: $36.73 total incl. shipping. |
-| Personalization | YES — Buyer uploads pet photo → cut-out shaped pillow; optional name on back |
-| Expansion potential | HIGH |
-| Thumbnail potential | HIGH |
-| Q4 | PARTIAL · Seasonality MEDIUM · Peak-risk LOW · Evergreen HIGH |
-| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'FUR BABY' (pending IC 020 — covers cushions/pillows) and 'FOREVER IN MY HEART' (Reg. 7359901, IC 020). |
-| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
-| Recommended next step | RESEARCH MORE |
-
-**Why:** All three variants carry a Very high conversion label and 9.5k–18k listings — among the smallest fields in the dataset with this intent level.
-**Design direction:** Photo cut-out with clean white border; add a subtle printed name/paw-date on the reverse. Thumbnail: pillow next to the real-pet photo.
-**Primary risks:** Photo quality from buyers varies; needs a clear photo-guide and manual cut-out time per order. / Uses buyer photos: buyer must have rights; seller's value is the editing/design (disclose production partner).
-
 ### #05 — new house ornament
 **Opportunity Score:** 78/100 (Demand 14 · Competition 14 · Intent 12 · Margin 14 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 5* · Penalty -5) — *analyst rating
 
 | Field | Value |
 |---|---|
-| Product | Printify / SwiftPOD Ceramic Ornament (bp 1632; 'from' price, 2-side/gift-box upcharge NOT VERIFIED) |
+| Product | Printify / SwiftPOD Ceramic Ornament Round (bp 1632; Economy ship; back-side upcharge NOT VERIFIED) |
 | Primary buyer | New homeowners; friends; real-estate agents |
 | Occasion | First Christmas in new home; housewarming |
 | Primary keyword | new house ornament |
@@ -178,7 +178,7 @@
 
 | Field | Value |
 |---|---|
-| Product | Printify / SwiftPOD Ceramic Ornament (bp 1632; 'from' price, 2-side/gift-box upcharge NOT VERIFIED) |
+| Product | Printify / SwiftPOD Ceramic Ornament Round (bp 1632; Economy ship; back-side upcharge NOT VERIFIED) |
 | Primary buyer | New parents; grandparents; baby-shower guests |
 | Occasion | Baby's first Christmas 2026 |
 | Primary keyword | baby's first christmas ornament |
@@ -213,7 +213,7 @@
 
 | Field | Value |
 |---|---|
-| Product | Printify / SwiftPOD Ceramic Ornament (bp 1632; 'from' price, 2-side/gift-box upcharge NOT VERIFIED) |
+| Product | Printify / SwiftPOD Ceramic Ornament Round (bp 1632; Economy ship; back-side upcharge NOT VERIFIED) |
 | Primary buyer | Real-estate agents, loan officers, small businesses (B2B) |
 | Occasion | Closings; year-end client appreciation |
 | Primary keyword | client gift |
@@ -389,7 +389,7 @@
 
 | Field | Value |
 |---|---|
-| Product | Printify / SwiftPOD Ceramic Ornament (bp 1632; 'from' price, 2-side/gift-box upcharge NOT VERIFIED) |
+| Product | Printify / SwiftPOD Ceramic Ornament Round (bp 1632; Economy ship; back-side upcharge NOT VERIFIED) |
 | Primary buyer | Parents; grandparents buying for adult children |
 | Occasion | Christmas |
 | Primary keyword | family of 4 ornament |
@@ -459,7 +459,7 @@
 
 | Field | Value |
 |---|---|
-| Product | Printify / SwiftPOD Ceramic Ornament (bp 1632; 'from' price, 2-side/gift-box upcharge NOT VERIFIED) |
+| Product | Printify / SwiftPOD Ceramic Ornament Round (bp 1632; Economy ship; back-side upcharge NOT VERIFIED) |
 | Primary buyer | Godparents, grandparents |
 | Occasion | Baptism/christening, first Christmas |
 | Primary keyword | baptism ornament |
@@ -599,7 +599,7 @@
 
 | Field | Value |
 |---|---|
-| Product | Printify / SwiftPOD Ceramic Ornament (bp 1632; 'from' price, 2-side/gift-box upcharge NOT VERIFIED) |
+| Product | Printify / SwiftPOD Ceramic Ornament Round (bp 1632; Economy ship; back-side upcharge NOT VERIFIED) |
 | Primary buyer | Expecting parents announcing to grandparents |
 | Occasion | Christmas pregnancy reveal |
 | Primary keyword | pregnancy ornament |
@@ -634,7 +634,7 @@
 
 | Field | Value |
 |---|---|
-| Product | Printify / SwiftPOD Ceramic Ornament (bp 1632; 'from' price, 2-side/gift-box upcharge NOT VERIFIED) |
+| Product | Printify / SwiftPOD Ceramic Ornament Round (bp 1632; Economy ship; back-side upcharge NOT VERIFIED) |
 | Primary buyer | Cat owners after loss; friends |
 | Occasion | Pet loss; memorial Christmas |
 | Primary keyword | cat memorial ornament |

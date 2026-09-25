@@ -17,7 +17,7 @@ OUT_MD = "research/2026-09-25/opportunities.md"
 # Printful: base price (standard print included) + US first-item shipping, USD, verified 2026-09-25.
 COST = {
     "ceramic2": ("Printful Ceramic Ornament, 2-side (#900)", 7.73, 5.89),
-    "swiftpod_orn": ("Printify / SwiftPOD Ceramic Ornament (bp 1632; 'from' price, 2-side/gift-box upcharge NOT VERIFIED)", 4.93, 4.79),
+    "swiftpod_orn": ("Printify / SwiftPOD Ceramic Ornament Round (bp 1632; Economy ship; back-side upcharge NOT VERIFIED)", 4.93, 4.79),
     "ceramic1": ("Printful Ceramic Ornament, circle (#881)", 6.34, 5.49),
     "wood_orn": ("Printful Wooden Ornament (#634)", 8.37, 5.19),
     "stocking": ("Printful Rustic Christmas Stocking (#1428)", 17.17, 7.79),
@@ -267,8 +267,9 @@ PRICE_KW = {  # opportunity -> snapshot keywords used as evidence (first one dri
     "teacher thank you gift": ["teacher thank you gift"],
 }
 # Card prices for pet pillows are "from" prices of keychain/mini sizes; size-matched 16in price is not visible.
-PRICE_UNRESOLVED = {"custom pet pillow": "card prices start at keychain/mini sizes (detail ranges $9.90–$38.99 up to $144.50); "
-                                         "a size-matched 16in price was not recorded -> margin unresolved"}
+PRICE_UNRESOLVED = {}
+# Size-matched ~16in pet-pillow buyer totals (price + US shipping), 12 listings, round 3 (data/pillow_16in_prices.csv)
+PILLOW = {r[0]: r[1] for r in csv.reader(open("research/2026-09-25/data/pillow_16in_prices.csv")) if len(r) == 2}
 def pts_margin_verified(c_med, c_p75):
     """Points from verified contribution at median (and P75) buyer price incl. shipping."""
     base = 15 if c_med >= 10 else 12 if c_med >= 7 else 8 if c_med >= 4 else 4 if c_med >= 1 else 0
@@ -304,6 +305,11 @@ for (kw, sec, pk, buyer, occ, pmeth, pers, exp, thumb, q4, season, peak, ever, t
         c_med = round((float(a["median"]) + ship) * (1 - FEE_PCT) - FEE_FIX - cost, 2)
         c_p75 = round((float(a["p75"]) + ship) * (1 - FEE_PCT) - FEE_FIX - cost, 2)
         price_range = f'${float(a["p25"]):.2f}–${float(a["p75"]):.2f} (P25–P75), median ${float(a["median"]):.2f}, full ${float(a["min"]):.2f}–${float(a["max"]):.2f}; typical US shipping ${ship:.2f}'
+        if kw == "custom pet pillow":
+            pm, pp = float(PILLOW["median"]), float(PILLOW["p75"])
+            c_med = round(pm * (1 - FEE_PCT) - FEE_FIX - cost, 2); c_p75 = round(pp * (1 - FEE_PCT) - FEE_FIX - cost, 2)
+            price_range = (f'~16in size-matched buyer totals (price+shipping), 12 listings: ${float(PILLOW["p25"]):.2f}–${pp:.2f} (P25–P75), '
+                           f'median ${pm:.2f}, full ${float(PILLOW["min"]):.2f}–${float(PILLOW["max"]):.2f}')
         price_ev = "; ".join(
             f'"{x["keyword"]}": {x["cards"]} cards, median ${float(x["median"]):.2f}, {x["on_sale_pct"]}% shown on sale, {x["free_ship_cards_pct"]}% free-shipping badge, '
             f'{x["reviews_1k_plus"]}/48 cards with 1k+ reviews, Bestseller {x["bestseller"]}, Star Seller {x["star"]}, ads {x["ads"]}; '
