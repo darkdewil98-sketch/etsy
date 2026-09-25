@@ -231,6 +231,10 @@ Etsy'nin 21.05.2026 tarihli SEC 8-K dosyası ücret değişikliği içermiyor (D
 Marketplace Insights linki (her zaman bunu kullanın):
 https://www.etsy.com/your/shops/me/marketplace-insights?ref=seller-platform-mcnav
 
+Not: kullanıcı Etsy Plus üyesi, yani arama sayısı sınırsız. Aşağıdaki 15 arama çekirdek listedir.
+Genişletilmiş ~55 çekirdek kelime ve ilgili aramalara inme adımları için `chrome_prompt.md`
+dosyasına bakın.
+
 Bu sıralama yalnızca yukarıdaki ikincil kanıtlara dayanıyor: zamanlama, büyüme ve marka elemesi. Etsy
 talebini varsaymıyor, sadece haftalık aramaların nereye harcanacağını öneriyor.
 
