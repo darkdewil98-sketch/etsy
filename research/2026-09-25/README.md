@@ -228,6 +228,9 @@ Etsy'nin 21.05.2026 tarihli SEC 8-K dosyası ücret değişikliği içermiyor (D
 
 ## 5. Marketplace Insights için önerilen 15 arama
 
+Marketplace Insights linki (her zaman bunu kullanın):
+https://www.etsy.com/your/shops/me/marketplace-insights?ref=seller-platform-mcnav
+
 Bu sıralama yalnızca yukarıdaki ikincil kanıtlara dayanıyor: zamanlama, büyüme ve marka elemesi. Etsy
 talebini varsaymıyor, sadece haftalık aramaların nereye harcanacağını öneriyor.
 
