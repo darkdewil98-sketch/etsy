@@ -19,8 +19,8 @@
 | New Shop Accessibility | HIGH |
 | Observed competitor evidence | NOT VERIFIED (competitor SERP for this keyword not captured). |
 | Observed POD cost (Printful) | $13.62 (base $7.73 + US ship $5.89) |
-| Selling price range | See competitor evidence |
-| Margin | Price for $10 contribution: $26.6; for $15: $32.12 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Selling price range | NOT VERIFIED |
+| Margin | Price for $10 contribution: $26.6; for $15: $32.12 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Both names + engagement date/year + optional city |
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
@@ -55,7 +55,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $13.62 (base $7.73 + US ship $5.89) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $26.6; for $15: $32.12 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $26.6; for $15: $32.12 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Couple surname/first names + wedding date + 'first Christmas married 2026' |
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
@@ -90,7 +90,7 @@
 | Observed competitor evidence | NOT VERIFIED. Related terms show embroidered/needlepoint/quilted formats dominate the category. |
 | Observed POD cost (Printful) | $24.96 (base $17.17 + US ship $7.79) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $39.13; for $15: $44.65 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $39.13; for $15: $44.65 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Family member name per stocking, optional year; sold as individual stockings so families buy 3–6 |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -125,7 +125,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $15.40 (base $8.11 + US ship $7.29) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $28.56; for $15: $34.09 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $28.56; for $15: $34.09 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Nieces'/nephews' names + 'Auntie' + est. year |
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
@@ -160,7 +160,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $22.79 (base $16.60 + US ship $6.19) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $36.73; for $15: $42.25 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $36.73; for $15: $42.25 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Buyer uploads pet photo → cut-out shaped pillow; optional name on back |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -195,7 +195,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $13.62 (base $7.73 + US ship $5.89) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $26.6; for $15: $32.12 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $26.6; for $15: $32.12 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Baby name + birth date/weight + year; optional photo on back |
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
@@ -229,8 +229,8 @@
 | New Shop Accessibility | MEDIUM |
 | Observed competitor evidence | Related 'client gift' SERP (Table B) is dominated by watercolor house-portrait ornaments: median $20.99, top shop LoveSuna shows 62.7k reviews / 371.7k shop sales. |
 | Observed POD cost (Printful) | $13.62 (base $7.73 + US ship $5.89) |
-| Selling price range | See competitor evidence |
-| Margin | Price for $10 contribution: $26.6; for $15: $32.12 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Selling price range | NOT VERIFIED |
+| Margin | Price for $10 contribution: $26.6; for $15: $32.12 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — House illustration from buyer photo or house-style template + address/family name + year |
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
@@ -264,8 +264,8 @@
 | New Shop Accessibility | MEDIUM |
 | Observed competitor evidence | Related 'leaving work gifts' SERP (Table B) is dominated by funny-label candles/mugs at median $12.39 — below a POD mug's $12.76 cost. |
 | Observed POD cost (Printful) | $15.40 (base $8.11 + US ship $7.29) |
-| Selling price range | See competitor evidence |
-| Margin | Price for $10 contribution: $28.56; for $15: $34.09 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Selling price range | NOT VERIFIED |
+| Margin | Price for $10 contribution: $28.56; for $15: $34.09 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Name + career years + profession icon |
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
@@ -300,7 +300,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $13.62 (base $7.73 + US ship $5.89) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $26.6; for $15: $32.12 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $26.6; for $15: $32.12 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Each family member's name (+ pets) with simple figures; 'family of 3/4/5/6' variations |
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
@@ -335,7 +335,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $20.56 (base $15.87 + US ship $4.69) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $34.27; for $15: $39.79 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $34.27; for $15: $39.79 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Teacher name + class/grade + student names |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -370,7 +370,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $23.62 (base $16.83 + US ship $6.79) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $37.65; for $15: $43.17 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $37.65; for $15: $43.17 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Pet photo portrait + name + years |
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
@@ -405,7 +405,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $16.87 (base $11.92 + US ship $4.95) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $30.19; for $15: $35.71 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $30.19; for $15: $35.71 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Kids' names on sleeve or under 'Auntie' |
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
@@ -440,7 +440,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $6.83 (base $2.34 + US ship $4.49) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $19.09; for $15: $24.62 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $19.09; for $15: $24.62 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Reader name or reading-goal sticker pack |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -475,7 +475,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $24.96 (base $17.17 + US ship $7.79) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $39.13; for $15: $44.65 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $39.13; for $15: $44.65 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Pet name + breed-specific illustration or pet photo |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -510,7 +510,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $13.62 (base $7.73 + US ship $5.89) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $26.6; for $15: $32.12 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $26.6; for $15: $32.12 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Child name + baptism date + church/city |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -545,7 +545,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $16.87 (base $11.92 + US ship $4.95) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $30.19; for $15: $35.71 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $30.19; for $15: $35.71 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Pet photo → illustrated face + pet name |
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
@@ -580,7 +580,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $13.62 (base $7.73 + US ship $5.89) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $26.6; for $15: $32.12 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $26.6; for $15: $32.12 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Due date + 'Grandma/Grandpa' names + baby nickname |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -615,7 +615,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $13.62 (base $7.73 + US ship $5.89) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $26.6; for $15: $32.12 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $26.6; for $15: $32.12 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Cat photo or breed art + name + dates |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -684,7 +684,7 @@
 | New Shop Accessibility | MEDIUM |
 | Observed competitor evidence | VERIFIED (Table B): 36,810 search results; price $2.03–$80.99, median $20.99; 96% personalized (title proxy); 28/48 cards show 1k+ reviews; Bestseller 14, Star Seller 34. Examples: LoveSuna $12.48 (62.7k reviews, 371.7k sales); HeldDearCo $11.74 (840, 8k); SNUGAMATE $25.12 (6.4k, 36.1k); Alishannondesigns $11.99 (1.1k, 8k); SeedlingGoodsLLC $9.99 (186, 1.2k). |
 | Observed POD cost (Printful) | $13.62 (base $7.73 + US ship $5.89) |
-| Selling price range | See competitor evidence |
+| Selling price range | See competitor evidence (verified) |
 | Margin | Price for $10 contribution: $26.6; for $15: $32.12 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
 | Personalization | YES — Client house + family name + closing date; agent's own name/business on back (no third-party logos) |
 | Expansion potential | VERY HIGH |
@@ -721,7 +721,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $33.91 (base $25.12 + US ship $8.79) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $49.02; for $15: $54.54 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $49.02; for $15: $54.54 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Grandkids' names on sleeve + 'Grandma' + est. year |
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
@@ -756,7 +756,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $30.91 (base $22.12 + US ship $8.79) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $45.7; for $15: $51.23 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $45.7; for $15: $51.23 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Name/initials/kids' names embroidered left chest |
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
@@ -791,7 +791,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $15.40 (base $8.11 + US ship $7.29) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $28.56; for $15: $34.09 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $28.56; for $15: $34.09 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Kids' names + 'Uncle' |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -826,7 +826,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $16.87 (base $11.92 + US ship $4.95) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $30.19; for $15: $35.71 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $30.19; for $15: $35.71 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Team/family name + year + race city |
 | Expansion potential | MEDIUM |
 | Thumbnail potential | HIGH |
@@ -861,7 +861,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $27.96 (base $19.17 + US ship $8.79) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $42.44; for $15: $47.97 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $42.44; for $15: $47.97 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Name + credential (RN/LPN/NP) + specialty |
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
@@ -896,7 +896,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $15.40 (base $8.11 + US ship $7.29) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $28.56; for $15: $34.09 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $28.56; for $15: $34.09 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Baby's due date/name + 'Grandma est. 2026/2027' |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -931,7 +931,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $16.87 (base $11.92 + US ship $4.95) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $30.19; for $15: $35.71 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $30.19; for $15: $35.71 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Family surname + year; each member role/name |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -966,7 +966,7 @@
 | Observed competitor evidence | NOT VERIFIED. |
 | Observed POD cost (Printful) | $51.74 (base $43.95 + US ship $7.79) |
 | Selling price range | NOT VERIFIED |
-| Margin | Price for $10 contribution: $68.72; for $15: $74.24 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price: see competitor evidence. |
+| Margin | Price for $10 contribution: $68.72; for $15: $74.24 (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). Actual competitor price NOT VERIFIED. |
 | Personalization | YES — Family name + established year |
 | Expansion potential | MEDIUM |
 | Thumbnail potential | HIGH |

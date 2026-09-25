@@ -294,8 +294,10 @@ with open(OUT_CSV, "w", newline="") as f:
 md = []
 for r in rows:
     cost_txt = f'${r["cost"]:.2f} (base ${r["base"]:.2f} + US ship ${r["ship"]:.2f})' if r["cost"] else "SUPPLIER COST NOT VERIFIED"
+    price_note = ("Actual competitor price: see competitor evidence." if r["comp_ev"].startswith("VERIFIED")
+                  else "Actual competitor price NOT VERIFIED.")
     marg = (f'Price for $10 contribution: ${r["price10"]}; for $15: ${r["price15"]} (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). '
-            ('Actual competitor price: see competitor evidence.' if r['comp_ev'].startswith('VERIFIED') else 'Actual competitor price NOT VERIFIED.')) if r["cost"] else "Not calculated (supplier cost not verified)."
+            + price_note) if r["cost"] else "Not calculated (supplier cost not verified)."
     nxt = "TEST NOW" if (r["score"] >= 75 and r["cost"] and r["cost"] <= 35) else "RESEARCH MORE"
     md.append(f"""### {r['id']} — {r['keyword']}
 **Opportunity Score:** {r['score']}/100 (Demand {r['demand']} · Competition {r['comp']} · Intent {r['intent']} · Margin {r['margin']} · Personalization {r['pers']}* · Expansion {r['exp']}* · Thumbnail {r['thumb']}* · Q4 {r['q4']}* · Penalty {r['penalty']}) — *analyst rating
