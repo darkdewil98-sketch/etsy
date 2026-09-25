@@ -246,9 +246,34 @@ C = [
 
 # Penalties backed by verified Table B evidence (keyword -> (points, reason)).
 VERIFIED_PENALTY = {
-    "client gift": (-20, "extreme competition verified (28/48 page-one cards show 1k+ reviews) -10; "
-                         "weak economics at verified median $20.99 (~$4.93 contribution) -10"),
+    "client gift": (-10, "extreme competition verified (28/48 page-one cards show 1k+ reviews) -10"),
 }
+
+# Verified competitor prices (data/price_analysis.csv from the 14-keyword Etsy snapshot, 2026-09-25).
+# Contribution = (price + observed US shipping) * (1 - 9.5%) - $0.45 - Printful cost.
+PRICE_FILE = "research/2026-09-25/data/price_analysis.csv"
+PRICE_KW = {  # opportunity -> snapshot keywords used as evidence (first one drives the margin score)
+    "engagement ornament": ["engagement ornament", "personalized engagement ornament"],
+    "first christmas married ornament": ["first christmas married ornament", "newlywed ornament"],
+    "personalized christmas stocking": ["personalized christmas stocking"],
+    "dog christmas stocking": ["dog christmas stocking"],
+    "auntie mug": ["auntie mug"],
+    "custom pet pillow": ["custom pet pillow", "custom dog pillow"],
+    "baby's first christmas ornament": ["baby's first christmas ornament"],
+    "new house ornament": ["new house ornament"],
+    "retirement gifts for women": ["retirement gifts for women"],
+    "family of 4 ornament": ["family of 4 ornament"],
+    "teacher thank you gift": ["teacher thank you gift"],
+}
+# Card prices for pet pillows are "from" prices of keychain/mini sizes; size-matched 16in price is not visible.
+PRICE_UNRESOLVED = {"custom pet pillow": "card prices start at keychain/mini sizes (detail ranges $9.90–$38.99 up to $144.50); "
+                                         "a size-matched 16in price was not recorded -> margin unresolved"}
+def pts_margin_verified(c_med, c_p75):
+    """Points from verified contribution at median (and P75) buyer price incl. shipping."""
+    base = 15 if c_med >= 10 else 12 if c_med >= 7 else 8 if c_med >= 4 else 4 if c_med >= 1 else 0
+    return min(15, base + (2 if c_p75 >= 10 else 0))
+def pts_verified_dominance(n1k):
+    return -10 if n1k >= 38 else -5 if n1k >= 30 else 0
 
 def pts_demand(s): return 20 if s >= 10000 else 17 if s >= 5000 else 14 if s >= 2000 else 11 if s >= 1000 else 8 if s >= 500 else 5
 def pts_comp(r): return 20 if r >= .2 else 17 if r >= .15 else 14 if r >= .1 else 11 if r >= .07 else 8 if r >= .05 else 5
@@ -261,6 +286,7 @@ def access(r, li, conv):
     return "MEDIUM"
 
 U = {r["keyword"]: r for r in csv.DictReader(open(UNIVERSE))}
+P = {r["keyword"]: r for r in csv.DictReader(open(PRICE_FILE))}
 rows = []
 for (kw, sec, pk, buyer, occ, pmeth, pers, exp, thumb, q4, season, peak, ever, trend, ip, comp_ev, design, why, risks) in C:
     u = U[kw]
@@ -269,7 +295,37 @@ for (kw, sec, pk, buyer, occ, pmeth, pers, exp, thumb, q4, season, peak, ever, t
     cost = round(base + ship, 2) if base is not None else None
     d, cpt, it, mg = pts_demand(s), pts_comp(ratio), INTENT[conv], pts_margin(cost)
     pen = (-10 if li >= 100000 else 0) + (-10 if (cost is None or cost > 40) else 0) + VERIFIED_PENALTY.get(kw, (0, ""))[0]
+    price_ev, price_range, c_med, c_p75, dom_pen = "", "NOT VERIFIED", None, None, 0
+    if kw in PRICE_KW:
+        pa = [P[k] for k in PRICE_KW[kw]]
+        a = pa[0]
+        ship = 0.0 if a["detail_ship_median"] == "all free" else float(a["detail_ship_median"])
+        c_med, c_p75 = float(a["contrib_with_ship_at_median"]), float(a["contrib_at_p75_with_ship"])
+        price_range = f'${float(a["p25"]):.2f}–${float(a["p75"]):.2f} (P25–P75), median ${float(a["median"]):.2f}, full ${float(a["min"]):.2f}–${float(a["max"]):.2f}; typical US shipping ${ship:.2f}'
+        price_ev = "; ".join(
+            f'"{x["keyword"]}": {x["cards"]} cards, median ${float(x["median"]):.2f}, {x["on_sale_pct"]}% shown on sale, {x["free_ship_cards_pct"]}% free-shipping badge, '
+            f'{x["reviews_1k_plus"]}/48 cards with 1k+ reviews, Bestseller {x["bestseller"]}, Star Seller {x["star"]}, ads {x["ads"]}; '
+            f'detail pages: {x["detail_partner"]}/{x["detail_n"]} disclose a production partner, median US shipping {x["detail_ship_median"]}; materials (title guess): {x["top_materials"]}'
+            for x in pa)
+        if kw in PRICE_UNRESOLVED:
+            mg = 6; c_med = c_p75 = None
+        else:
+            mg = pts_margin_verified(c_med, c_p75)
+        dom_pen = pts_verified_dominance(int(a["reviews_1k_plus"]))
+        pen += dom_pen
+    elif kw == "client gift":
+        # Table B: verified median $20.99; shipping not recorded -> assume buyer pays no shipping (conservative)
+        c_med = round(20.99 * 0.905 - FEE_FIX - cost, 2); mg = pts_margin_verified(c_med, 0)
+        price_range = "$2.03–$80.99, median $20.99 (Table B, 48 cards); shipping NOT VERIFIED"
+    elif not comp_ev.startswith("VERIFIED"):
+        mg = min(mg, 8)  # competitor price not verified: cap margin at neutral (conservative)
     score = max(0, d + cpt + it + mg + pers + exp + thumb + q4 + pen)
+    if kw in PRICE_KW and kw not in PRICE_UNRESOLVED:
+        nxt = "REJECT" if c_p75 < 3 else "TEST NOW" if (c_med >= 4 and c_p75 >= 8 and score >= 70) else "RESEARCH MORE"
+    elif kw in PRICE_UNRESOLVED:
+        nxt = "RESEARCH MORE"
+    else:
+        nxt = "RESEARCH MORE"  # no verified competitor prices yet
     secs = []
     for k in sec:
         if k in U: secs.append(f'{k} {U[k]["searches"]}/{U[k]["listings"]} {U[k]["conv"]}')
@@ -278,8 +334,8 @@ for (kw, sec, pk, buyer, occ, pmeth, pers, exp, thumb, q4, season, peak, ever, t
         demand=d, comp=cpt, intent=it, margin=mg, pers=pers, exp=exp, thumb=thumb, q4=q4, penalty=pen, score=score,
         competition=comp_label(ratio, li), access=access(ratio, li, conv), buyer=buyer, occasion=occ, pmeth=pmeth,
         season=season, peak=peak, evergreen=ever, trend=trend, ip=ip, comp_ev=comp_ev, design=design, why=why, risks=risks,
-        secondary="; ".join(secs) or "-"))
-rows.sort(key=lambda r: -r["score"])
+        secondary="; ".join(secs) or "-", price_ev=price_ev, price_range=price_range, c_med=c_med, c_p75=c_p75, dom_pen=dom_pen, next=nxt))
+rows.sort(key=lambda r: (r["next"] == "REJECT", -r["score"]))
 for i, r in enumerate(rows, 1): r["id"] = f"#{i:02d}"
 
 CONVNAME = {"VH": "Very high", "H": "High", "T": "Typical", "L": "Low", "VL": "Very low"}
@@ -288,17 +344,29 @@ THB = lambda n: "HIGH" if n >= 4 else "MEDIUM" if n >= 3 else "LOW"
 
 with open(OUT_CSV, "w", newline="") as f:
     keys = ["id", "score", "keyword", "product", "searches", "listings", "ratio", "conv", "chg", "competition", "access", "cost", "price10", "price15",
-            "demand", "comp", "intent", "margin", "pers", "exp", "thumb", "q4", "penalty", "trend", "season", "peak", "evergreen", "secondary"]
+            "c_med", "c_p75", "price_range", "next", "demand", "comp", "intent", "margin", "pers", "exp", "thumb", "q4", "penalty", "dom_pen",
+            "trend", "season", "peak", "evergreen", "secondary"]
     w = csv.DictWriter(f, fieldnames=keys, extrasaction="ignore"); w.writeheader(); w.writerows(rows)
 
 md = []
 for r in rows:
     cost_txt = f'${r["cost"]:.2f} (base ${r["base"]:.2f} + US ship ${r["ship"]:.2f})' if r["cost"] else "SUPPLIER COST NOT VERIFIED"
-    price_note = ("Actual competitor price: see competitor evidence." if r["comp_ev"].startswith("VERIFIED")
-                  else "Actual competitor price NOT VERIFIED.")
-    marg = (f'Price for $10 contribution: ${r["price10"]}; for $15: ${r["price15"]} (Etsy fees 6.5% + 3% + $0.45, no ads/discounts). '
-            + price_note) if r["cost"] else "Not calculated (supplier cost not verified)."
-    nxt = "TEST NOW" if (r["score"] >= 75 and r["cost"] and r["cost"] <= 35) else "RESEARCH MORE"
+    if r["c_med"] is not None:
+        p75_txt = f'; ${r["c_p75"]:.2f} at P75' if r["c_p75"] is not None else "; P75 not recorded"
+        marg = (f'VERIFIED: contribution ${r["c_med"]:.2f} at median buyer price incl. shipping{p75_txt} '
+                f'(Printful cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: ${r["price10"]} total incl. shipping.')
+    elif r["keyword"] in PRICE_UNRESOLVED:
+        marg = "UNRESOLVED — " + PRICE_UNRESOLVED[r["keyword"]] + f'. Needed for $10 contribution: ${r["price10"]} total incl. shipping.'
+    elif r["cost"]:
+        marg = (f'Competitor price NOT VERIFIED. Needed for $10 contribution: ${r["price10"]}; for $15: ${r["price15"]} (total incl. shipping).')
+    else:
+        marg = "Not calculated (supplier cost not verified)."
+    if r["comp_ev"].startswith("VERIFIED"):
+        price_cell = "See competitor evidence (verified)"
+    else:
+        price_cell = r["price_range"]
+    ev = r["comp_ev"] if not r["price_ev"] else (r["price_ev"] if r["comp_ev"].startswith("NOT VERIFIED") else r["comp_ev"] + " | " + r["price_ev"])
+    nxt = r["next"]
     md.append(f"""### {r['id']} — {r['keyword']}
 **Opportunity Score:** {r['score']}/100 (Demand {r['demand']} · Competition {r['comp']} · Intent {r['intent']} · Margin {r['margin']} · Personalization {r['pers']}* · Expansion {r['exp']}* · Thumbnail {r['thumb']}* · Q4 {r['q4']}* · Penalty {r['penalty']}) — *analyst rating
 
@@ -318,9 +386,9 @@ for r in rows:
 | Trend | {r['trend']} |
 | Competition | {r['competition']} |
 | New Shop Accessibility | {r['access']} |
-| Observed competitor evidence | {r['comp_ev']} |
+| Observed competitor evidence | {ev} |
 | Observed POD cost (Printful) | {cost_txt} |
-| Selling price range | {'See competitor evidence (verified)' if r['comp_ev'].startswith('VERIFIED') else 'NOT VERIFIED'} |
+| Selling price range | {price_cell} |
 | Margin | {marg} |
 | Personalization | YES — {r['pmeth']} |
 | Expansion potential | {LVL(r['exp'])} |
@@ -337,4 +405,4 @@ for r in rows:
 open(OUT_MD, "w").write("\n".join(md))
 print(f"{len(rows)} opportunities -> {OUT_CSV}, {OUT_MD}")
 for r in rows:
-    print(f'{r["id"]} {r["score"]:>3} {r["keyword"]:<34} {r["searches"]:>6}/{r["listings"]:<7} {r["conv"]:>2} r={r["ratio"]:<5} cost={r["cost"]} {r["competition"]:<6} {r["access"]}')
+    print(f'{r["id"]} {r["score"]:>3} {r["keyword"]:<34} {r["searches"]:>6}/{r["listings"]:<7} {r["conv"]:>2} cost={r["cost"]} c_med={r["c_med"]} c_p75={r["c_p75"]} mg={r["margin"]} pen={r["penalty"]} {r["next"]}')
