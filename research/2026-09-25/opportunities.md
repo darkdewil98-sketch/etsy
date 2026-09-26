@@ -1,39 +1,4 @@
-### #01 — custom pet pillow
-**Opportunity Score:** 82/100 (Demand 14 · Competition 17 · Intent 15 · Margin 10 · Personalization 10* · Expansion 8* · Thumbnail 5* · Q4 3* · Penalty 0) — *analyst rating
-
-| Field | Value |
-|---|---|
-| Product | Printful Custom Shaped Pillow 16x16 (#743) |
-| Primary buyer | Pet owners; gift-givers for pet owners; pet memorial buyers |
-| Occasion | Christmas, birthdays, pet memorial |
-| Primary keyword | custom pet pillow |
-| Etsy searches | 3.2k |
-| Etsy listings | 18.2k |
-| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
-| Period change | not shown |
-| Etsy conversion label | Very high |
-| Searches/listings | 0.176 |
-| Secondary keywords (searches/listings conv) | custom dog pillow 2.5k/17.3k VH; custom cat pillow 1.4k/9.5k VH |
-| Trend | EVERGREEN |
-| Competition | LOW |
-| New Shop Accessibility | HIGH |
-| Observed competitor evidence | "custom pet pillow": 48 cards, median $10.43, 96% shown on sale, 44% free-shipping badge, 23/48 cards with 1k+ reviews, Bestseller 21, Star Seller 31, ads 19; detail pages: 1/5 disclose a production partner, median US shipping 6.22; materials (title guess): fabric 37, unclear 5, ceramic 3, fabric/printed 2; "custom dog pillow": 48 cards, median $12.39, 96% shown on sale, 42% free-shipping badge, 24/48 cards with 1k+ reviews, Bestseller 22, Star Seller 34, ads 18; detail pages: 1/5 disclose a production partner, median US shipping 6.22; materials (title guess): fabric 35, ceramic 5, unclear 4, fabric/printed 2 |
-| Observed POD cost (Printful) | $22.79 (base $16.60 + US ship $6.22) |
-| Selling price range | ~16in size-matched buyer totals (price+shipping), 12 listings: $27.96–$42.94 (P25–P75), median $30.16, full $22.19–$52.70 |
-| Margin | VERIFIED: contribution $4.05 at median buyer price incl. shipping; $15.62 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $36.73 total incl. shipping. |
-| Personalization | YES — Buyer uploads pet photo → cut-out shaped pillow; optional name on back |
-| Expansion potential | HIGH |
-| Thumbnail potential | HIGH |
-| Q4 | PARTIAL · Seasonality MEDIUM · Peak-risk LOW · Evergreen HIGH |
-| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'FUR BABY' (pending IC 020 — covers cushions/pillows) and 'FOREVER IN MY HEART' (Reg. 7359901, IC 020). |
-| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
-| Recommended next step | TEST NOW |
-
-**Why:** All three variants carry a Very high conversion label and 9.5k–18k listings — among the smallest fields in the dataset with this intent level.
-**Design direction:** Photo cut-out with clean white border; add a subtle printed name/paw-date on the reverse. Thumbnail: pillow next to the real-pet photo.
-**Primary risks:** Photo quality from buyers varies; needs a clear photo-guide and manual cut-out time per order. / Uses buyer photos: buyer must have rights; seller's value is the editing/design (disclose production partner).
-
-### #02 — engagement ornament
+### #01 — engagement ornament
 **Opportunity Score:** 81/100 (Demand 20 · Competition 20 · Intent 12 · Margin 10 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 5* · Penalty -10) — *analyst rating
 
 | Field | Value |
@@ -60,7 +25,7 @@
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
 | Q4 | YES · Seasonality HIGH · Peak-risk MEDIUM · Evergreen MEDIUM |
-| IP risk | LOW APPARENT IP RISK (screen only) — No live exact USPTO mark for 'engaged', 'just engaged', 'our first christmas engaged' in product classes. Avoid 'JUST MARRIED' on apparel (Reg. 2932679, IC 025). |
+| IP risk | LOW APPARENT IP RISK (screen only) — Finalist screen 2026-09-26: no live exact mark in IC 016/020/021/024/025/028 for 'engaged', 'engaged 2026', 'our first christmas engaged', 'first christmas engaged', 'the year we got engaged', 'future mr and mrs', 'she said yes'. Avoid 'JUST MARRIED' on apparel (Reg. 2932679, IC 025 swimwear/intimates). |
 | Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
 | Recommended next step | TEST NOW |
 
@@ -68,7 +33,7 @@
 **Design direction:** Typography-led ceramic disc: two first names joined by a hand-drawn ring line, 'Engaged' + year, date on back. Offer 3-4 colourways (champagne, sage, navy, blush) as variations.
 **Primary risks:** Strongly Q4-peaked; engagement demand also spikes Dec-Feb (proposal season) which helps sell-through. / Crowded by laser-engraved wood; ceramic print must look premium in photos.
 
-### #03 — auntie mug
+### #02 — auntie mug
 **Opportunity Score:** 81/100 (Demand 11 · Competition 20 · Intent 15 · Margin 8 · Personalization 9* · Expansion 9* · Thumbnail 5* · Q4 4* · Penalty 0) — *analyst rating
 
 | Field | Value |
@@ -103,6 +68,41 @@
 **Design direction:** Typography-first mug: 'Auntie' in bold serif + kids' names in a stacked list; variants 'promoted to', 'est. 20XX', photo version.
 **Primary risks:** Mug price ceiling is typically low; 15oz mug cost is $15.40.
 
+### #03 — custom dog pillow
+**Opportunity Score:** 79/100 (Demand 14 · Competition 14 · Intent 15 · Margin 10 · Personalization 10* · Expansion 8* · Thumbnail 5* · Q4 3* · Penalty 0) — *analyst rating
+
+| Field | Value |
+|---|---|
+| Product | Printful Custom Shaped Pillow 16x16 (#743) |
+| Primary buyer | Pet owners; gift-givers for pet owners; pet memorial buyers |
+| Occasion | Christmas, birthdays, pet memorial |
+| Primary keyword | custom dog pillow |
+| Etsy searches | 2.5k |
+| Etsy listings | 17.3k |
+| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
+| Period change | not shown |
+| Etsy conversion label | Very high |
+| Searches/listings | 0.144 |
+| Secondary keywords (searches/listings conv) | custom cat pillow 1.4k/9.5k VH; custom pet pillow 3.2k/18.2k VH |
+| Trend | EVERGREEN |
+| Competition | MEDIUM |
+| New Shop Accessibility | MEDIUM |
+| Observed competitor evidence | "custom dog pillow": 48 cards, median $12.39, 96% shown on sale, 42% free-shipping badge, 24/48 cards with 1k+ reviews, Bestseller 22, Star Seller 34, ads 18; detail pages: 1/5 disclose a production partner, median US shipping 6.22; materials (title guess): fabric 35, ceramic 5, unclear 4, fabric/printed 2; "custom pet pillow": 48 cards, median $10.43, 96% shown on sale, 44% free-shipping badge, 23/48 cards with 1k+ reviews, Bestseller 21, Star Seller 31, ads 19; detail pages: 1/5 disclose a production partner, median US shipping 6.22; materials (title guess): fabric 37, unclear 5, ceramic 3, fabric/printed 2 |
+| Observed POD cost (Printful) | $22.79 (base $16.60 + US ship $6.22) |
+| Selling price range | ~16in size-matched buyer totals (price+shipping), 12 listings: $27.96–$42.94 (P25–P75), median $30.16, full $22.19–$52.70 |
+| Margin | VERIFIED: contribution $4.05 at median buyer price incl. shipping; $15.62 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $36.73 total incl. shipping. |
+| Personalization | YES — Buyer uploads pet photo → cut-out shaped pillow; optional name on back |
+| Expansion potential | HIGH |
+| Thumbnail potential | HIGH |
+| Q4 | PARTIAL · Seasonality MEDIUM · Peak-risk LOW · Evergreen HIGH |
+| IP risk | LOW APPARENT IP RISK (screen only) — 'PET PILLOW' is a live Principal-register mark for pillows (Reg. 6945893, IC 020, 'PILLOW' disclaimed) -> do NOT use the phrase 'pet pillow' in titles/tags/design; lead with 'custom dog pillow' / 'custom cat pillow' / 'dog photo pillow'. Also avoid 'PILLOW PETS' (Reg. 4139534), 'CUDDLE CLONES', 'PETSIES'. Avoid 'FOREVER IN MY HEART' (Reg. 7359901, IC 020: pillows incl. decorative 3D pillows — directly on point), 'MY DOG' (Reg. IC 025/021/028 plush), 'GOOD BOY' (pending IC 021/025), 'GOOD DOG' (Reg. IC 021/024). 'FUR BABY' (pending IC 020) covers pet kennels, not pillows — still avoid as main text. |
+| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
+| Recommended next step | TEST NOW |
+
+**Why:** Dog and cat pillow terms carry a Very high conversion label with 9.5k–17.3k listings; the broader 'custom pet pillow' (3.2k/18.2k VH) confirms demand but contains the registered phrase 'PET PILLOW'.
+**Design direction:** Photo cut-out with clean white border; add a subtle printed name/paw-date on the reverse. Thumbnail: pillow next to the real-pet photo.
+**Primary risks:** Photo quality from buyers varies; needs a clear photo-guide and manual cut-out time per order. / Uses buyer photos: buyer must have rights; seller's value is the editing/design (disclose production partner).
+
 ### #04 — first christmas married ornament
 **Opportunity Score:** 75/100 (Demand 17 · Competition 17 · Intent 12 · Margin 10 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 5* · Penalty -10) — *analyst rating
 
@@ -130,7 +130,7 @@
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
 | Q4 | YES · Seasonality HIGH · Peak-risk HIGH · Evergreen LOW |
-| IP risk | LOW APPARENT IP RISK (screen only) — No live exact mark for 'first christmas as mr & mrs', 'newlyweds' in product classes. 'Mr & Mrs': 20 live marks contain it, none exact in product classes — still avoid it as a standalone design text. |
+| IP risk | LOW APPARENT IP RISK (screen only) — Finalist screen 2026-09-26: no live exact mark in product classes for 'first christmas married', 'our first christmas married', 'first christmas as mr and mrs', 'our first christmas', 'newlyweds', 'mr and mrs'/'mr & mrs' (20 live marks contain 'Mr & Mrs' — avoid as standalone text). |
 | Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
 | Recommended next step | TEST NOW |
 
@@ -165,7 +165,7 @@
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
 | Q4 | YES · Seasonality HIGH · Peak-risk MEDIUM · Evergreen HIGH |
-| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'HOME SWEET HOME' (Reg. 7006924, IC 021). No live mark for 'our first home' / 'first christmas in our new home'. |
+| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'HOME SWEET HOME' (Reg. 7006924 / pending 99061613, IC 021) and 'WELCOME HOME' (pending IC 024/020/025; Reg. IC 016). No live mark found for 'our first home', 'our new home', 'new home 2026', 'first christmas in our new home', 'keys to our first home' (finalist screen 2026-09-26). |
 | Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
 | Recommended next step | TEST NOW |
 
@@ -236,7 +236,7 @@
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
 | Q4 | PARTIAL · Seasonality LOW · Peak-risk LOW · Evergreen HIGH |
-| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'RAINBOW BRIDGE' (Reg. 8198078 IC 028; Reg. 2725281 IC 020), 'FOREVER IN MY HEART' (IC 020), 'ALWAYS IN MY HEART' (IC 014/016). |
+| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'RAINBOW BRIDGE' (Reg. 2725281, IC 020: pet memorial plaques/markers/urns; Reg. 8198078 IC 028 covers toy bikes), 'FOREVER IN MY HEART' (Reg. 7359901, IC 020 pillows), 'ALWAYS IN MY HEART' (IC 014 jewelry; IC 016 pending). |
 | Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
 | Recommended next step | RESEARCH MORE |
 
@@ -516,7 +516,7 @@
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
 | Q4 | PARTIAL · Seasonality LOW · Peak-risk LOW · Evergreen HIGH |
-| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'PAWSOME', 'FURBABY'. 'Dog mom' has 8 live marks containing it — avoid 'DOG MOM' as the main design text. |
+| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'PAWSOME', 'FURBABY', 'MY DOG' (Reg. IC 025), 'GOOD BOY' (pending IC 025). 'Dog mom': no exact live mark in product classes but 8 live marks contain it — avoid 'DOG MOM' as the main design text. |
 | Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
 | Recommended next step | RESEARCH MORE |
 
@@ -866,7 +866,7 @@
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
 | Q4 | YES · Seasonality HIGH · Peak-risk HIGH · Evergreen LOW |
-| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'PAWSOME' (reg. IC 016/028), 'FURBABY' (IC 021) wording. |
+| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'PAWSOME' (Reg. IC 009/016/028/041; pending IC 021), 'FURBABY' (Reg. IC 021, pet cages), 'MERRY & BRIGHT' (Reg. IC 020 pet beds / 024 throws / 028 pet toys), 'MY DOG', 'GOOD DOG'. |
 | Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
 | Recommended next step | RESEARCH MORE |
 

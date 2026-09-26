@@ -18,7 +18,7 @@ def money(v):
 SC = list(csv.DictReader(open(D + "data/supplier_scenarios.csv")))
 REASON = {
     "engagement ornament": "Highest demand + competition score; SwiftPOD 2-side cost ($11.36) gives $6.27 at median, $12.40 at P75.",
-    "custom pet pillow": "Very high conversion, smallest field (18.2k listings); ~16in size-matched median $30.16 total → $4.05, P75 $42.94 → $15.62 (Printful 16in).",
+    "custom dog pillow": "Very high conversion, 17.3k listings; lead keyword chosen to avoid the registered phrase 'PET PILLOW'; ~16in size-matched median $30.16 total → $4.05, P75 $42.94 → $15.62 (Printful 16in).",
     "auntie mug": "Very high conversion, 7.9k listings; best verified mug cost (Printful 11oz $12.76) leaves $4.14 at median / $6.49 at P75.",
     "new house ornament": "High conversion; SwiftPOD 2-side cost gives $6.66 at median / $12.58 at P75; doubles as housewarming/closing gift.",
     "first christmas married ornament": "+11.4% growth, High conversion; SwiftPOD 2-side cost gives $6.28 at median / $11.16 at P75.",
@@ -52,7 +52,7 @@ T = ["| Rank | ID | Primary keyword | Product | Searches | Listings | Demand/Com
 for i, r in enumerate(live[:10], 1):
     if r["c_med"]:
         m = f'VERIFIED: {money(r["c_med"])} at median' + (f', {money(r["c_p75"])} at P75' if r["c_p75"] else "")
-    elif r["keyword"] == "custom pet pillow":
+    elif r["keyword"] == "custom dog pillow":
         m = "UNRESOLVED"
     else:
         m = f'Cost {money(r["cost"])} verified; price NOT VERIFIED' if r["cost"] else "SUPPLIER COST NOT VERIFIED"
@@ -92,18 +92,22 @@ clusters = f"""### Küme 1 — Çift ve kilometre taşı süsleri (talep en gü�
   - Hediye kutulu Round $7.06 (tek yüz).
   - Printify Premium ($24.99/ay yıllık) ile birim başına $1.05 daha ucuz → başabaş ~24 süs/ay.
 - **Özgün listing konsepti tahmini:** 40–60
-- **IP:** LOW APPARENT ("MY FIRST CHRISTMAS", "JUST MARRIED", "HOME SWEET HOME", "REALTOR" hariç)
+- **IP:** LOW APPARENT. Finalist ifadeleri 26.09'da tarandı (`data/tm_round3_finalists.csv`). "MY FIRST CHRISTMAS", "JUST MARRIED", "HOME SWEET HOME", "WELCOME HOME", "REALTOR" hariç.
 - **Rekabet:** Insights'ta LOW–MEDIUM. Arama sayfasında yerleşik mağazalar baskın.
 
 ### Küme 2 — Evcil hayvan fotoğraf ürünleri
-- **Ana kelime:** {kw("custom pet pillow")}
-- **İlgili kelimeler:** {kw("custom dog pillow")}; {kw("custom cat pillow")}; {kw("dog memorial gift")}; {kw("pet memorial gift")}; {kw("cat memorial ornament")}; {kw("custom dog shirt")}
+- **Ana kelime:** {kw("custom dog pillow")}. "custom pet pillow" ({U["custom pet pillow"]["searches"]}/{U["custom pet pillow"]["listings"]}, VH) talebi doğruluyor, ama içindeki "PET PILLOW" ifadesi tescilli (Reg. 6945893, IC 020) → başlık ve etiketlerde kullanılmamalı.
+- **İlgili kelimeler:** {kw("custom cat pillow")}; {kw("dog memorial gift")}; {kw("pet memorial gift")}; {kw("cat memorial ornament")}; {kw("custom dog shirt")}
 - **Doğrulanmış fiyat:** Kart fiyatları anahtarlık/mini boylardan başlıyor (medyan $10.43), bu yüzden round 3'te boy eşleştirildi. ~16" boyda 12 listing'in fiyat + kargo toplamı:
   - Medyan $30.16, P25–P75 $27.96–$42.94, aralık $22.19–$52.70.
   - Detay: `data/pillow_16in_prices.csv`.
 - **Ekonomi:** Printful 16" özel kesim yastık $22.79 → katkı medyanda $4.05, P75'te $15.62. Yani premium (~$40+) konumlanma gerekiyor. Printify'da ABD'de bu ürün için yerel üretici yok.
 - **Özgün listing konsepti tahmini:** 30–50
-- **IP:** "FUR BABY" (yastık sınıfında başvuru), "RAINBOW BRIDGE", "FOREVER IN MY HEART", "PAWSOME" kullanılmamalı.
+- **IP:** kullanılmamalı:
+  - "FOREVER IN MY HEART" (3D dekoratif yastıkta tescilli, doğrudan ilgili)
+  - "RAINBOW BRIDGE" (evcil hayvan anma plakası/urna)
+  - "MY DOG", "GOOD BOY", "GOOD DOG", "PAWSOME", "FURBABY"
+  - "FUR BABY" başvurusu kulübe kapsamında, yine de ana metin olarak kullanılmamalı.
 - **Rekabet:** yastıkta LOW. Anma baş kelimesinde HIGH (428k ilan).
 
 ### Küme 3 — Hala/teyze, amca/dayı ve büyükanne rol hediyeleri
@@ -222,16 +226,37 @@ Kod: `scripts/analyze_prices.py`, `scripts/supplier_scenarios.py`, `scripts/scor
 
 {top10}
 
-**TEST NOW olanlar:** custom pet pillow, engagement ornament, first christmas married ornament, new house ornament.
+**TEST NOW olanlar:** custom dog pillow, engagement ornament, first christmas married ornament, new house ornament.
 - **Süsler:** SwiftPOD Round çift yüz ($11.36, tamamen doğrulandı) ile medyanda ~$6.3–6.7, P75'te $11.16–$12.58 katkı. Aynı siparişteki her ek süs ~$5.4–5.8 daha ekliyor.
 - **Baby's first christmas ornament:** katkı iyi (medyan $6.28, P75 $13.61), ama puan 69 → eşiğin 1 puan altında, RESEARCH MORE. Tek yüz tasarımla ($9.72) katkı medyanda ~$7.9'a çıkar.
-- **Pet pillow:** boy eşleştirilmiş medyanda $4.05, P75'te $15.62 → ancak ~$40+ fiyatla.
+- **Custom dog pillow:** boy eşleştirilmiş medyanda $4.05, P75'te $15.62 → ancak ~$40+ fiyatla.
 - Printful ile aynı listing'lerde katkı ~$4'a düşüyor.
 - İlk sayfada 37–41/48 kart 1k+ yorumlu. Bu yüzden yeni mağaza için ayrışan tasarım ve thumbnail yine şart.
 
 ## TOP 5 NİŞ KÜMESİ
 
 {clusters}
+
+## Finalist IP doğrulaması (master prompt §14, 26.09.2026)
+**USPTO (canlı kayıtlar, birebir kelime markası, sınıf 016/020/021/024/025/028):**
+- Kayıt bulunamayanlar: "engaged 2026", "our first christmas engaged", "first christmas engaged", "the year we got engaged", "future mr and mrs", "first christmas married", "our first christmas married", "first christmas as mr and mrs", "our first christmas", "our first home", "our new home", "new home 2026", "first christmas in our new home", "keys to our first home". Kaynak: `data/tm_round3_finalists.csv`.
+- **Kaçınılacaklar (canlı kayıt veya başvuru var):**
+  - "PET PILLOW" (Reg. 6945893, IC 020 yastıklar, ana sicil)
+  - "FOREVER IN MY HEART" (IC 020 yastıklar, 3D dekoratif dahil)
+  - "PILLOW PETS" (Reg. 4139534)
+  - "CUDDLE CLONES", "PETSIES" (peluş)
+  - "MY DOG" (IC 025/021/028)
+  - "GOOD BOY" (IC 021/025 başvuru), "GOOD DOG" (IC 021/024)
+  - "WELCOME HOME" (IC 024/020/025 başvuru)
+  - "HOME SWEET HOME" (IC 021)
+  - "JUST MARRIED" (IC 025)
+  - Kaynak: `data/tm_round3_brand_terms.txt`.
+
+**Google (birebir ifade):**
+- "Our First Christmas Engaged", "First Christmas Married" ve "Our First Home" Etsy, Amazon, Walmart, Hallmark, Lenox, Waterford ve çok sayıda küçük satıcı tarafından jenerik ürün adı olarak kullanılıyor. Tek bir marka sahibine bağlı değiller.
+- "Custom pet pillow" aramasında markalı rakipler çıktı: Cuddle Clones, Crown & Paw, Petsies, Pillow Pets®. Bunların adları başlık ve etiketlerde kullanılmamalı.
+
+**Sonuç:** Dört TEST NOW fırsatı için yukarıdaki ifadeler kullanılmadığı sürece LOW APPARENT IP RISK. Bu bir hukuki görüş değildir.
 
 ## Elenenler (kanıtla)
 | Kelime / konsept | Veri | Neden |

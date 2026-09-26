@@ -171,9 +171,9 @@ Kod: `scripts/analyze_prices.py`, `scripts/supplier_scenarios.py`, `scripts/scor
 
 | Rank | ID | Primary keyword | Product | Searches | Listings | Demand/Competition | New-Shop Access | Margin status | Q4 | IP risk | Next step | Reason for selection |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | #01 | custom pet pillow | Printful Custom Shaped Pillow 16x16 (#743) | 3.2k | 18.2k | ratio 0.176, conv Very high (LOW) | HIGH | VERIFIED: $4.05 at median, $15.62 at P75 | PARTIAL | LOW APPARENT | TEST NOW | Very high conversion, smallest field (18.2k listings); ~16in size-matched median $30.16 total → $4.05, P75 $42.94 → $15.62 (Printful 16in). |
-| 2 | #02 | engagement ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 10.6k | 51.9k | ratio 0.204, conv High (LOW) | HIGH | VERIFIED: $6.27 at median, $12.40 at P75 | YES | LOW APPARENT | TEST NOW | Highest demand + competition score; SwiftPOD 2-side cost ($11.36) gives $6.27 at median, $12.40 at P75. |
-| 3 | #03 | auntie mug | Printful White Glossy Mug 11oz (#19) | 1.8k | 7.9k | ratio 0.228, conv Very high (LOW) | HIGH | VERIFIED: $4.14 at median, $6.49 at P75 | YES | LOW APPARENT | RESEARCH MORE | Very high conversion, 7.9k listings; best verified mug cost (Printful 11oz $12.76) leaves $4.14 at median / $6.49 at P75. |
+| 1 | #01 | engagement ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 10.6k | 51.9k | ratio 0.204, conv High (LOW) | HIGH | VERIFIED: $6.27 at median, $12.40 at P75 | YES | LOW APPARENT | TEST NOW | Highest demand + competition score; SwiftPOD 2-side cost ($11.36) gives $6.27 at median, $12.40 at P75. |
+| 2 | #02 | auntie mug | Printful White Glossy Mug 11oz (#19) | 1.8k | 7.9k | ratio 0.228, conv Very high (LOW) | HIGH | VERIFIED: $4.14 at median, $6.49 at P75 | YES | LOW APPARENT | RESEARCH MORE | Very high conversion, 7.9k listings; best verified mug cost (Printful 11oz $12.76) leaves $4.14 at median / $6.49 at P75. |
+| 3 | #03 | custom dog pillow | Printful Custom Shaped Pillow 16x16 (#743) | 2.5k | 17.3k | ratio 0.144, conv Very high (MEDIUM) | MEDIUM | VERIFIED: $4.05 at median, $15.62 at P75 | PARTIAL | LOW APPARENT | TEST NOW | Very high conversion, 17.3k listings; lead keyword chosen to avoid the registered phrase 'PET PILLOW'; ~16in size-matched median $30.16 total → $4.05, P75 $42.94 → $15.62 (Printful 16in). |
 | 4 | #04 | first christmas married ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 6.7k | 33.8k | ratio 0.198, conv High (LOW) | HIGH | VERIFIED: $6.28 at median, $11.16 at P75 | YES | LOW APPARENT | TEST NOW | +11.4% growth, High conversion; SwiftPOD 2-side cost gives $6.28 at median / $11.16 at P75. |
 | 5 | #05 | new house ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 2.5k | 19.8k | ratio 0.126, conv High (MEDIUM) | MEDIUM | VERIFIED: $6.66 at median, $12.58 at P75 | YES | LOW APPARENT | TEST NOW | High conversion; SwiftPOD 2-side cost gives $6.66 at median / $12.58 at P75; doubles as housewarming/closing gift. |
 | 6 | #06 | client gift | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 15.9k | 21.1k | ratio 0.754, conv Very low (LOW) | MEDIUM | VERIFIED: $7.19 at median | YES | LOW APPARENT | RESEARCH MORE | 0.754 ratio; verified median $20.99 ($7.19 contribution at SwiftPOD 2-side cost) but page one is dominated by 1k+ review shops. |
@@ -182,10 +182,10 @@ Kod: `scripts/analyze_prices.py`, `scripts/supplier_scenarios.py`, `scripts/scor
 | 9 | #09 | baby's first christmas ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 8.2k | 88.9k | ratio 0.092, conv High (MEDIUM) | MEDIUM | VERIFIED: $6.28 at median, $13.61 at P75 | YES | LOW APPARENT | RESEARCH MORE | High conversion; SwiftPOD 2-side cost gives $6.28 at median / $13.61 at P75; score 69 (just below the 70 cut-off). |
 | 10 | #10 | retirement gifts for women | Printful White Glossy Mug 11oz (#19) | 15.5k | 48.3k | ratio 0.321, conv Low (LOW) | MEDIUM | VERIFIED: $4.39 at median, $8.13 at P75 | PARTIAL | LOW APPARENT | RESEARCH MORE | 15.5k searches, 0.321 ratio; Printful 11oz mug gives $4.39 at median / $8.13 at P75. |
 
-**TEST NOW olanlar:** custom pet pillow, engagement ornament, first christmas married ornament, new house ornament.
+**TEST NOW olanlar:** custom dog pillow, engagement ornament, first christmas married ornament, new house ornament.
 - **Süsler:** SwiftPOD Round çift yüz ($11.36, tamamen doğrulandı) ile medyanda ~$6.3–6.7, P75'te $11.16–$12.58 katkı. Aynı siparişteki her ek süs ~$5.4–5.8 daha ekliyor.
 - **Baby's first christmas ornament:** katkı iyi (medyan $6.28, P75 $13.61), ama puan 69 → eşiğin 1 puan altında, RESEARCH MORE. Tek yüz tasarımla ($9.72) katkı medyanda ~$7.9'a çıkar.
-- **Pet pillow:** boy eşleştirilmiş medyanda $4.05, P75'te $15.62 → ancak ~$40+ fiyatla.
+- **Custom dog pillow:** boy eşleştirilmiş medyanda $4.05, P75'te $15.62 → ancak ~$40+ fiyatla.
 - Printful ile aynı listing'lerde katkı ~$4'a düşüyor.
 - İlk sayfada 37–41/48 kart 1k+ yorumlu. Bu yüzden yeni mağaza için ayrışan tasarım ve thumbnail yine şart.
 
@@ -208,18 +208,22 @@ Kod: `scripts/analyze_prices.py`, `scripts/supplier_scenarios.py`, `scripts/scor
   - Hediye kutulu Round $7.06 (tek yüz).
   - Printify Premium ($24.99/ay yıllık) ile birim başına $1.05 daha ucuz → başabaş ~24 süs/ay.
 - **Özgün listing konsepti tahmini:** 40–60
-- **IP:** LOW APPARENT ("MY FIRST CHRISTMAS", "JUST MARRIED", "HOME SWEET HOME", "REALTOR" hariç)
+- **IP:** LOW APPARENT. Finalist ifadeleri 26.09'da tarandı (`data/tm_round3_finalists.csv`). "MY FIRST CHRISTMAS", "JUST MARRIED", "HOME SWEET HOME", "WELCOME HOME", "REALTOR" hariç.
 - **Rekabet:** Insights'ta LOW–MEDIUM. Arama sayfasında yerleşik mağazalar baskın.
 
 ### Küme 2 — Evcil hayvan fotoğraf ürünleri
-- **Ana kelime:** custom pet pillow (3.2k/18.2k, VH)
-- **İlgili kelimeler:** custom dog pillow (2.5k/17.3k, VH); custom cat pillow (1.4k/9.5k, VH); dog memorial gift (61.4k/428.2k, H); pet memorial gift (55.9k/555k, T); cat memorial ornament (3.2k/46.7k, L); custom dog shirt (7.3k/136.6k, VH)
+- **Ana kelime:** custom dog pillow (2.5k/17.3k, VH). "custom pet pillow" (3.2k/18.2k, VH) talebi doğruluyor, ama içindeki "PET PILLOW" ifadesi tescilli (Reg. 6945893, IC 020) → başlık ve etiketlerde kullanılmamalı.
+- **İlgili kelimeler:** custom cat pillow (1.4k/9.5k, VH); dog memorial gift (61.4k/428.2k, H); pet memorial gift (55.9k/555k, T); cat memorial ornament (3.2k/46.7k, L); custom dog shirt (7.3k/136.6k, VH)
 - **Doğrulanmış fiyat:** Kart fiyatları anahtarlık/mini boylardan başlıyor (medyan $10.43), bu yüzden round 3'te boy eşleştirildi. ~16" boyda 12 listing'in fiyat + kargo toplamı:
   - Medyan $30.16, P25–P75 $27.96–$42.94, aralık $22.19–$52.70.
   - Detay: `data/pillow_16in_prices.csv`.
 - **Ekonomi:** Printful 16" özel kesim yastık $22.79 → katkı medyanda $4.05, P75'te $15.62. Yani premium (~$40+) konumlanma gerekiyor. Printify'da ABD'de bu ürün için yerel üretici yok.
 - **Özgün listing konsepti tahmini:** 30–50
-- **IP:** "FUR BABY" (yastık sınıfında başvuru), "RAINBOW BRIDGE", "FOREVER IN MY HEART", "PAWSOME" kullanılmamalı.
+- **IP:** kullanılmamalı:
+  - "FOREVER IN MY HEART" (3D dekoratif yastıkta tescilli, doğrudan ilgili)
+  - "RAINBOW BRIDGE" (evcil hayvan anma plakası/urna)
+  - "MY DOG", "GOOD BOY", "GOOD DOG", "PAWSOME", "FURBABY"
+  - "FUR BABY" başvurusu kulübe kapsamında, yine de ana metin olarak kullanılmamalı.
 - **Rekabet:** yastıkta LOW. Anma baş kelimesinde HIGH (428k ilan).
 
 ### Küme 3 — Hala/teyze, amca/dayı ve büyükanne rol hediyeleri
@@ -253,6 +257,27 @@ Kod: `scripts/analyze_prices.py`, `scripts/supplier_scenarios.py`, `scripts/scor
 - **Ekonomi:** Printful ($24.96) → medyanda −$13.52, P75'te $0.93. Printify/MWW Premium ($19.70) → −$8.26 / $6.19. Hiçbir doğrulanmış POD çorabı medyan fiyatta kârlı değil → **REJECT**. Talep güçlü (VH, +30.3%); çok daha ucuz bir tedarikçi olmadan girilmemeli.
 
 
+## Finalist IP doğrulaması (master prompt §14, 26.09.2026)
+**USPTO (canlı kayıtlar, birebir kelime markası, sınıf 016/020/021/024/025/028):**
+- Kayıt bulunamayanlar: "engaged 2026", "our first christmas engaged", "first christmas engaged", "the year we got engaged", "future mr and mrs", "first christmas married", "our first christmas married", "first christmas as mr and mrs", "our first christmas", "our first home", "our new home", "new home 2026", "first christmas in our new home", "keys to our first home". Kaynak: `data/tm_round3_finalists.csv`.
+- **Kaçınılacaklar (canlı kayıt veya başvuru var):**
+  - "PET PILLOW" (Reg. 6945893, IC 020 yastıklar, ana sicil)
+  - "FOREVER IN MY HEART" (IC 020 yastıklar, 3D dekoratif dahil)
+  - "PILLOW PETS" (Reg. 4139534)
+  - "CUDDLE CLONES", "PETSIES" (peluş)
+  - "MY DOG" (IC 025/021/028)
+  - "GOOD BOY" (IC 021/025 başvuru), "GOOD DOG" (IC 021/024)
+  - "WELCOME HOME" (IC 024/020/025 başvuru)
+  - "HOME SWEET HOME" (IC 021)
+  - "JUST MARRIED" (IC 025)
+  - Kaynak: `data/tm_round3_brand_terms.txt`.
+
+**Google (birebir ifade):**
+- "Our First Christmas Engaged", "First Christmas Married" ve "Our First Home" Etsy, Amazon, Walmart, Hallmark, Lenox, Waterford ve çok sayıda küçük satıcı tarafından jenerik ürün adı olarak kullanılıyor. Tek bir marka sahibine bağlı değiller.
+- "Custom pet pillow" aramasında markalı rakipler çıktı: Cuddle Clones, Crown & Paw, Petsies, Pillow Pets®. Bunların adları başlık ve etiketlerde kullanılmamalı.
+
+**Sonuç:** Dört TEST NOW fırsatı için yukarıdaki ifadeler kullanılmadığı sürece LOW APPARENT IP RISK. Bu bir hukuki görüş değildir.
+
 ## Elenenler (kanıtla)
 | Kelime / konsept | Veri | Neden |
 |---|---|---|
@@ -268,9 +293,9 @@ Kod: `scripts/analyze_prices.py`, `scripts/supplier_scenarios.py`, `scripts/scor
 
 | ID | Score | Keyword | Product | Searches | Listings | Ratio | Conv | Period chg | Competition | New-shop access | POD cost | Verified price range | Contribution median / P75 | Trend | Seasonality | Peak-risk | Evergreen | IP | Next step |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| #01 | 82 | custom pet pillow | Printful Custom Shaped Pillow 16x16 (#743) | 3.2k | 18.2k | 0.176 | VH | not shown | LOW | HIGH | $22.79 | ~16in size-matched buyer totals (price+shipping), 12 listings: $27.96–$42.94 (P25–P75), median $30.16, full $22.19–$52.70 | $4.05 / $15.62 | EVERGREEN | MEDIUM | LOW | HIGH | LOW APPARENT | TEST NOW |
-| #02 | 81 | engagement ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 10.6k | 51.9k | 0.204 | H | not shown | LOW | HIGH | $11.36 | $9.96–$20.76 (P25–P75), median $13.99, full $4.49–$30.00; typical US shipping $5.99 | $6.27 / $12.40 | EARLY SIGNAL | HIGH | MEDIUM | MEDIUM | LOW APPARENT | TEST NOW |
-| #03 | 81 | auntie mug | Printful White Glossy Mug 11oz (#19) | 1.8k | 7.9k | 0.228 | VH | not shown | LOW | HIGH | $12.76 | $10.99–$15.78 (P25–P75), median $13.18, full $4.25–$26.22; typical US shipping $5.99 | $4.14 / $6.49 | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
+| #01 | 81 | engagement ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 10.6k | 51.9k | 0.204 | H | not shown | LOW | HIGH | $11.36 | $9.96–$20.76 (P25–P75), median $13.99, full $4.49–$30.00; typical US shipping $5.99 | $6.27 / $12.40 | EARLY SIGNAL | HIGH | MEDIUM | MEDIUM | LOW APPARENT | TEST NOW |
+| #02 | 81 | auntie mug | Printful White Glossy Mug 11oz (#19) | 1.8k | 7.9k | 0.228 | VH | not shown | LOW | HIGH | $12.76 | $10.99–$15.78 (P25–P75), median $13.18, full $4.25–$26.22; typical US shipping $5.99 | $4.14 / $6.49 | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
+| #03 | 79 | custom dog pillow | Printful Custom Shaped Pillow 16x16 (#743) | 2.5k | 17.3k | 0.144 | VH | not shown | MEDIUM | MEDIUM | $22.79 | ~16in size-matched buyer totals (price+shipping), 12 listings: $27.96–$42.94 (P25–P75), median $30.16, full $22.19–$52.70 | $4.05 / $15.62 | EVERGREEN | MEDIUM | LOW | HIGH | LOW APPARENT | TEST NOW |
 | #04 | 75 | first christmas married ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 6.7k | 33.8k | 0.198 | H | +11.4% | LOW | HIGH | $11.36 | $9.90–$19.39 (P25–P75), median $14.00, full $3.45–$40.00; typical US shipping $5.99 | $6.28 / $11.16 | VERIFIED CURRENT TREND | HIGH | HIGH | LOW | LOW APPARENT | TEST NOW |
 | #05 | 74 | new house ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 2.5k | 19.8k | 0.126 | H | not shown | MEDIUM | MEDIUM | $11.36 | $9.99–$20.96 (P25–P75), median $14.41, full $3.99–$80.00; typical US shipping $5.99 | $6.66 / $12.58 | EARLY SIGNAL | HIGH | MEDIUM | HIGH | LOW APPARENT | TEST NOW |
 | #06 | 73 | client gift | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 15.9k | 21.1k | 0.754 | VL | not shown | LOW | MEDIUM | $11.36 | $2.03–$80.99, median $20.99 (Table B, 48 cards); shipping NOT VERIFIED | $7.19 / — | EARLY SIGNAL | MEDIUM | MEDIUM | HIGH | LOW APPARENT | RESEARCH MORE |
