@@ -17,15 +17,15 @@ def money(v):
 
 SC = list(csv.DictReader(open(D + "data/supplier_scenarios.csv")))
 REASON = {
-    "engagement ornament": "Highest demand + competition score; with Printify/SwiftPOD cost ($9.72) verified contribution $7.91 at median, $14.04 at P75.",
+    "engagement ornament": "Highest demand + competition score; SwiftPOD 2-side cost ($11.36) gives $6.27 at median, $12.40 at P75.",
     "custom pet pillow": "Very high conversion, smallest field (18.2k listings); ~16in size-matched median $30.16 total → $4.05, P75 $42.94 → $15.62 (Printful 16in).",
     "auntie mug": "Very high conversion, 7.9k listings; best verified mug cost (Printful 11oz $12.76) leaves $4.14 at median / $6.49 at P75.",
-    "new house ornament": "High conversion; SwiftPOD cost gives $8.30 at median / $14.22 at P75; doubles as housewarming/closing gift.",
-    "first christmas married ornament": "+11.4% growth, High conversion; SwiftPOD cost gives $7.92 at median / $12.80 at P75.",
+    "new house ornament": "High conversion; SwiftPOD 2-side cost gives $6.66 at median / $12.58 at P75; doubles as housewarming/closing gift.",
+    "first christmas married ornament": "+11.4% growth, High conversion; SwiftPOD 2-side cost gives $6.28 at median / $11.16 at P75.",
     "dog memorial gift": "61.4k searches, High conversion, evergreen; competitor prices not yet collected.",
     "auntie shirt": "High conversion; apparel keeps the auntie niche but prices are not yet verified.",
-    "baby's first christmas ornament": "High conversion; SwiftPOD cost gives $7.92 at median / $15.25 at P75 (best P75 in the set).",
-    "client gift": "0.754 ratio; verified median $20.99 ($8.83 contribution at SwiftPOD cost) but page one is dominated by 1k+ review shops.",
+    "baby's first christmas ornament": "High conversion; SwiftPOD 2-side cost gives $6.28 at median / $13.61 at P75; score 69 (just below the 70 cut-off).",
+    "client gift": "0.754 ratio; verified median $20.99 ($7.19 contribution at SwiftPOD 2-side cost) but page one is dominated by 1k+ review shops.",
     "retirement gifts for women": "15.5k searches, 0.321 ratio; Printful 11oz mug gives $4.39 at median / $8.13 at P75.",
     "bookish stickers": "Cheapest product ($6.83); competitor prices not yet collected.",
 }
@@ -86,9 +86,10 @@ clusters = f"""### Küme 1 — Çift ve kilometre taşı süsleri (talep en gü�
   - Detay sayfalarının çoğu üretim ortağı beyan ediyor: Printway, Inner Circle Prints (Spokane), Ballston Spa NY, Strongsville OH seramik atölyesi.
 - **Ekonomi:**
   - Printful ($13.62) ile medyan fiyatta katkı ~$4.
-  - Printify/SwiftPOD seramik Round ($4.93 + $4.79 Economy kargo = $9.72, round 3'te varyant olarak doğrulandı) ile medyanda $7.91–$8.30, P75'te $12.80–$15.25.
-  - Aynı siparişteki her ek süs: SwiftPOD +$0.49 kargo → medyan fiyatta ek birim katkısı ~$7.04–$7.43.
-  - Hediye kutulu varyant $7.06 (+$2.13). Arka yüz baskı ek ücreti hâlâ **NOT VERIFIED**.
+  - Printify/SwiftPOD seramik Round çift yüz ($6.57 + $4.79 Economy kargo = $11.36; arka yüz +$1.64 editörde doğrulandı) ile medyanda $6.27–$6.66, P75'te $11.16–$13.61.
+  - Tek yüz baskıda ($9.72) medyanda ~$8.
+  - Aynı siparişteki her ek süs: SwiftPOD +$0.49 kargo → medyan fiyatta ek birim katkısı ~$5.40–$5.79 (çift yüz).
+  - Hediye kutulu Round $7.06 (tek yüz).
   - Printify Premium ($24.99/ay yıllık) ile birim başına $1.05 daha ucuz → başabaş ~24 süs/ay.
 - **Özgün listing konsepti tahmini:** 40–60
 - **IP:** LOW APPARENT ("MY FIRST CHRISTMAS", "JUST MARRIED", "HOME SWEET HOME", "REALTOR" hariç)
@@ -150,12 +151,12 @@ Tüm sayılar sayfalarda gösterildiği gibi. Yorum ve favori sayıları satış
 
 Doğrulanmış rakip fiyatlarına göre süsler medyan ~$14 + $5.99 kargoya satılıyor. Katkı tedarikçiye göre değişiyor:
 - **Printful süsü ($13.62):** medyanda ~$4.
-- **Printify/SwiftPOD seramik süsü ($9.72, ABD'de üretim, 2.1 gün):** medyanda ~$8, P75'te $12.80–$15.25.
+- **Printify/SwiftPOD seramik süsü, çift yüz ($11.36, ABD'de üretim, 2.1 gün):** medyanda ~$6.3–6.7, P75'te $11.16–$13.61. Tek yüz ($9.72) ile medyanda ~$8.
 
 Round 3'te SwiftPOD varyantları doğrulandı:
-- Round $4.93, Heart $5.25, hediye kutulu $7.06–$7.39.
+- Round $4.93, Heart $5.25, hediye kutulu $7.06–$7.39 (tek yüz).
 - Economy kargo $4.79 + ek ürün başına $0.49.
-- Arka yüz baskı ek ücreti **NOT VERIFIED**. Editör, arka yüze tasarım eklenmeden toplam göstermiyor.
+- Arka yüz baskısı +$1.64 (26.09.2026, editörde okundu, hiçbir şey kaydedilmedi): Round çift yüz $6.57, Heart çift yüz $6.90. Kaynak: `data/round4_swiftpod_backside_2026-09-26.txt`.
 
 Diğer ürünler:
 - **Kupa:** en iyi doğrulanmış seçenek Printful 11oz ($12.76). Katkı ~$4 (medyan) / $6.5–8 (P75).
@@ -221,8 +222,9 @@ Kod: `scripts/analyze_prices.py`, `scripts/supplier_scenarios.py`, `scripts/scor
 
 {top10}
 
-**TEST NOW olanlar:** engagement ornament, first christmas married ornament, new house ornament, baby's first christmas ornament, custom pet pillow.
-- **Süsler:** SwiftPOD Round ($9.72, doğrulanmış varyant) ile medyanda ~$8, P75'te $12.80–$15.25 katkı. Aynı siparişteki her ek süs ~$7 daha ekliyor.
+**TEST NOW olanlar:** custom pet pillow, engagement ornament, first christmas married ornament, new house ornament.
+- **Süsler:** SwiftPOD Round çift yüz ($11.36, tamamen doğrulandı) ile medyanda ~$6.3–6.7, P75'te $11.16–$12.58 katkı. Aynı siparişteki her ek süs ~$5.4–5.8 daha ekliyor.
+- **Baby's first christmas ornament:** katkı iyi (medyan $6.28, P75 $13.61), ama puan 69 → eşiğin 1 puan altında, RESEARCH MORE. Tek yüz tasarımla ($9.72) katkı medyanda ~$7.9'a çıkar.
 - **Pet pillow:** boy eşleştirilmiş medyanda $4.05, P75'te $15.62 → ancak ~$40+ fiyatla.
 - Printful ile aynı listing'lerde katkı ~$4'a düşüyor.
 - İlk sayfada 37–41/48 kart 1k+ yorumlu. Bu yüzden yeni mağaza için ayrışan tasarım ve thumbnail yine şart.

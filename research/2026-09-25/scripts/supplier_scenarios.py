@@ -1,5 +1,5 @@
 """Round-3 (2026-09-25) verified variant costs: SwiftPOD Round $4.93 / Heart $5.25 / +gift box $7.06; Economy US shipping
-$4.79 first + $0.49 each additional (Standard $5.89 / $0.69). Back-side print upcharge NOT VERIFIED.
+$4.79 first + $0.49 each additional (Standard $5.89 / $0.69). Back-side print adds $1.64 (Round 2-side $6.57, Heart 2-side $6.90; editor, 2026-09-26).
 Compare contribution per order across verified POD supplier costs, using verified Etsy competitor prices.
 Supplier costs: Printful public API/shipping page and Printify public catalog pages (US local providers), 2026-09-25.
 Printify 'From USD' = cheapest variant; extra-variant (e.g. 2-side print, gift box) cost NOT VERIFIED."""
@@ -7,7 +7,9 @@ import csv, json
 PA = {r["keyword"]: r for r in csv.DictReader(open("research/2026-09-25/data/price_analysis.csv"))}
 S = {  # product family -> [(supplier label, product cost, US shipping first item)]
  "ornament": [("Printful ceramic 2-side #900", 7.73, 5.89),
-              ("Printify / SwiftPOD ceramic Round (bp 1632), Economy ship", 4.93, 4.79),
+              ("Printify / SwiftPOD ceramic Round 1-side (bp 1632), Economy ship", 4.93, 4.79),
+              ("Printify / SwiftPOD ceramic Round 2-side, Economy ship", 6.57, 4.79),
+              ("Printify / SwiftPOD ceramic Heart 2-side, Economy ship", 6.90, 4.79),
               ("Printify / SwiftPOD ceramic Round, Premium, Economy ship", 3.88, 4.79),
               ("Printify / SwiftPOD ceramic Heart, Economy ship", 5.25, 4.79),
               ("Printify / SwiftPOD ceramic Round + gift box, Economy ship", 7.06, 4.79),
@@ -38,7 +40,7 @@ for r in rows: print(f'{r["keyword"]:<34} {r["supplier"]:<46} cost {r["unit_cost
 # Etsy $0.20 listing fee applies per unit, $0.25 processing fixed fee does not repeat)
 for kw in ["engagement ornament", "new house ornament", "baby's first christmas ornament"]:
     m = float(PA[kw]["median"])
-    print(f"extra-unit contribution {kw}: ${round(m * 0.905 - 0.20 - (4.93 + 0.49), 2)} (SwiftPOD Round + $0.49 extra-item shipping, at median ${m})")
+    print(f"extra-unit contribution {kw}: ${round(m * 0.905 - 0.20 - (6.57 + 0.49), 2)} (SwiftPOD Round 2-side + $0.49 extra-item shipping, at median ${m})")
 # Premium break-even: yearly plan $24.99/month (Printify pricing page, 2026-09-25)
 save = 4.93 - 3.88
 print(f"\nPremium break-even (ornaments, SwiftPOD): $24.99 / ${save:.2f} per unit = {24.99/save:.1f} ornaments per month")

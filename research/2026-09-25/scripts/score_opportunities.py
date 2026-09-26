@@ -17,7 +17,7 @@ OUT_MD = "research/2026-09-25/opportunities.md"
 # Printful: base price (standard print included) + US first-item shipping, USD, verified 2026-09-25.
 COST = {
     "ceramic2": ("Printful Ceramic Ornament, 2-side (#900)", 7.73, 5.89),
-    "swiftpod_orn": ("Printify / SwiftPOD Ceramic Ornament Round (bp 1632; Economy ship; back-side upcharge NOT VERIFIED)", 4.93, 4.79),
+    "swiftpod_orn": ("Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship)", 6.57, 4.79),
     "ceramic1": ("Printful Ceramic Ornament, circle (#881)", 6.34, 5.49),
     "wood_orn": ("Printful Wooden Ornament (#634)", 8.37, 5.19),
     "stocking": ("Printful Rustic Christmas Stocking (#1428)", 17.17, 7.79),

@@ -1,39 +1,4 @@
-### #01 — engagement ornament
-**Opportunity Score:** 85/100 (Demand 20 · Competition 20 · Intent 12 · Margin 14 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 5* · Penalty -10) — *analyst rating
-
-| Field | Value |
-|---|---|
-| Product | Printify / SwiftPOD Ceramic Ornament Round (bp 1632; Economy ship; back-side upcharge NOT VERIFIED) |
-| Primary buyer | Newly engaged couples; friends/family buying for them |
-| Occasion | Christmas 2026 (first holiday engaged), engagement parties |
-| Primary keyword | engagement ornament |
-| Etsy searches | 10.6k |
-| Etsy listings | 51.9k |
-| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
-| Period change | not shown |
-| Etsy conversion label | High |
-| Searches/listings | 0.204 |
-| Secondary keywords (searches/listings conv) | personalized engagement ornament 3.1k/16.7k VH; first christmas engaged ornament 2.4k/14.2k T; engaged ornament 5.2k/29.6k L; engaged christmas ornament 1.4k/23.9k VH |
-| Trend | EARLY SIGNAL |
-| Competition | LOW |
-| New Shop Accessibility | HIGH |
-| Observed competitor evidence | "engagement ornament": 48 cards, median $13.99, 81% shown on sale, 12% free-shipping badge, 41/48 cards with 1k+ reviews, Bestseller 24, Star Seller 36, ads 3; detail pages: 4/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 37, ceramic 6, acrylic 2, porcelain 1; "personalized engagement ornament": 48 cards, median $13.24, 81% shown on sale, 12% free-shipping badge, 41/48 cards with 1k+ reviews, Bestseller 21, Star Seller 37, ads 3; detail pages: 4/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 39, ceramic 5, porcelain 1, acrylic 1 |
-| Observed POD cost (Printful) | $9.72 (base $4.93 + US ship $5.99) |
-| Selling price range | $9.96–$20.76 (P25–P75), median $13.99, full $4.49–$30.00; typical US shipping $5.99 |
-| Margin | VERIFIED: contribution $7.91 at median buyer price incl. shipping; $14.04 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $22.29 total incl. shipping. |
-| Personalization | YES — Both names + engagement date/year + optional city |
-| Expansion potential | VERY HIGH |
-| Thumbnail potential | HIGH |
-| Q4 | YES · Seasonality HIGH · Peak-risk MEDIUM · Evergreen MEDIUM |
-| IP risk | LOW APPARENT IP RISK (screen only) — No live exact USPTO mark for 'engaged', 'just engaged', 'our first christmas engaged' in product classes. Avoid 'JUST MARRIED' on apparel (Reg. 2932679, IC 025). |
-| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
-| Recommended next step | TEST NOW |
-
-**Why:** Conversion label is High/Very high across the engaged-ornament family, and listings are 14k–52k vs 140k for generic 'personalized ornament'.
-**Design direction:** Typography-led ceramic disc: two first names joined by a hand-drawn ring line, 'Engaged' + year, date on back. Offer 3-4 colourways (champagne, sage, navy, blush) as variations.
-**Primary risks:** Strongly Q4-peaked; engagement demand also spikes Dec-Feb (proposal season) which helps sell-through. / Crowded by laser-engraved wood; ceramic print must look premium in photos.
-
-### #02 — custom pet pillow
+### #01 — custom pet pillow
 **Opportunity Score:** 82/100 (Demand 14 · Competition 17 · Intent 15 · Margin 10 · Personalization 10* · Expansion 8* · Thumbnail 5* · Q4 3* · Penalty 0) — *analyst rating
 
 | Field | Value |
@@ -67,6 +32,41 @@
 **Why:** All three variants carry a Very high conversion label and 9.5k–18k listings — among the smallest fields in the dataset with this intent level.
 **Design direction:** Photo cut-out with clean white border; add a subtle printed name/paw-date on the reverse. Thumbnail: pillow next to the real-pet photo.
 **Primary risks:** Photo quality from buyers varies; needs a clear photo-guide and manual cut-out time per order. / Uses buyer photos: buyer must have rights; seller's value is the editing/design (disclose production partner).
+
+### #02 — engagement ornament
+**Opportunity Score:** 81/100 (Demand 20 · Competition 20 · Intent 12 · Margin 10 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 5* · Penalty -10) — *analyst rating
+
+| Field | Value |
+|---|---|
+| Product | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) |
+| Primary buyer | Newly engaged couples; friends/family buying for them |
+| Occasion | Christmas 2026 (first holiday engaged), engagement parties |
+| Primary keyword | engagement ornament |
+| Etsy searches | 10.6k |
+| Etsy listings | 51.9k |
+| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
+| Period change | not shown |
+| Etsy conversion label | High |
+| Searches/listings | 0.204 |
+| Secondary keywords (searches/listings conv) | personalized engagement ornament 3.1k/16.7k VH; first christmas engaged ornament 2.4k/14.2k T; engaged ornament 5.2k/29.6k L; engaged christmas ornament 1.4k/23.9k VH |
+| Trend | EARLY SIGNAL |
+| Competition | LOW |
+| New Shop Accessibility | HIGH |
+| Observed competitor evidence | "engagement ornament": 48 cards, median $13.99, 81% shown on sale, 12% free-shipping badge, 41/48 cards with 1k+ reviews, Bestseller 24, Star Seller 36, ads 3; detail pages: 4/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 37, ceramic 6, acrylic 2, porcelain 1; "personalized engagement ornament": 48 cards, median $13.24, 81% shown on sale, 12% free-shipping badge, 41/48 cards with 1k+ reviews, Bestseller 21, Star Seller 37, ads 3; detail pages: 4/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 39, ceramic 5, porcelain 1, acrylic 1 |
+| Observed POD cost (Printful) | $11.36 (base $6.57 + US ship $5.99) |
+| Selling price range | $9.96–$20.76 (P25–P75), median $13.99, full $4.49–$30.00; typical US shipping $5.99 |
+| Margin | VERIFIED: contribution $6.27 at median buyer price incl. shipping; $12.40 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $24.1 total incl. shipping. |
+| Personalization | YES — Both names + engagement date/year + optional city |
+| Expansion potential | VERY HIGH |
+| Thumbnail potential | HIGH |
+| Q4 | YES · Seasonality HIGH · Peak-risk MEDIUM · Evergreen MEDIUM |
+| IP risk | LOW APPARENT IP RISK (screen only) — No live exact USPTO mark for 'engaged', 'just engaged', 'our first christmas engaged' in product classes. Avoid 'JUST MARRIED' on apparel (Reg. 2932679, IC 025). |
+| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
+| Recommended next step | TEST NOW |
+
+**Why:** Conversion label is High/Very high across the engaged-ornament family, and listings are 14k–52k vs 140k for generic 'personalized ornament'.
+**Design direction:** Typography-led ceramic disc: two first names joined by a hand-drawn ring line, 'Engaged' + year, date on back. Offer 3-4 colourways (champagne, sage, navy, blush) as variations.
+**Primary risks:** Strongly Q4-peaked; engagement demand also spikes Dec-Feb (proposal season) which helps sell-through. / Crowded by laser-engraved wood; ceramic print must look premium in photos.
 
 ### #03 — auntie mug
 **Opportunity Score:** 81/100 (Demand 11 · Competition 20 · Intent 15 · Margin 8 · Personalization 9* · Expansion 9* · Thumbnail 5* · Q4 4* · Penalty 0) — *analyst rating
@@ -104,11 +104,11 @@
 **Primary risks:** Mug price ceiling is typically low; 15oz mug cost is $15.40.
 
 ### #04 — first christmas married ornament
-**Opportunity Score:** 79/100 (Demand 17 · Competition 17 · Intent 12 · Margin 14 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 5* · Penalty -10) — *analyst rating
+**Opportunity Score:** 75/100 (Demand 17 · Competition 17 · Intent 12 · Margin 10 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 5* · Penalty -10) — *analyst rating
 
 | Field | Value |
 |---|---|
-| Product | Printify / SwiftPOD Ceramic Ornament Round (bp 1632; Economy ship; back-side upcharge NOT VERIFIED) |
+| Product | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) |
 | Primary buyer | Newlyweds (2026 weddings); parents, wedding guests |
 | Occasion | First Christmas as married couple |
 | Primary keyword | first christmas married ornament |
@@ -123,9 +123,9 @@
 | Competition | LOW |
 | New Shop Accessibility | HIGH |
 | Observed competitor evidence | "first christmas married ornament": 48 cards, median $14.00, 88% shown on sale, 8% free-shipping badge, 39/48 cards with 1k+ reviews, Bestseller 21, Star Seller 40, ads 1; detail pages: 3/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 39, ceramic 4, wood 2, glass 1; "newlywed ornament": 48 cards, median $13.99, 85% shown on sale, 8% free-shipping badge, 40/48 cards with 1k+ reviews, Bestseller 26, Star Seller 41, ads 1; detail pages: 3/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 42, ceramic 4, glass 2 |
-| Observed POD cost (Printful) | $9.72 (base $4.93 + US ship $5.99) |
+| Observed POD cost (Printful) | $11.36 (base $6.57 + US ship $5.99) |
 | Selling price range | $9.90–$19.39 (P25–P75), median $14.00, full $3.45–$40.00; typical US shipping $5.99 |
-| Margin | VERIFIED: contribution $7.92 at median buyer price incl. shipping; $12.80 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $22.29 total incl. shipping. |
+| Margin | VERIFIED: contribution $6.28 at median buyer price incl. shipping; $11.16 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $24.1 total incl. shipping. |
 | Personalization | YES — Couple surname/first names + wedding date + 'first Christmas married 2026' |
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
@@ -139,11 +139,11 @@
 **Primary risks:** Very date-bound ('2026'): unsold designs need a year swap for 2027. / Wedding-season overlap: demand is highest Oct–Dec only.
 
 ### #05 — new house ornament
-**Opportunity Score:** 78/100 (Demand 14 · Competition 14 · Intent 12 · Margin 14 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 5* · Penalty -5) — *analyst rating
+**Opportunity Score:** 74/100 (Demand 14 · Competition 14 · Intent 12 · Margin 10 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 5* · Penalty -5) — *analyst rating
 
 | Field | Value |
 |---|---|
-| Product | Printify / SwiftPOD Ceramic Ornament Round (bp 1632; Economy ship; back-side upcharge NOT VERIFIED) |
+| Product | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) |
 | Primary buyer | New homeowners; friends; real-estate agents |
 | Occasion | First Christmas in new home; housewarming |
 | Primary keyword | new house ornament |
@@ -158,9 +158,9 @@
 | Competition | MEDIUM |
 | New Shop Accessibility | MEDIUM |
 | Observed competitor evidence | Related 'client gift' SERP (Table B) is dominated by watercolor house-portrait ornaments: median $20.99, top shop LoveSuna shows 62.7k reviews / 371.7k shop sales. | "new house ornament": 48 cards, median $14.41, 75% shown on sale, 8% free-shipping badge, 37/48 cards with 1k+ reviews, Bestseller 17, Star Seller 38, ads 1; detail pages: 2/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 42, ceramic 4, embroidered 1, wood 1 |
-| Observed POD cost (Printful) | $9.72 (base $4.93 + US ship $5.99) |
+| Observed POD cost (Printful) | $11.36 (base $6.57 + US ship $5.99) |
 | Selling price range | $9.99–$20.96 (P25–P75), median $14.41, full $3.99–$80.00; typical US shipping $5.99 |
-| Margin | VERIFIED: contribution $8.30 at median buyer price incl. shipping; $14.22 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $22.29 total incl. shipping. |
+| Margin | VERIFIED: contribution $6.66 at median buyer price incl. shipping; $12.58 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $24.1 total incl. shipping. |
 | Personalization | YES — House illustration from buyer photo or house-style template + address/family name + year |
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
@@ -173,47 +173,12 @@
 **Design direction:** Line-art house from photo (1-colour on white ceramic) — faster than watercolor, distinct from the dominant watercolor look.
 **Primary risks:** House drawings from photos take time; needs a template-based faster tier. / Dominated at the top by very large shops (verified on 'client gift').
 
-### #06 — baby's first christmas ornament
-**Opportunity Score:** 73/100 (Demand 17 · Competition 11 · Intent 12 · Margin 14 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 5* · Penalty -10) — *analyst rating
-
-| Field | Value |
-|---|---|
-| Product | Printify / SwiftPOD Ceramic Ornament Round (bp 1632; Economy ship; back-side upcharge NOT VERIFIED) |
-| Primary buyer | New parents; grandparents; baby-shower guests |
-| Occasion | Baby's first Christmas 2026 |
-| Primary keyword | baby's first christmas ornament |
-| Etsy searches | 8.2k |
-| Etsy listings | 88.9k |
-| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
-| Period change | +4.9% |
-| Etsy conversion label | High |
-| Searches/listings | 0.092 |
-| Secondary keywords (searches/listings conv) | first christmas ornament 19.6k/119.1k L; personalized baby ornament 3.2k/25.3k L; new baby ornament 3.5k/29.5k L; newborn christmas ornament 1.3k/20.2k T |
-| Trend | EARLY SIGNAL |
-| Competition | MEDIUM |
-| New Shop Accessibility | MEDIUM |
-| Observed competitor evidence | "baby's first christmas ornament": 48 cards, median $14.00, 73% shown on sale, 15% free-shipping badge, 40/48 cards with 1k+ reviews, Bestseller 13, Star Seller 32, ads 1; detail pages: 1/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 37, ceramic 3, wood 3, embroidered 2 |
-| Observed POD cost (Printful) | $9.72 (base $4.93 + US ship $5.99) |
-| Selling price range | $9.96–$22.10 (P25–P75), median $14.00, full $2.97–$41.59; typical US shipping $5.99 |
-| Margin | VERIFIED: contribution $7.92 at median buyer price incl. shipping; $15.25 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $22.29 total incl. shipping. |
-| Personalization | YES — Baby name + birth date/weight + year; optional photo on back |
-| Expansion potential | VERY HIGH |
-| Thumbnail potential | HIGH |
-| Q4 | YES · Seasonality HIGH · Peak-risk HIGH · Evergreen MEDIUM |
-| IP risk | LOW APPARENT IP RISK (screen only) — Use 'Baby's First Christmas' — 'MY FIRST CHRISTMAS' is registered (Reg. 4530374 IC 025 baby clothing; Reg. 2040424 IC 028 stuffed toys). |
-| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
-| Recommended next step | TEST NOW |
-
-**Why:** High conversion, +4.9% growth; 'first christmas ornament' alone has 19.6k searches with a 0.165 ratio.
-**Design direction:** Soft watercolour motif per month-of-birth (birth flower) + name + stats; back side photo. Blue/pink/neutral variations.
-**Primary risks:** Large, mature category (89k listings on the primary term). / Q4-only peak.
-
-### #07 — client gift
+### #06 — client gift
 **Opportunity Score:** 73/100 (Demand 20 · Competition 20 · Intent 3 · Margin 12 · Personalization 10* · Expansion 9* · Thumbnail 4* · Q4 5* · Penalty -10) — *analyst rating
 
 | Field | Value |
 |---|---|
-| Product | Printify / SwiftPOD Ceramic Ornament Round (bp 1632; Economy ship; back-side upcharge NOT VERIFIED) |
+| Product | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) |
 | Primary buyer | Real-estate agents, loan officers, small businesses (B2B) |
 | Occasion | Closings; year-end client appreciation |
 | Primary keyword | client gift |
@@ -228,9 +193,9 @@
 | Competition | LOW |
 | New Shop Accessibility | MEDIUM |
 | Observed competitor evidence | VERIFIED (Table B): 36,810 search results; price $2.03–$80.99, median $20.99; 96% personalized (title proxy); 28/48 cards show 1k+ reviews; Bestseller 14, Star Seller 34. Examples: LoveSuna $12.48 (62.7k reviews, 371.7k sales); HeldDearCo $11.74 (840, 8k); SNUGAMATE $25.12 (6.4k, 36.1k); Alishannondesigns $11.99 (1.1k, 8k); SeedlingGoodsLLC $9.99 (186, 1.2k). |
-| Observed POD cost (Printful) | $9.72 (base $4.93 + US ship $4.79) |
+| Observed POD cost (Printful) | $11.36 (base $6.57 + US ship $4.79) |
 | Selling price range | See competitor evidence (verified) |
-| Margin | VERIFIED: contribution $8.83 at median buyer price incl. shipping; P75 not recorded (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $22.29 total incl. shipping. |
+| Margin | VERIFIED: contribution $7.19 at median buyer price incl. shipping; P75 not recorded (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $24.1 total incl. shipping. |
 | Personalization | YES — Client house + family name + closing date; agent's own name/business on back (no third-party logos) |
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
@@ -244,7 +209,7 @@
 **Primary risks:** Very low conversion label (VL) and heavy concentration of 1k+ review shops on page one (verified). / Verified median price $20.99 vs $13.62 cost → about $4.9 contribution at median; bulk pricing needed.
 **Verified penalty:** extreme competition verified (28/48 page-one cards show 1k+ reviews) -10
 
-### #08 — dog memorial gift
+### #07 — dog memorial gift
 **Opportunity Score:** 70/100 (Demand 20 · Competition 14 · Intent 12 · Margin 8 · Personalization 10* · Expansion 9* · Thumbnail 4* · Q4 3* · Penalty -10) — *analyst rating
 
 | Field | Value |
@@ -279,7 +244,7 @@
 **Design direction:** Soft painted-style portrait from photo on canvas with name + dates; companion ornament and pillow versions for the same order.
 **Primary risks:** 428k listings — very crowded head term; winning needs long-tail listing titles (breed + memorial).
 
-### #09 — auntie shirt
+### #08 — auntie shirt
 **Opportunity Score:** 70/100 (Demand 14 · Competition 11 · Intent 12 · Margin 8 · Personalization 9* · Expansion 9* · Thumbnail 4* · Q4 3* · Penalty 0) — *analyst rating
 
 | Field | Value |
@@ -313,6 +278,41 @@
 **Why:** High conversion on 'auntie shirt' (3.8k searches); pairs with the auntie-mug niche.
 **Design direction:** Clean 'Auntie' wordmark with names on sleeve; matching 'Uncle' tee as cross-sell.
 **Primary risks:** 45.7k listings — medium competition. / Apparel sizing returns.
+
+### #09 — baby's first christmas ornament
+**Opportunity Score:** 69/100 (Demand 17 · Competition 11 · Intent 12 · Margin 10 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 5* · Penalty -10) — *analyst rating
+
+| Field | Value |
+|---|---|
+| Product | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) |
+| Primary buyer | New parents; grandparents; baby-shower guests |
+| Occasion | Baby's first Christmas 2026 |
+| Primary keyword | baby's first christmas ornament |
+| Etsy searches | 8.2k |
+| Etsy listings | 88.9k |
+| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
+| Period change | +4.9% |
+| Etsy conversion label | High |
+| Searches/listings | 0.092 |
+| Secondary keywords (searches/listings conv) | first christmas ornament 19.6k/119.1k L; personalized baby ornament 3.2k/25.3k L; new baby ornament 3.5k/29.5k L; newborn christmas ornament 1.3k/20.2k T |
+| Trend | EARLY SIGNAL |
+| Competition | MEDIUM |
+| New Shop Accessibility | MEDIUM |
+| Observed competitor evidence | "baby's first christmas ornament": 48 cards, median $14.00, 73% shown on sale, 15% free-shipping badge, 40/48 cards with 1k+ reviews, Bestseller 13, Star Seller 32, ads 1; detail pages: 1/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 37, ceramic 3, wood 3, embroidered 2 |
+| Observed POD cost (Printful) | $11.36 (base $6.57 + US ship $5.99) |
+| Selling price range | $9.96–$22.10 (P25–P75), median $14.00, full $2.97–$41.59; typical US shipping $5.99 |
+| Margin | VERIFIED: contribution $6.28 at median buyer price incl. shipping; $13.61 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $24.1 total incl. shipping. |
+| Personalization | YES — Baby name + birth date/weight + year; optional photo on back |
+| Expansion potential | VERY HIGH |
+| Thumbnail potential | HIGH |
+| Q4 | YES · Seasonality HIGH · Peak-risk HIGH · Evergreen MEDIUM |
+| IP risk | LOW APPARENT IP RISK (screen only) — Use 'Baby's First Christmas' — 'MY FIRST CHRISTMAS' is registered (Reg. 4530374 IC 025 baby clothing; Reg. 2040424 IC 028 stuffed toys). |
+| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
+| Recommended next step | RESEARCH MORE |
+
+**Why:** High conversion, +4.9% growth; 'first christmas ornament' alone has 19.6k searches with a 0.165 ratio.
+**Design direction:** Soft watercolour motif per month-of-birth (birth flower) + name + stats; back side photo. Blue/pink/neutral variations.
+**Primary risks:** Large, mature category (89k listings on the primary term). / Q4-only peak.
 
 ### #10 — retirement gifts for women
 **Opportunity Score:** 68/100 (Demand 20 · Competition 20 · Intent 6 · Margin 8 · Personalization 8* · Expansion 9* · Thumbnail 4* · Q4 3* · Penalty -10) — *analyst rating
@@ -389,7 +389,7 @@
 
 | Field | Value |
 |---|---|
-| Product | Printify / SwiftPOD Ceramic Ornament Round (bp 1632; Economy ship; back-side upcharge NOT VERIFIED) |
+| Product | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) |
 | Primary buyer | Parents; grandparents buying for adult children |
 | Occasion | Christmas |
 | Primary keyword | family of 4 ornament |
@@ -404,9 +404,9 @@
 | Competition | LOW |
 | New Shop Accessibility | HIGH |
 | Observed competitor evidence | "family of 4 ornament": 48 cards, median $9.41, 85% shown on sale, 15% free-shipping badge, 36/48 cards with 1k+ reviews, Bestseller 7, Star Seller 33, ads 13; detail pages: 2/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 31, wood 9, acrylic 2, glass 2 |
-| Observed POD cost (Printful) | $9.72 (base $4.93 + US ship $5.99) |
+| Observed POD cost (Printful) | $11.36 (base $6.57 + US ship $5.99) |
 | Selling price range | $5.69–$15.99 (P25–P75), median $9.41, full $0.44–$55.00; typical US shipping $5.99 |
-| Margin | VERIFIED: contribution $3.77 at median buyer price incl. shipping; $9.72 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $22.29 total incl. shipping. |
+| Margin | VERIFIED: contribution $2.13 at median buyer price incl. shipping; $8.08 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $24.1 total incl. shipping. |
 | Personalization | YES — Each family member's name (+ pets) with simple figures; 'family of 3/4/5/6' variations |
 | Expansion potential | VERY HIGH |
 | Thumbnail potential | HIGH |
@@ -459,7 +459,7 @@
 
 | Field | Value |
 |---|---|
-| Product | Printify / SwiftPOD Ceramic Ornament Round (bp 1632; Economy ship; back-side upcharge NOT VERIFIED) |
+| Product | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) |
 | Primary buyer | Godparents, grandparents |
 | Occasion | Baptism/christening, first Christmas |
 | Primary keyword | baptism ornament |
@@ -474,9 +474,9 @@
 | Competition | MEDIUM |
 | New Shop Accessibility | MEDIUM |
 | Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $9.72 (base $4.93 + US ship $4.79) |
+| Observed POD cost (Printful) | $11.36 (base $6.57 + US ship $4.79) |
 | Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $22.29; for $15: $27.81 (total incl. shipping). |
+| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $24.1; for $15: $29.62 (total incl. shipping). |
 | Personalization | YES — Child name + baptism date + church/city |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -599,7 +599,7 @@
 
 | Field | Value |
 |---|---|
-| Product | Printify / SwiftPOD Ceramic Ornament Round (bp 1632; Economy ship; back-side upcharge NOT VERIFIED) |
+| Product | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) |
 | Primary buyer | Expecting parents announcing to grandparents |
 | Occasion | Christmas pregnancy reveal |
 | Primary keyword | pregnancy ornament |
@@ -614,9 +614,9 @@
 | Competition | MEDIUM |
 | New Shop Accessibility | MEDIUM |
 | Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $9.72 (base $4.93 + US ship $4.79) |
+| Observed POD cost (Printful) | $11.36 (base $6.57 + US ship $4.79) |
 | Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $22.29; for $15: $27.81 (total incl. shipping). |
+| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $24.1; for $15: $29.62 (total incl. shipping). |
 | Personalization | YES — Due date + 'Grandma/Grandpa' names + baby nickname |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -634,7 +634,7 @@
 
 | Field | Value |
 |---|---|
-| Product | Printify / SwiftPOD Ceramic Ornament Round (bp 1632; Economy ship; back-side upcharge NOT VERIFIED) |
+| Product | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) |
 | Primary buyer | Cat owners after loss; friends |
 | Occasion | Pet loss; memorial Christmas |
 | Primary keyword | cat memorial ornament |
@@ -649,9 +649,9 @@
 | Competition | MEDIUM |
 | New Shop Accessibility | MEDIUM |
 | Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $9.72 (base $4.93 + US ship $4.79) |
+| Observed POD cost (Printful) | $11.36 (base $6.57 + US ship $4.79) |
 | Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $22.29; for $15: $27.81 (total incl. shipping). |
+| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $24.1; for $15: $29.62 (total incl. shipping). |
 | Personalization | YES — Cat photo or breed art + name + dates |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
