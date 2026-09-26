@@ -27,7 +27,7 @@ Rakiplerin çoğu üretim ortağı beyan ediyor. Kartların %73–96'sı "indiri
 
 ## Doğrulanmış fiyat bulguları (14 kelime, ilk 48 kart)
 
-| Keyword | Median | P25–P75 | Min–Max | On sale | Free-ship badge | 1k+ review cards | Typical US shipping | Detail pages with production partner | POD cost | Contribution at median (+ship) | Contribution at P75 (+ship) |
+| Keyword | Median | P25–P75 | Min–Max | On sale | Free-ship badge | Shop 1k+ review cards | Typical US shipping | Detail pages with production partner | POD cost | Contribution at median (+ship) | Contribution at P75 (+ship) |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | engagement ornament | $13.99 | $9.96–$20.76 | $4.49–$30.00 | 81% | 12% | 41/48 | $5.99 | 4/5 | $13.62 | $4.01 | $10.14 |
 | personalized engagement ornament | $13.24 | $9.96–$19.42 | $4.49–$30.00 | 81% | 12% | 41/48 | $5.99 | 4/5 | $13.62 | $3.33 | $8.93 |
@@ -47,7 +47,7 @@ Rakiplerin çoğu üretim ortağı beyan ediyor. Kartların %73–96'sı "indiri
 Notlar:
 - Bu tablodaki "Contribution" Printful maliyetiyle hesaplandı: (fiyat + gözlenen ABD kargosu) × (1 − %9.5) − $0.45 − maliyet. Reklam ve indirim kodları hariç. Diğer tedarikçiler için aşağıdaki senaryo tablosuna bakın.
 - Kart fiyatı en ucuz varyasyonu gösterir ("+" fiyatlar). Özellikle yastık ve çorapta bu fiyat aşağı yanlı.
-- "1k+ review cards": kartta gösterilen yorum sayısı. Bunun listing'e mi mağazaya mı ait olduğu kartta belirtilmiyor.
+- "Shop 1k+ review cards": karttaki puan ve yorum sayısı **mağazaya** ait, listing'e değil. Satış sayısı değildir.
 - Malzeme dağılımı yalnızca başlıktan tahmin edildi (görseller incelenmedi).
 
 ## Tedarikçi senaryoları (aynı doğrulanmış rakip fiyatları, farklı doğrulanmış POD maliyetleri)
@@ -143,6 +143,36 @@ Ham sayfa metinleri: `data/printify_raw/` · veri: `data/printify_costs_2026-09-
   - Aralık: habinisi $19.20 + $2.99 kargo ile aurespaces $52.70 (ücretsiz kargo) arası.
   - Üretim ortağı beyan eden satıcılar: Spreadshirt, Printcious (HK), Print Shop 3 (MN), Charlotte NC, Printify.
 
+## Round 5 — RESEARCH MORE katmanının rakip fiyatları (16 kelime, 26.09.2026)
+768 kart ve 80 detay sayfası. Kaynak: `data/etsy_price_snapshot_round5_2026-09-26_raw.txt`, analiz `data/price_analysis_round5.csv`.
+
+| Keyword | Median | P25–P75 | Min–Max | On sale | Shop 1k+ review cards | US shipping | POD product (cost) | Contribution at median | Contribution at P75 |
+|---|---|---|---|---|---|---|---|---|---|
+| pregnancy ornament | $12.67 | $7.99–$17.95 | $2.49–$37.00 | 81% | 38/48 | $5.99 | Printify/SwiftPOD ceramic 2-side ($11.36) | $5.08 | $9.86 |
+| uncle mug | $14.99 | $13.37–$17.14 | $5.95–$30.48 | 98% | 22/48 | $5.99 | Printful White Glossy Mug 11oz ($12.76) | $5.78 | $7.72 |
+| new grandma mug | $14.99 | $12.73–$16.97 | $4.99–$34.98 | 92% | 24/48 | $5.99 | Printful White Glossy Mug 11oz ($12.76) | $5.78 | $7.57 |
+| baptism ornament | $13.20 | $9.99–$14.95 | $4.49–$19.95 | 85% | 35/48 | $5.99 | Printify/SwiftPOD ceramic 2-side ($11.36) | $5.56 | $7.14 |
+| cat memorial ornament | $11.24 | $5.98–$14.53 | $3.50–$85.00 | 90% | 33/48 | $5.99 | Printify/SwiftPOD ceramic 2-side ($11.36) | $3.78 | $6.76 |
+| aunt shirt | $15.62 | $10.59–$19.74 | $4.44–$34.99 | 94% | 27/48 | $5.99 | Printful Bella+Canvas 3001 tee ($16.87) | $2.24 | $5.97 |
+| dog memorial gift | $17.90 | $10.88–$26.92 | $2.00–$69.00 | 96% | 27/48 | $6.23 | Printful Canvas 10x10 ($23.62) | $-2.24 | $5.93 |
+| turkey trot shirt | $14.20 | $9.79–$18.30 | $4.44–$29.48 | 100% | 25/48 | $5.95 | Printful Bella+Canvas 3001 tee ($16.87) | $0.92 | $4.63 |
+| auntie shirt | $13.99 | $9.99–$17.94 | $4.44–$34.99 | 96% | 26/48 | $5.99 | Printful Bella+Canvas 3001 tee ($16.87) | $0.76 | $4.34 |
+| custom embroidered sweatshirt | $24.70 | $18.80–$32.51 | $3.99–$53.99 | 96% | 24/48 | $6.08 | Printful Gildan 18000 embroidery ($30.91) | $-3.50 | $3.56 |
+| nurse sweatshirt | $18.92 | $12.02–$28.13 | $5.35–$54.40 | 96% | 29/48 | $5.95 | Printful Gildan 18000 ($27.96) | $-5.90 | $2.43 |
+| custom dog shirt | $10.54 | $8.88–$15.17 | $5.67–$29.35 | 100% | 23/48 | $5.99 | Printful Bella+Canvas 3001 tee ($16.87) | $-2.36 | $1.83 |
+| bookish stickers | $3.50 | $2.73–$4.00 | $0.37–$10.00 | 40% | 30/48 | $5.25 | Printful kiss-cut sticker 3x3 ($6.83) | $0.64 | $1.09 |
+| family christmas shirts | $9.39 | $6.71–$11.98 | $4.44–$46.40 | 98% | 38/48 | $7.52 | Printful Bella+Canvas 3001 tee ($16.87) | $-2.02 | $0.33 |
+| personalized grandma sweatshirt | $19.66 | $15.66–$26.96 | $7.21–$37.80 | 96% | 33/48 | $5.99 | Printful Gildan 18000 + sleeve ($33.91) | $-11.15 | $-4.54 |
+| christmas tree skirt | $23.52 | $12.64–$33.08 | $4.95–$77.41 | 81% | 18/48 | $4.93 | Printful Christmas Tree Skirt ($51.74) | $-26.45 | $-17.79 |
+
+Bu turun kendi uyarıları:
+- **Filtreler kelimeye göre değişti.** 12 kelimede Etsy'nin varsayılan "Exclude digital downloads" filtresi açıktı. "custom dog shirt", "personalized grandma sweatshirt" ve "custom embroidered sweatshirt" aramalarına Etsy kendiliğinden "Personalizable" filtresini uyguladı.
+- **"bookish stickers" aramasında hiçbir filtre yoktu**, yani dijital ürünler de sonuçlara karıştı. Medyan $3.50 bu yüzden fiziksel sticker fiyatı sayılamaz → bu fırsat **UNRESOLVED**.
+- Karttaki yorum sayıları mağaza düzeyinde.
+- Bir listing'de kart fiyatı ile ürün sayfası fiyatı farklıydı (OhForMugSake: kartta $16.62 indirimli, sayfada $27.70+). İkisi de ham dosyada.
+- Sıralama anlık. "auntie shirt" yeniden yüklendiğinde ilk kartların sırası değişti.
+- Önceki turdaki "Hide ads (n)" değerleri Etsy'nin değil bir tarayıcı eklentisinin verisiymiş; bu turda kaydedilmedi ve hiçbir hesapta kullanılmadı. Tablolardaki reklam sayıları Etsy'nin kart üzerindeki "Ad" etiketinden.
+
 ## Puanlama (araştırma önceliği, satış olasılığı değil)
 **Veriye dayalı bileşenler:**
 - **Talep (20):** Insights arama sayısı
@@ -177,12 +207,16 @@ Kod: `scripts/analyze_prices.py`, `scripts/supplier_scenarios.py`, `scripts/scor
 | 4 | #04 | first christmas married ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 6.7k | 33.8k | ratio 0.198, conv High (LOW) | HIGH | VERIFIED: $6.28 at median, $11.16 at P75 | YES | LOW APPARENT | TEST NOW | +11.4% growth, High conversion; SwiftPOD 2-side cost gives $6.28 at median / $11.16 at P75. |
 | 5 | #05 | new house ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 2.5k | 19.8k | ratio 0.126, conv High (MEDIUM) | MEDIUM | VERIFIED: $6.66 at median, $12.58 at P75 | YES | LOW APPARENT | TEST NOW | High conversion; SwiftPOD 2-side cost gives $6.66 at median / $12.58 at P75; doubles as housewarming/closing gift. |
 | 6 | #06 | client gift | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 15.9k | 21.1k | ratio 0.754, conv Very low (LOW) | MEDIUM | VERIFIED: $7.19 at median | YES | LOW APPARENT | RESEARCH MORE | 0.754 ratio; verified median $20.99 ($7.19 contribution at SwiftPOD 2-side cost) but page one is dominated by 1k+ review shops. |
-| 7 | #07 | dog memorial gift | Printful Canvas 10x10 (#3) | 61.4k | 428.2k | ratio 0.143, conv High (HIGH) | LOW | Cost $23.62 verified; price NOT VERIFIED | PARTIAL | LOW APPARENT | RESEARCH MORE | 61.4k searches, High conversion, evergreen; competitor prices not yet collected. |
-| 8 | #08 | auntie shirt | Printful Bella+Canvas 3001 tee (#71) | 3.8k | 45.7k | ratio 0.083, conv High (MEDIUM) | MEDIUM | Cost $16.87 verified; price NOT VERIFIED | PARTIAL | LOW APPARENT | RESEARCH MORE | High conversion; apparel keeps the auntie niche but prices are not yet verified. |
-| 9 | #09 | baby's first christmas ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 8.2k | 88.9k | ratio 0.092, conv High (MEDIUM) | MEDIUM | VERIFIED: $6.28 at median, $13.61 at P75 | YES | LOW APPARENT | RESEARCH MORE | High conversion; SwiftPOD 2-side cost gives $6.28 at median / $13.61 at P75; score 69 (just below the 70 cut-off). |
-| 10 | #10 | retirement gifts for women | Printful White Glossy Mug 11oz (#19) | 15.5k | 48.3k | ratio 0.321, conv Low (LOW) | MEDIUM | VERIFIED: $4.39 at median, $8.13 at P75 | PARTIAL | LOW APPARENT | RESEARCH MORE | 15.5k searches, 0.321 ratio; Printful 11oz mug gives $4.39 at median / $8.13 at P75. |
+| 7 | #07 | baby's first christmas ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 8.2k | 88.9k | ratio 0.092, conv High (MEDIUM) | MEDIUM | VERIFIED: $6.28 at median, $13.61 at P75 | YES | LOW APPARENT | RESEARCH MORE | High conversion; SwiftPOD 2-side cost gives $6.28 at median / $13.61 at P75; score 69 (just below the 70 cut-off). |
+| 8 | #08 | retirement gifts for women | Printful White Glossy Mug 11oz (#19) | 15.5k | 48.3k | ratio 0.321, conv Low (LOW) | MEDIUM | VERIFIED: $4.39 at median, $8.13 at P75 | PARTIAL | LOW APPARENT | RESEARCH MORE | 15.5k searches, 0.321 ratio; Printful 11oz mug gives $4.39 at median / $8.13 at P75. |
+| 9 | #09 | family of 4 ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 1.7k | 10.8k | ratio 0.157, conv Typical (LOW) | HIGH | VERIFIED: $2.13 at median, $8.08 at P75 | YES | LOW APPARENT | RESEARCH MORE |  |
+| 10 | #10 | personalized bookmark | Bookmark (no Printful product; supplier NOT VERIFIED) | 6.5k | 34.2k | ratio 0.19, conv Very high (LOW) | HIGH | SUPPLIER COST NOT VERIFIED | YES | LOW APPARENT | RESEARCH MORE |  |
 
-**TEST NOW olanlar:** custom dog pillow, engagement ornament, first christmas married ornament, new house ornament.
+**TEST NOW olanlar:** engagement ornament, custom dog pillow, first christmas married ornament, new house ornament.
+
+**Round 5 sonrası elenenler (7 REJECT):** hiçbir doğrulanmış POD tedarikçisiyle medyan fiyatta kâr çıkmayanlar — personalized christmas stocking, teacher thank you gift, custom dog shirt, nurse sweatshirt, christmas tree skirt, personalized grandma sweatshirt, family christmas shirts.
+
+**Round 5'te kurtulan ikinci sıra (katkı pozitif, puan eşiğin altında):** uncle mug ($5.78 / $7.72), new grandma mug ($5.78 / $7.57), baptism ornament ($5.56 / $7.14), pregnancy ornament ($5.08 / $9.86), cat memorial ornament ($3.78 / $6.76). Bunlar düşük hacimli ama pozitif marjlı; süs kümesine ek listing olarak eklenebilir.
 - **Süsler:** SwiftPOD Round çift yüz ($11.36, tamamen doğrulandı) ile medyanda ~$6.3–6.7, P75'te $11.16–$12.58 katkı. Aynı siparişteki her ek süs ~$5.4–5.8 daha ekliyor.
 - **Baby's first christmas ornament:** katkı iyi (medyan $6.28, P75 $13.61), ama puan 69 → eşiğin 1 puan altında, RESEARCH MORE. Tek yüz tasarımla ($9.72) katkı medyanda ~$7.9'a çıkar.
 - **Custom dog pillow:** boy eşleştirilmiş medyanda $4.05, P75'te $15.62 → ancak ~$40+ fiyatla.
@@ -233,7 +267,11 @@ Kod: `scripts/analyze_prices.py`, `scripts/supplier_scenarios.py`, `scripts/scor
   - Medyan $13.18 + $5.99 kargo.
   - Kartların %96'sı indirimde.
   - İncelenen 5 detay sayfasının 5'i de POD ortağı beyan ediyor (Printify dahil).
-- **Ekonomi:** En iyi doğrulanmış kupa maliyeti Printful 11oz ($12.76). Katkı $4.14 (medyan) / $6.49 (P75) → ince. Printify/Taylor 11oz Premium ile $5.23 / $7.58. Giyim versiyonu (auntie shirt, grandma sweatshirt) fiyat doğrulaması bekliyor.
+- **Ekonomi (round 5 ile tamamlandı):**
+  - Kupalar en iyi seçenek: uncle mug ve new grandma mug medyan $14.99 → katkı $5.78. Auntie mug $13.18 → $4.14.
+  - Giyim elendi: auntie shirt medyan $13.99 → katkı $0.76; aunt shirt $15.62 → $2.24.
+  - personalized grandma sweatshirt medyan $19.66, kol baskılı Printful maliyeti $33.91 → katkı −$11.15 → **REJECT**.
+  - Sonuç: bu küme kupa/süs olarak çalışır, giyim olarak çalışmaz.
 - **Özgün listing konsepti tahmini:** 30–40
 - **IP:** "COOL AUNT", "MAMA", NANA/MIMI/GIGI/GLAMMA tek başına kullanılmamalı.
 
@@ -243,7 +281,7 @@ Kod: `scripts/analyze_prices.py`, `scripts/supplier_scenarios.py`, `scripts/scor
 - **Doğrulanmış fiyat (retirement gifts for women):**
   - Medyan $13.46 + $5.99 kargo.
   - Mum, bardak ve kupa karışık bir pazar.
-- **Ekonomi:** Printful 11oz kupa ile katkı $4.39 / $8.13. Mesleğe özel sweatshirt fiyatları doğrulanmadı.
+- **Ekonomi:** Printful 11oz kupa ile katkı $4.39 / $8.13. Hemşire sweatshirt'ü round 5'te doğrulandı: medyan $18.92, Printful Gildan ile katkı −$5.90 → **REJECT**.
 - **Özgün listing konsepti tahmini:** 30–50
 - **IP:** "OFFICIALLY RETIRED", "RETIRED" (tek başına), "HAPPY RETIREMENT" (battaniye) kullanılmamalı.
 
@@ -299,28 +337,28 @@ Kod: `scripts/analyze_prices.py`, `scripts/supplier_scenarios.py`, `scripts/scor
 | #04 | 75 | first christmas married ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 6.7k | 33.8k | 0.198 | H | +11.4% | LOW | HIGH | $11.36 | $9.90–$19.39 (P25–P75), median $14.00, full $3.45–$40.00; typical US shipping $5.99 | $6.28 / $11.16 | VERIFIED CURRENT TREND | HIGH | HIGH | LOW | LOW APPARENT | TEST NOW |
 | #05 | 74 | new house ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 2.5k | 19.8k | 0.126 | H | not shown | MEDIUM | MEDIUM | $11.36 | $9.99–$20.96 (P25–P75), median $14.41, full $3.99–$80.00; typical US shipping $5.99 | $6.66 / $12.58 | EARLY SIGNAL | HIGH | MEDIUM | HIGH | LOW APPARENT | TEST NOW |
 | #06 | 73 | client gift | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 15.9k | 21.1k | 0.754 | VL | not shown | LOW | MEDIUM | $11.36 | $2.03–$80.99, median $20.99 (Table B, 48 cards); shipping NOT VERIFIED | $7.19 / — | EARLY SIGNAL | MEDIUM | MEDIUM | HIGH | LOW APPARENT | RESEARCH MORE |
-| #07 | 70 | dog memorial gift | Printful Canvas 10x10 (#3) | 61.4k | 428.2k | 0.143 | H | not shown | HIGH | LOW | $23.62 | NOT VERIFIED | — | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
-| #08 | 70 | auntie shirt | Printful Bella+Canvas 3001 tee (#71) | 3.8k | 45.7k | 0.083 | H | not shown | MEDIUM | MEDIUM | $16.87 | NOT VERIFIED | — | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
-| #09 | 69 | baby's first christmas ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 8.2k | 88.9k | 0.092 | H | +4.9% | MEDIUM | MEDIUM | $11.36 | $9.96–$22.10 (P25–P75), median $14.00, full $2.97–$41.59; typical US shipping $5.99 | $6.28 / $13.61 | EARLY SIGNAL | HIGH | HIGH | MEDIUM | LOW APPARENT | RESEARCH MORE |
-| #10 | 68 | retirement gifts for women | Printful White Glossy Mug 11oz (#19) | 15.5k | 48.3k | 0.321 | L | not shown | LOW | MEDIUM | $12.76 | $11.86–$17.59 (P25–P75), median $13.46, full $4.04–$64.50; typical US shipping $5.99 | $4.39 / $8.13 | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
-| #11 | 68 | bookish stickers | Printful Kiss-cut sticker 3x3 (#358) | 7.5k | 63.1k | 0.119 | T | not shown | MEDIUM | MEDIUM | $6.83 | NOT VERIFIED | — | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
-| #12 | 66 | family of 4 ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 1.7k | 10.8k | 0.157 | T | not shown | LOW | HIGH | $11.36 | $5.69–$15.99 (P25–P75), median $9.41, full $0.44–$55.00; typical US shipping $5.99 | $2.13 / $8.08 | EARLY SIGNAL | HIGH | HIGH | MEDIUM | LOW APPARENT | RESEARCH MORE |
-| #13 | 66 | personalized bookmark | Bookmark (no Printful product; supplier NOT VERIFIED) | 6.5k | 34.2k | 0.19 | VH | not shown | LOW | HIGH | NOT VERIFIED | NOT VERIFIED | — | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
-| #14 | 65 | baptism ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 2.9k | 31.4k | 0.092 | T | not shown | MEDIUM | MEDIUM | $11.36 | NOT VERIFIED | — | EVERGREEN | MEDIUM | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
-| #15 | 65 | custom dog shirt | Printful Bella+Canvas 3001 tee (#71) | 7.3k | 136.6k | 0.053 | VH | not shown | HIGH | LOW | $16.87 | NOT VERIFIED | — | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
-| #16 | 64 | personalized grandma sweatshirt | Printful Gildan 18000 + sleeve print (#145) | 645 | 30.7k | 0.021 | VH | not shown | HIGH | LOW | $33.91 | NOT VERIFIED | — | EARLY SIGNAL | MEDIUM | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
-| #17 | 64 | custom embroidered sweatshirt | Printful Gildan 18000, embroidery left chest (#145) | 11k | 111.2k | 0.099 | T | not shown | HIGH | LOW | $30.91 | NOT VERIFIED | — | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
-| #18 | 62 | pregnancy ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 1.7k | 19.3k | 0.088 | L | not shown | MEDIUM | MEDIUM | $11.36 | NOT VERIFIED | — | EARLY SIGNAL | HIGH | HIGH | LOW | LOW APPARENT | RESEARCH MORE |
-| #19 | 62 | cat memorial ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 3.2k | 46.7k | 0.069 | L | not shown | MEDIUM | MEDIUM | $11.36 | NOT VERIFIED | — | EVERGREEN | MEDIUM | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
-| #20 | 62 | nurse sweatshirt | Printful Gildan 18000 crewneck, front print (#145) | 17.1k | 160.8k | 0.106 | L | not shown | HIGH | LOW | $27.96 | NOT VERIFIED | — | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
-| #21 | 60 | uncle mug | Printful White Glossy Mug 11oz (#19) | 591 | 8.6k | 0.069 | H | not shown | MEDIUM | MEDIUM | $12.76 | NOT VERIFIED | — | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
-| #22 | 59 | turkey trot shirt | Printful Bella+Canvas 3001 tee (#71) | 878 | 5.4k | 0.163 | VL | not shown | LOW | MEDIUM | $16.87 | NOT VERIFIED | — | VERIFIED CURRENT TREND | HIGH | HIGH | LOW | LOW APPARENT | RESEARCH MORE |
-| #23 | 58 | new grandma mug | Printful White Glossy Mug 11oz (#19) | 405 | 28.2k | 0.014 | VH | not shown | HIGH | LOW | $12.76 | NOT VERIFIED | — | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
-| #24 | 57 | christmas tree skirt | Printful Christmas Tree Skirt (#1427) | 7.2k | 14.5k | 0.497 | VL | not shown | LOW | MEDIUM | $51.74 | NOT VERIFIED | — | EARLY SIGNAL | HIGH | HIGH | LOW | LOW APPARENT | RESEARCH MORE |
-| #25 | 56 | dog christmas stocking | Printful Rustic Christmas Stocking (#1428) | 2.4k | 27.4k | 0.088 | T | not shown | MEDIUM | MEDIUM | $24.96 | $5.97–$28.68 (P25–P75), median $15.47, full $3.00–$215.00; typical US shipping $5.95 | $-6.02 / $5.93 | EARLY SIGNAL | HIGH | HIGH | LOW | LOW APPARENT | RESEARCH MORE |
-| #26 | 56 | family christmas shirts | Printful Bella+Canvas 3001 tee (#71) | 6.1k | 121k | 0.05 | L | +17.5% | HIGH | LOW | $16.87 | NOT VERIFIED | — | VERIFIED CURRENT TREND | HIGH | HIGH | LOW | LOW APPARENT | RESEARCH MORE |
-| #27 | 71 | personalized christmas stocking | Printful Rustic Christmas Stocking (#1428) | 9.2k | 57.9k | 0.159 | VH | +30.3% | LOW | HIGH | $24.96 | $4.13–$24.99 (P25–P75), median $9.02, full $1.95–$79.95; typical US shipping $4.12 | $-13.52 / $0.93 | VERIFIED CURRENT TREND | HIGH | HIGH | LOW | LOW APPARENT | REJECT |
-| #28 | 60 | teacher thank you gift | Printful Eco Tote EC8000 (#367) | 3k | 39.6k | 0.076 | VH | not shown | MEDIUM | MEDIUM | $20.56 | $6.04–$14.99 (P25–P75), median $10.98, full $1.80–$39.99; typical US shipping $5.99 | $-5.65 / $-2.02 | EVERGREEN | MEDIUM | LOW | HIGH | LOW APPARENT | REJECT |
+| #07 | 69 | baby's first christmas ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 8.2k | 88.9k | 0.092 | H | +4.9% | MEDIUM | MEDIUM | $11.36 | $9.96–$22.10 (P25–P75), median $14.00, full $2.97–$41.59; typical US shipping $5.99 | $6.28 / $13.61 | EARLY SIGNAL | HIGH | HIGH | MEDIUM | LOW APPARENT | RESEARCH MORE |
+| #08 | 68 | retirement gifts for women | Printful White Glossy Mug 11oz (#19) | 15.5k | 48.3k | 0.321 | L | not shown | LOW | MEDIUM | $12.76 | $11.86–$17.59 (P25–P75), median $13.46, full $4.04–$64.50; typical US shipping $5.99 | $4.39 / $8.13 | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
+| #09 | 66 | family of 4 ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 1.7k | 10.8k | 0.157 | T | not shown | LOW | HIGH | $11.36 | $5.69–$15.99 (P25–P75), median $9.41, full $0.44–$55.00; typical US shipping $5.99 | $2.13 / $8.08 | EARLY SIGNAL | HIGH | HIGH | MEDIUM | LOW APPARENT | RESEARCH MORE |
+| #10 | 66 | personalized bookmark | Bookmark (no Printful product; supplier NOT VERIFIED) | 6.5k | 34.2k | 0.19 | VH | not shown | LOW | HIGH | NOT VERIFIED | NOT VERIFIED | — | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
+| #11 | 62 | dog memorial gift | Printful Canvas 10x10 (#3) | 61.4k | 428.2k | 0.143 | H | not shown | HIGH | LOW | $23.62 | $10.88–$26.92 (P25–P75), median $17.90, full $2.00–$69.00; typical US shipping $6.23 | $-2.24 / $5.93 | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
+| #12 | 62 | auntie shirt | Printful Bella+Canvas 3001 tee (#71) | 3.8k | 45.7k | 0.083 | H | not shown | MEDIUM | MEDIUM | $16.87 | $9.99–$17.94 (P25–P75), median $13.99, full $4.44–$34.99; typical US shipping $5.99 | $0.76 / $4.34 | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
+| #13 | 61 | bookish stickers | Printful Kiss-cut sticker 3x3 (#358) | 7.5k | 63.1k | 0.119 | T | not shown | MEDIUM | MEDIUM | $6.83 | $2.73–$4.00 (P25–P75), median $3.50, full $0.37–$10.00; typical US shipping $5.25 | — | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
+| #14 | 60 | baptism ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 2.9k | 31.4k | 0.092 | T | not shown | MEDIUM | MEDIUM | $11.36 | $9.99–$14.95 (P25–P75), median $13.20, full $4.49–$19.95; typical US shipping $5.99 | $5.56 / $7.14 | EVERGREEN | MEDIUM | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
+| #15 | 60 | uncle mug | Printful White Glossy Mug 11oz (#19) | 591 | 8.6k | 0.069 | H | not shown | MEDIUM | MEDIUM | $12.76 | $13.37–$17.14 (P25–P75), median $14.99, full $5.95–$30.48; typical US shipping $5.99 | $5.78 / $7.72 | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
+| #16 | 58 | new grandma mug | Printful White Glossy Mug 11oz (#19) | 405 | 28.2k | 0.014 | VH | not shown | HIGH | LOW | $12.76 | $12.73–$16.97 (P25–P75), median $14.99, full $4.99–$34.98; typical US shipping $5.99 | $5.78 / $7.57 | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
+| #17 | 56 | dog christmas stocking | Printful Rustic Christmas Stocking (#1428) | 2.4k | 27.4k | 0.088 | T | not shown | MEDIUM | MEDIUM | $24.96 | $5.97–$28.68 (P25–P75), median $15.47, full $3.00–$215.00; typical US shipping $5.95 | $-6.02 / $5.93 | EARLY SIGNAL | HIGH | HIGH | LOW | LOW APPARENT | RESEARCH MORE |
+| #18 | 56 | custom embroidered sweatshirt | Printful Gildan 18000, embroidery left chest (#145) | 11k | 111.2k | 0.099 | T | not shown | HIGH | LOW | $30.91 | $18.80–$32.51 (P25–P75), median $24.70, full $3.99–$53.99; typical US shipping $6.08 | $-3.50 / $3.56 | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
+| #19 | 53 | cat memorial ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 3.2k | 46.7k | 0.069 | L | not shown | MEDIUM | MEDIUM | $11.36 | $5.98–$14.53 (P25–P75), median $11.24, full $3.50–$85.00; typical US shipping $5.99 | $3.78 / $6.76 | EVERGREEN | MEDIUM | LOW | HIGH | LOW APPARENT | RESEARCH MORE |
+| #20 | 52 | pregnancy ornament | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) | 1.7k | 19.3k | 0.088 | L | not shown | MEDIUM | MEDIUM | $11.36 | $7.99–$17.95 (P25–P75), median $12.67, full $2.49–$37.00; typical US shipping $5.99 | $5.08 / $9.86 | EARLY SIGNAL | HIGH | HIGH | LOW | LOW APPARENT | RESEARCH MORE |
+| #21 | 51 | turkey trot shirt | Printful Bella+Canvas 3001 tee (#71) | 878 | 5.4k | 0.163 | VL | not shown | LOW | MEDIUM | $16.87 | $9.79–$18.30 (P25–P75), median $14.20, full $4.44–$29.48; typical US shipping $5.95 | $0.92 / $4.63 | VERIFIED CURRENT TREND | HIGH | HIGH | LOW | LOW APPARENT | RESEARCH MORE |
+| #22 | 71 | personalized christmas stocking | Printful Rustic Christmas Stocking (#1428) | 9.2k | 57.9k | 0.159 | VH | +30.3% | LOW | HIGH | $24.96 | $4.13–$24.99 (P25–P75), median $9.02, full $1.95–$79.95; typical US shipping $4.12 | $-13.52 / $0.93 | VERIFIED CURRENT TREND | HIGH | HIGH | LOW | LOW APPARENT | REJECT |
+| #23 | 60 | teacher thank you gift | Printful Eco Tote EC8000 (#367) | 3k | 39.6k | 0.076 | VH | not shown | MEDIUM | MEDIUM | $20.56 | $6.04–$14.99 (P25–P75), median $10.98, full $1.80–$39.99; typical US shipping $5.99 | $-5.65 / $-2.02 | EVERGREEN | MEDIUM | LOW | HIGH | LOW APPARENT | REJECT |
+| #24 | 57 | custom dog shirt | Printful Bella+Canvas 3001 tee (#71) | 7.3k | 136.6k | 0.053 | VH | not shown | HIGH | LOW | $16.87 | $8.88–$15.17 (P25–P75), median $10.54, full $5.67–$29.35; typical US shipping $5.99 | $-2.36 / $1.83 | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | REJECT |
+| #25 | 54 | nurse sweatshirt | Printful Gildan 18000 crewneck, front print (#145) | 17.1k | 160.8k | 0.106 | L | not shown | HIGH | LOW | $27.96 | $12.02–$28.13 (P25–P75), median $18.92, full $5.35–$54.40; typical US shipping $5.95 | $-5.90 / $2.43 | EVERGREEN | LOW | LOW | HIGH | LOW APPARENT | REJECT |
+| #26 | 52 | christmas tree skirt | Printful Christmas Tree Skirt (#1427) | 7.2k | 14.5k | 0.497 | VL | not shown | LOW | MEDIUM | $51.74 | $12.64–$33.08 (P25–P75), median $23.52, full $4.95–$77.41; typical US shipping $4.93 | $-26.45 / $-17.79 | EARLY SIGNAL | HIGH | HIGH | LOW | LOW APPARENT | REJECT |
+| #27 | 51 | personalized grandma sweatshirt | Printful Gildan 18000 + sleeve print (#145) | 645 | 30.7k | 0.021 | VH | not shown | HIGH | LOW | $33.91 | $15.66–$26.96 (P25–P75), median $19.66, full $7.21–$37.80; typical US shipping $5.99 | $-11.15 / $-4.54 | EARLY SIGNAL | MEDIUM | LOW | HIGH | LOW APPARENT | REJECT |
+| #28 | 38 | family christmas shirts | Printful Bella+Canvas 3001 tee (#71) | 6.1k | 121k | 0.05 | L | +17.5% | HIGH | LOW | $16.87 | $6.71–$11.98 (P25–P75), median $9.39, full $4.44–$46.40; typical US shipping $7.52 | $-2.02 / $0.33 | VERIFIED CURRENT TREND | HIGH | HIGH | LOW | LOW APPARENT | REJECT |
 
 TSV: `data/opportunities_copy.tsv` · Detaylı kartlar: `opportunities.md`
 

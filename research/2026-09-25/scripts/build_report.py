@@ -6,6 +6,7 @@ D = "research/2026-09-25/"
 R = list(csv.DictReader(open(D + "data/opportunities_scored.csv")))
 U = {r["keyword"]: r for r in csv.DictReader(open(D + "data/insights_keyword_universe.csv"))}
 PA = list(csv.DictReader(open(D + "data/price_analysis.csv")))
+PA5 = list(csv.DictReader(open(D + "data/price_analysis_round5.csv")))
 CONV = {"VH": "Very high", "H": "High", "T": "Typical", "L": "Low", "VL": "Very low"}
 
 def kw(k):
@@ -31,7 +32,7 @@ REASON = {
 }
 
 # ---- price findings table
-P = ["| Keyword | Median | P25–P75 | Min–Max | On sale | Free-ship badge | 1k+ review cards | Typical US shipping | Detail pages with production partner | POD cost | Contribution at median (+ship) | Contribution at P75 (+ship) |",
+P = ["| Keyword | Median | P25–P75 | Min–Max | On sale | Free-ship badge | Shop 1k+ review cards | Typical US shipping | Detail pages with production partner | POD cost | Contribution at median (+ship) | Contribution at P75 (+ship) |",
      "|---|---|---|---|---|---|---|---|---|---|---|---|"]
 for a in PA:
     ship = "free" if a["detail_ship_median"] == "all free" else money(a["detail_ship_median"])
@@ -39,6 +40,12 @@ for a in PA:
              f'{a["free_ship_cards_pct"]}% | {a["reviews_1k_plus"]}/48 | {ship} | {a["detail_partner"]}/{a["detail_n"]} | {money(a["pod_cost"])} | '
              f'{money(a["contrib_with_ship_at_median"])} | {money(a["contrib_at_p75_with_ship"])} |')
 price_table = "\n".join(P)
+P5t = ["| Keyword | Median | P25–P75 | Min–Max | On sale | Shop 1k+ review cards | US shipping | POD product (cost) | Contribution at median | Contribution at P75 |", "|---|---|---|---|---|---|---|---|---|---|"]
+for a in PA5:
+    sh = "free" if a["detail_ship_median"] == "all free" else money(a["detail_ship_median"])
+    P5t.append(f'| {a["keyword"]} | {money(a["median"])} | {money(a["p25"])}–{money(a["p75"])} | {money(a["min"])}–{money(a["max"])} | {a["on_sale_pct"]}% | '
+               f'{a["shop_reviews_1k_plus"]}/48 | {sh} | {a["product"]} ({money(a["pod_cost"])}) | {money(a["contrib_median"])} | {money(a["contrib_p75"])} |')
+price_table5 = "\n".join(P5t)
 
 S2 = ["| Keyword | Supplier (verified 2026-09-25) | Unit cost incl. US ship | Buyer total at median | Contribution at median | Contribution at P75 |", "|---|---|---|---|---|---|"]
 for x in SC:
@@ -117,7 +124,11 @@ clusters = f"""### Küme 1 — Çift ve kilometre taşı süsleri (talep en gü�
   - Medyan $13.18 + $5.99 kargo.
   - Kartların %96'sı indirimde.
   - İncelenen 5 detay sayfasının 5'i de POD ortağı beyan ediyor (Printify dahil).
-- **Ekonomi:** En iyi doğrulanmış kupa maliyeti Printful 11oz ($12.76). Katkı $4.14 (medyan) / $6.49 (P75) → ince. Printify/Taylor 11oz Premium ile $5.23 / $7.58. Giyim versiyonu (auntie shirt, grandma sweatshirt) fiyat doğrulaması bekliyor.
+- **Ekonomi (round 5 ile tamamlandı):**
+  - Kupalar en iyi seçenek: uncle mug ve new grandma mug medyan $14.99 → katkı $5.78. Auntie mug $13.18 → $4.14.
+  - Giyim elendi: auntie shirt medyan $13.99 → katkı $0.76; aunt shirt $15.62 → $2.24.
+  - personalized grandma sweatshirt medyan $19.66, kol baskılı Printful maliyeti $33.91 → katkı −$11.15 → **REJECT**.
+  - Sonuç: bu küme kupa/süs olarak çalışır, giyim olarak çalışmaz.
 - **Özgün listing konsepti tahmini:** 30–40
 - **IP:** "COOL AUNT", "MAMA", NANA/MIMI/GIGI/GLAMMA tek başına kullanılmamalı.
 
@@ -127,7 +138,7 @@ clusters = f"""### Küme 1 — Çift ve kilometre taşı süsleri (talep en gü�
 - **Doğrulanmış fiyat (retirement gifts for women):**
   - Medyan $13.46 + $5.99 kargo.
   - Mum, bardak ve kupa karışık bir pazar.
-- **Ekonomi:** Printful 11oz kupa ile katkı $4.39 / $8.13. Mesleğe özel sweatshirt fiyatları doğrulanmadı.
+- **Ekonomi:** Printful 11oz kupa ile katkı $4.39 / $8.13. Hemşire sweatshirt'ü round 5'te doğrulandı: medyan $18.92, Printful Gildan ile katkı −$5.90 → **REJECT**.
 - **Özgün listing konsepti tahmini:** 30–50
 - **IP:** "OFFICIALLY RETIRED", "RETIRED" (tek başına), "HAPPY RETIREMENT" (battaniye) kullanılmamalı.
 
@@ -175,7 +186,7 @@ Rakiplerin çoğu üretim ortağı beyan ediyor. Kartların %73–96'sı "indiri
 Notlar:
 - Bu tablodaki "Contribution" Printful maliyetiyle hesaplandı: (fiyat + gözlenen ABD kargosu) × (1 − %9.5) − $0.45 − maliyet. Reklam ve indirim kodları hariç. Diğer tedarikçiler için aşağıdaki senaryo tablosuna bakın.
 - Kart fiyatı en ucuz varyasyonu gösterir ("+" fiyatlar). Özellikle yastık ve çorapta bu fiyat aşağı yanlı.
-- "1k+ review cards": kartta gösterilen yorum sayısı. Bunun listing'e mi mağazaya mı ait olduğu kartta belirtilmiyor.
+- "Shop 1k+ review cards": karttaki puan ve yorum sayısı **mağazaya** ait, listing'e değil. Satış sayısı değildir.
 - Malzeme dağılımı yalnızca başlıktan tahmin edildi (görseller incelenmedi).
 
 ## Tedarikçi senaryoları (aynı doğrulanmış rakip fiyatları, farklı doğrulanmış POD maliyetleri)
@@ -197,6 +208,19 @@ Ham sayfa metinleri: `data/printify_raw/` · veri: `data/printify_costs_2026-09-
 - **Pet pillow ~16" (12 listing):** fiyat + kargo medyanı $30.16, P75 $42.94.
   - Aralık: habinisi $19.20 + $2.99 kargo ile aurespaces $52.70 (ücretsiz kargo) arası.
   - Üretim ortağı beyan eden satıcılar: Spreadshirt, Printcious (HK), Print Shop 3 (MN), Charlotte NC, Printify.
+
+## Round 5 — RESEARCH MORE katmanının rakip fiyatları (16 kelime, 26.09.2026)
+768 kart ve 80 detay sayfası. Kaynak: `data/etsy_price_snapshot_round5_2026-09-26_raw.txt`, analiz `data/price_analysis_round5.csv`.
+
+{price_table5}
+
+Bu turun kendi uyarıları:
+- **Filtreler kelimeye göre değişti.** 12 kelimede Etsy'nin varsayılan "Exclude digital downloads" filtresi açıktı. "custom dog shirt", "personalized grandma sweatshirt" ve "custom embroidered sweatshirt" aramalarına Etsy kendiliğinden "Personalizable" filtresini uyguladı.
+- **"bookish stickers" aramasında hiçbir filtre yoktu**, yani dijital ürünler de sonuçlara karıştı. Medyan $3.50 bu yüzden fiziksel sticker fiyatı sayılamaz → bu fırsat **UNRESOLVED**.
+- Karttaki yorum sayıları mağaza düzeyinde.
+- Bir listing'de kart fiyatı ile ürün sayfası fiyatı farklıydı (OhForMugSake: kartta $16.62 indirimli, sayfada $27.70+). İkisi de ham dosyada.
+- Sıralama anlık. "auntie shirt" yeniden yüklendiğinde ilk kartların sırası değişti.
+- Önceki turdaki "Hide ads (n)" değerleri Etsy'nin değil bir tarayıcı eklentisinin verisiymiş; bu turda kaydedilmedi ve hiçbir hesapta kullanılmadı. Tablolardaki reklam sayıları Etsy'nin kart üzerindeki "Ad" etiketinden.
 
 ## Puanlama (araştırma önceliği, satış olasılığı değil)
 **Veriye dayalı bileşenler:**
@@ -226,7 +250,11 @@ Kod: `scripts/analyze_prices.py`, `scripts/supplier_scenarios.py`, `scripts/scor
 
 {top10}
 
-**TEST NOW olanlar:** custom dog pillow, engagement ornament, first christmas married ornament, new house ornament.
+**TEST NOW olanlar:** engagement ornament, custom dog pillow, first christmas married ornament, new house ornament.
+
+**Round 5 sonrası elenenler (7 REJECT):** hiçbir doğrulanmış POD tedarikçisiyle medyan fiyatta kâr çıkmayanlar — personalized christmas stocking, teacher thank you gift, custom dog shirt, nurse sweatshirt, christmas tree skirt, personalized grandma sweatshirt, family christmas shirts.
+
+**Round 5'te kurtulan ikinci sıra (katkı pozitif, puan eşiğin altında):** uncle mug ($5.78 / $7.72), new grandma mug ($5.78 / $7.57), baptism ornament ($5.56 / $7.14), pregnancy ornament ($5.08 / $9.86), cat memorial ornament ($3.78 / $6.76). Bunlar düşük hacimli ama pozitif marjlı; süs kümesine ek listing olarak eklenebilir.
 - **Süsler:** SwiftPOD Round çift yüz ($11.36, tamamen doğrulandı) ile medyanda ~$6.3–6.7, P75'te $11.16–$12.58 katkı. Aynı siparişteki her ek süs ~$5.4–5.8 daha ekliyor.
 - **Baby's first christmas ornament:** katkı iyi (medyan $6.28, P75 $13.61), ama puan 69 → eşiğin 1 puan altında, RESEARCH MORE. Tek yüz tasarımla ($9.72) katkı medyanda ~$7.9'a çıkar.
 - **Custom dog pillow:** boy eşleştirilmiş medyanda $4.05, P75'te $15.62 → ancak ~$40+ fiyatla.

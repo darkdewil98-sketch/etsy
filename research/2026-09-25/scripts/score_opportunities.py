@@ -247,7 +247,7 @@ C = [
 
 # Penalties backed by verified Table B evidence (keyword -> (points, reason)).
 VERIFIED_PENALTY = {
-    "client gift": (-10, "extreme competition verified (28/48 page-one cards show 1k+ reviews) -10"),
+    "client gift": (-10, "extreme competition verified (28/48 page-one cards come from shops with 1k+ reviews) -10"),
 }
 
 # Verified competitor prices (data/price_analysis.csv from the 14-keyword Etsy snapshot, 2026-09-25).
@@ -267,7 +267,16 @@ PRICE_KW = {  # opportunity -> snapshot keywords used as evidence (first one dri
     "teacher thank you gift": ["teacher thank you gift"],
 }
 # Card prices for pet pillows are "from" prices of keychain/mini sizes; size-matched 16in price is not visible.
-PRICE_UNRESOLVED = {}
+PRICE_UNRESOLVED = {"bookish stickers": "the 'bookish stickers' search ran with NO filter chip, so digital downloads are mixed into the "
+                                       "48 cards (median $3.50); a physical-sticker-only price was not isolated"}
+# Round-5 opportunities priced from price_analysis_round5.csv (opportunity keyword -> snapshot keywords)
+PRICE_KW5 = {"auntie shirt": ["auntie shirt", "aunt shirt"], "dog memorial gift": ["dog memorial gift"],
+             "cat memorial ornament": ["cat memorial ornament"], "baptism ornament": ["baptism ornament"],
+             "pregnancy ornament": ["pregnancy ornament"], "custom dog shirt": ["custom dog shirt"],
+             "personalized grandma sweatshirt": ["personalized grandma sweatshirt"], "new grandma mug": ["new grandma mug"],
+             "uncle mug": ["uncle mug"], "bookish stickers": ["bookish stickers"], "nurse sweatshirt": ["nurse sweatshirt"],
+             "custom embroidered sweatshirt": ["custom embroidered sweatshirt"], "family christmas shirts": ["family christmas shirts"],
+             "turkey trot shirt": ["turkey trot shirt"], "christmas tree skirt": ["christmas tree skirt"]}
 # Size-matched ~16in pet-pillow buyer totals (price + US shipping), 12 listings, round 3 (data/pillow_16in_prices.csv)
 PILLOW = {r[0]: r[1] for r in csv.reader(open("research/2026-09-25/data/pillow_16in_prices.csv")) if len(r) == 2}
 def pts_margin_verified(c_med, c_p75):
@@ -289,6 +298,8 @@ def access(r, li, conv):
 
 U = {r["keyword"]: r for r in csv.DictReader(open(UNIVERSE))}
 P = {r["keyword"]: r for r in csv.DictReader(open(PRICE_FILE))}
+# Round 5 (2026-09-26): 16 more keywords, same method. Card review counts are SHOP-level ratings, not sales.
+P5 = {r["keyword"]: r for r in csv.DictReader(open("research/2026-09-25/data/price_analysis_round5.csv"))}
 rows = []
 for (kw, sec, pk, buyer, occ, pmeth, pers, exp, thumb, q4, season, peak, ever, trend, ip, comp_ev, design, why, risks) in C:
     u = U[kw]
@@ -312,7 +323,7 @@ for (kw, sec, pk, buyer, occ, pmeth, pers, exp, thumb, q4, season, peak, ever, t
                            f'median ${pm:.2f}, full ${float(PILLOW["min"]):.2f}–${float(PILLOW["max"]):.2f}')
         price_ev = "; ".join(
             f'"{x["keyword"]}": {x["cards"]} cards, median ${float(x["median"]):.2f}, {x["on_sale_pct"]}% shown on sale, {x["free_ship_cards_pct"]}% free-shipping badge, '
-            f'{x["reviews_1k_plus"]}/48 cards with 1k+ reviews, Bestseller {x["bestseller"]}, Star Seller {x["star"]}, ads {x["ads"]}; '
+            f'{x["reviews_1k_plus"]}/48 cards whose shop rating shows 1k+ reviews, Bestseller {x["bestseller"]}, Star Seller {x["star"]}, ads {x["ads"]}; '
             f'detail pages: {x["detail_partner"]}/{x["detail_n"]} disclose a production partner, median US shipping {x["detail_ship_median"]}; materials (title guess): {x["top_materials"]}'
             for x in pa)
         if kw in PRICE_UNRESOLVED:
@@ -321,6 +332,23 @@ for (kw, sec, pk, buyer, occ, pmeth, pers, exp, thumb, q4, season, peak, ever, t
             mg = pts_margin_verified(c_med, c_p75)
         dom_pen = pts_verified_dominance(int(a["reviews_1k_plus"]))
         pen += dom_pen
+    elif kw in PRICE_KW5:
+        pa = [P5[k] for k in PRICE_KW5[kw]]; a = pa[0]
+        ship = 0.0 if a["detail_ship_median"] == "all free" else float(a["detail_ship_median"])
+        c_med, c_p75 = float(a["contrib_median"]), float(a["contrib_p75"])
+        price_range = (f'${float(a["p25"]):.2f}–${float(a["p75"]):.2f} (P25–P75), median ${float(a["median"]):.2f}, '
+                       f'full ${float(a["min"]):.2f}–${float(a["max"]):.2f}; typical US shipping ${ship:.2f}')
+        price_ev = "; ".join(
+            f'"{x["keyword"]}" (round 5, 2026-09-26): {x["result_count"]} results, filters: {x["filters"]}; {x["cards"]} cards, '
+            f'median ${float(x["median"]):.2f}, {x["on_sale_pct"]}% shown on sale, {x["free_ship_pct"]}% free-shipping badge, '
+            f'{x["shop_reviews_1k_plus"]}/48 cards whose SHOP rating shows 1k+ reviews, Bestseller {x["bestseller"]}, Star Seller {x["star"]}, '
+            f'Etsy-labelled ads {x["ads"]}; detail pages: {x["detail_partner"]}/{x["detail_n"]} disclose a production partner, '
+            f'median US shipping ${ship:.2f}; materials (title guess): {x["top_materials"]}' for x in pa)
+        if kw in PRICE_UNRESOLVED:
+            mg = 6; c_med = c_p75 = None
+        else:
+            mg = pts_margin_verified(c_med, c_p75)
+        dom_pen = pts_verified_dominance(int(a["shop_reviews_1k_plus"])); pen += dom_pen
     elif kw == "client gift":
         # Table B: verified median $20.99; shipping not recorded -> assume buyer pays no shipping (conservative)
         c_med = round(20.99 * 0.905 - FEE_FIX - cost, 2); mg = pts_margin_verified(c_med, 0)
@@ -328,7 +356,7 @@ for (kw, sec, pk, buyer, occ, pmeth, pers, exp, thumb, q4, season, peak, ever, t
     elif not comp_ev.startswith("VERIFIED"):
         mg = min(mg, 8)  # competitor price not verified: cap margin at neutral (conservative)
     score = max(0, d + cpt + it + mg + pers + exp + thumb + q4 + pen)
-    if kw in PRICE_KW and kw not in PRICE_UNRESOLVED:
+    if (kw in PRICE_KW or kw in PRICE_KW5) and kw not in PRICE_UNRESOLVED:
         nxt = "REJECT" if c_p75 < 3 else "TEST NOW" if (c_med >= 4 and c_p75 >= 8 and score >= 70) else "RESEARCH MORE"
     elif kw in PRICE_UNRESOLVED:
         nxt = "RESEARCH MORE"

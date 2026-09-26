@@ -17,7 +17,7 @@
 | Trend | EARLY SIGNAL |
 | Competition | LOW |
 | New Shop Accessibility | HIGH |
-| Observed competitor evidence | "engagement ornament": 48 cards, median $13.99, 81% shown on sale, 12% free-shipping badge, 41/48 cards with 1k+ reviews, Bestseller 24, Star Seller 36, ads 3; detail pages: 4/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 37, ceramic 6, acrylic 2, porcelain 1; "personalized engagement ornament": 48 cards, median $13.24, 81% shown on sale, 12% free-shipping badge, 41/48 cards with 1k+ reviews, Bestseller 21, Star Seller 37, ads 3; detail pages: 4/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 39, ceramic 5, porcelain 1, acrylic 1 |
+| Observed competitor evidence | "engagement ornament": 48 cards, median $13.99, 81% shown on sale, 12% free-shipping badge, 41/48 cards whose shop rating shows 1k+ reviews, Bestseller 24, Star Seller 36, ads 3; detail pages: 4/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 37, ceramic 6, acrylic 2, porcelain 1; "personalized engagement ornament": 48 cards, median $13.24, 81% shown on sale, 12% free-shipping badge, 41/48 cards whose shop rating shows 1k+ reviews, Bestseller 21, Star Seller 37, ads 3; detail pages: 4/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 39, ceramic 5, porcelain 1, acrylic 1 |
 | Observed POD cost (Printful) | $11.36 (base $6.57 + US ship $5.99) |
 | Selling price range | $9.96–$20.76 (P25–P75), median $13.99, full $4.49–$30.00; typical US shipping $5.99 |
 | Margin | VERIFIED: contribution $6.27 at median buyer price incl. shipping; $12.40 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $24.1 total incl. shipping. |
@@ -52,7 +52,7 @@
 | Trend | EVERGREEN |
 | Competition | LOW |
 | New Shop Accessibility | HIGH |
-| Observed competitor evidence | "auntie mug": 48 cards, median $13.18, 96% shown on sale, 0% free-shipping badge, 25/48 cards with 1k+ reviews, Bestseller 16, Star Seller 35, ads 17; detail pages: 5/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 43, ceramic 4, glass 1 |
+| Observed competitor evidence | "auntie mug": 48 cards, median $13.18, 96% shown on sale, 0% free-shipping badge, 25/48 cards whose shop rating shows 1k+ reviews, Bestseller 16, Star Seller 35, ads 17; detail pages: 5/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 43, ceramic 4, glass 1 |
 | Observed POD cost (Printful) | $12.76 (base $6.07 + US ship $5.99) |
 | Selling price range | $10.99–$15.78 (P25–P75), median $13.18, full $4.25–$26.22; typical US shipping $5.99 |
 | Margin | VERIFIED: contribution $4.14 at median buyer price incl. shipping; $6.49 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $25.65 total incl. shipping. |
@@ -87,7 +87,7 @@
 | Trend | EVERGREEN |
 | Competition | MEDIUM |
 | New Shop Accessibility | MEDIUM |
-| Observed competitor evidence | "custom dog pillow": 48 cards, median $12.39, 96% shown on sale, 42% free-shipping badge, 24/48 cards with 1k+ reviews, Bestseller 22, Star Seller 34, ads 18; detail pages: 1/5 disclose a production partner, median US shipping 6.22; materials (title guess): fabric 35, ceramic 5, unclear 4, fabric/printed 2; "custom pet pillow": 48 cards, median $10.43, 96% shown on sale, 44% free-shipping badge, 23/48 cards with 1k+ reviews, Bestseller 21, Star Seller 31, ads 19; detail pages: 1/5 disclose a production partner, median US shipping 6.22; materials (title guess): fabric 37, unclear 5, ceramic 3, fabric/printed 2 |
+| Observed competitor evidence | "custom dog pillow": 48 cards, median $12.39, 96% shown on sale, 42% free-shipping badge, 24/48 cards whose shop rating shows 1k+ reviews, Bestseller 22, Star Seller 34, ads 18; detail pages: 1/5 disclose a production partner, median US shipping 6.22; materials (title guess): fabric 35, ceramic 5, unclear 4, fabric/printed 2; "custom pet pillow": 48 cards, median $10.43, 96% shown on sale, 44% free-shipping badge, 23/48 cards whose shop rating shows 1k+ reviews, Bestseller 21, Star Seller 31, ads 19; detail pages: 1/5 disclose a production partner, median US shipping 6.22; materials (title guess): fabric 37, unclear 5, ceramic 3, fabric/printed 2 |
 | Observed POD cost (Printful) | $22.79 (base $16.60 + US ship $6.22) |
 | Selling price range | ~16in size-matched buyer totals (price+shipping), 12 listings: $27.96–$42.94 (P25–P75), median $30.16, full $22.19–$52.70 |
 | Margin | VERIFIED: contribution $4.05 at median buyer price incl. shipping; $15.62 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $36.73 total incl. shipping. |
@@ -122,7 +122,7 @@
 | Trend | VERIFIED CURRENT TREND |
 | Competition | LOW |
 | New Shop Accessibility | HIGH |
-| Observed competitor evidence | "first christmas married ornament": 48 cards, median $14.00, 88% shown on sale, 8% free-shipping badge, 39/48 cards with 1k+ reviews, Bestseller 21, Star Seller 40, ads 1; detail pages: 3/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 39, ceramic 4, wood 2, glass 1; "newlywed ornament": 48 cards, median $13.99, 85% shown on sale, 8% free-shipping badge, 40/48 cards with 1k+ reviews, Bestseller 26, Star Seller 41, ads 1; detail pages: 3/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 42, ceramic 4, glass 2 |
+| Observed competitor evidence | "first christmas married ornament": 48 cards, median $14.00, 88% shown on sale, 8% free-shipping badge, 39/48 cards whose shop rating shows 1k+ reviews, Bestseller 21, Star Seller 40, ads 1; detail pages: 3/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 39, ceramic 4, wood 2, glass 1; "newlywed ornament": 48 cards, median $13.99, 85% shown on sale, 8% free-shipping badge, 40/48 cards whose shop rating shows 1k+ reviews, Bestseller 26, Star Seller 41, ads 1; detail pages: 3/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 42, ceramic 4, glass 2 |
 | Observed POD cost (Printful) | $11.36 (base $6.57 + US ship $5.99) |
 | Selling price range | $9.90–$19.39 (P25–P75), median $14.00, full $3.45–$40.00; typical US shipping $5.99 |
 | Margin | VERIFIED: contribution $6.28 at median buyer price incl. shipping; $11.16 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $24.1 total incl. shipping. |
@@ -157,7 +157,7 @@
 | Trend | EARLY SIGNAL |
 | Competition | MEDIUM |
 | New Shop Accessibility | MEDIUM |
-| Observed competitor evidence | Related 'client gift' SERP (Table B) is dominated by watercolor house-portrait ornaments: median $20.99, top shop LoveSuna shows 62.7k reviews / 371.7k shop sales. | "new house ornament": 48 cards, median $14.41, 75% shown on sale, 8% free-shipping badge, 37/48 cards with 1k+ reviews, Bestseller 17, Star Seller 38, ads 1; detail pages: 2/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 42, ceramic 4, embroidered 1, wood 1 |
+| Observed competitor evidence | Related 'client gift' SERP (Table B) is dominated by watercolor house-portrait ornaments: median $20.99, top shop LoveSuna shows 62.7k reviews / 371.7k shop sales. | "new house ornament": 48 cards, median $14.41, 75% shown on sale, 8% free-shipping badge, 37/48 cards whose shop rating shows 1k+ reviews, Bestseller 17, Star Seller 38, ads 1; detail pages: 2/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 42, ceramic 4, embroidered 1, wood 1 |
 | Observed POD cost (Printful) | $11.36 (base $6.57 + US ship $5.99) |
 | Selling price range | $9.99–$20.96 (P25–P75), median $14.41, full $3.99–$80.00; typical US shipping $5.99 |
 | Margin | VERIFIED: contribution $6.66 at median buyer price incl. shipping; $12.58 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $24.1 total incl. shipping. |
@@ -207,79 +207,9 @@
 **Why:** Best ratio of any POD-able keyword (0.754: 15.9k searches vs 21.1k listings); B2B buyers order multiples.
 **Design direction:** Agent-branded bulk pack (5/10/25 ornaments) with a clean line-art house style; year-end 'thank you' client-appreciation version.
 **Primary risks:** Very low conversion label (VL) and heavy concentration of 1k+ review shops on page one (verified). / Verified median price $20.99 vs $13.62 cost → about $4.9 contribution at median; bulk pricing needed.
-**Verified penalty:** extreme competition verified (28/48 page-one cards show 1k+ reviews) -10
+**Verified penalty:** extreme competition verified (28/48 page-one cards come from shops with 1k+ reviews) -10
 
-### #07 — dog memorial gift
-**Opportunity Score:** 70/100 (Demand 20 · Competition 14 · Intent 12 · Margin 8 · Personalization 10* · Expansion 9* · Thumbnail 4* · Q4 3* · Penalty -10) — *analyst rating
-
-| Field | Value |
-|---|---|
-| Product | Printful Canvas 10x10 (#3) |
-| Primary buyer | Grieving dog owners; friends sending sympathy gifts |
-| Occasion | Pet loss (year-round), memorial Christmas |
-| Primary keyword | dog memorial gift |
-| Etsy searches | 61.4k |
-| Etsy listings | 428.2k |
-| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
-| Period change | not shown |
-| Etsy conversion label | High |
-| Searches/listings | 0.143 |
-| Secondary keywords (searches/listings conv) | pet memorial gift 55.9k/555k T; pet remembrance gift 21.3k/183.3k H; dog remembrance gift 11.9k/145.8k H |
-| Trend | EVERGREEN |
-| Competition | HIGH |
-| New Shop Accessibility | LOW |
-| Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $23.62 (base $16.83 + US ship $6.79) |
-| Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $37.65; for $15: $43.17 (total incl. shipping). |
-| Personalization | YES — Pet photo portrait + name + years |
-| Expansion potential | VERY HIGH |
-| Thumbnail potential | HIGH |
-| Q4 | PARTIAL · Seasonality LOW · Peak-risk LOW · Evergreen HIGH |
-| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'RAINBOW BRIDGE' (Reg. 2725281, IC 020: pet memorial plaques/markers/urns; Reg. 8198078 IC 028 covers toy bikes), 'FOREVER IN MY HEART' (Reg. 7359901, IC 020 pillows), 'ALWAYS IN MY HEART' (IC 014 jewelry; IC 016 pending). |
-| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
-| Recommended next step | RESEARCH MORE |
-
-**Why:** Largest-volume keyword in the pet cluster (61.4k searches) with a High conversion label; evergreen demand.
-**Design direction:** Soft painted-style portrait from photo on canvas with name + dates; companion ornament and pillow versions for the same order.
-**Primary risks:** 428k listings — very crowded head term; winning needs long-tail listing titles (breed + memorial).
-
-### #08 — auntie shirt
-**Opportunity Score:** 70/100 (Demand 14 · Competition 11 · Intent 12 · Margin 8 · Personalization 9* · Expansion 9* · Thumbnail 4* · Q4 3* · Penalty 0) — *analyst rating
-
-| Field | Value |
-|---|---|
-| Product | Printful Bella+Canvas 3001 tee (#71) |
-| Primary buyer | Aunts / new aunts; siblings buying |
-| Occasion | Pregnancy announcements, Christmas, birthdays |
-| Primary keyword | auntie shirt |
-| Etsy searches | 3.8k |
-| Etsy listings | 45.7k |
-| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
-| Period change | not shown |
-| Etsy conversion label | High |
-| Searches/listings | 0.083 |
-| Secondary keywords (searches/listings conv) | aunt shirt 4k/60.5k T; new aunt gift 833/32.8k T |
-| Trend | EVERGREEN |
-| Competition | MEDIUM |
-| New Shop Accessibility | MEDIUM |
-| Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $16.87 (base $11.92 + US ship $4.95) |
-| Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $30.19; for $15: $35.71 (total incl. shipping). |
-| Personalization | YES — Kids' names on sleeve or under 'Auntie' |
-| Expansion potential | VERY HIGH |
-| Thumbnail potential | HIGH |
-| Q4 | PARTIAL · Seasonality LOW · Peak-risk LOW · Evergreen HIGH |
-| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'COOL AUNT' (IC 025 registered). |
-| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
-| Recommended next step | RESEARCH MORE |
-
-**Why:** High conversion on 'auntie shirt' (3.8k searches); pairs with the auntie-mug niche.
-**Design direction:** Clean 'Auntie' wordmark with names on sleeve; matching 'Uncle' tee as cross-sell.
-**Primary risks:** 45.7k listings — medium competition. / Apparel sizing returns.
-
-### #09 — baby's first christmas ornament
+### #07 — baby's first christmas ornament
 **Opportunity Score:** 69/100 (Demand 17 · Competition 11 · Intent 12 · Margin 10 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 5* · Penalty -10) — *analyst rating
 
 | Field | Value |
@@ -298,7 +228,7 @@
 | Trend | EARLY SIGNAL |
 | Competition | MEDIUM |
 | New Shop Accessibility | MEDIUM |
-| Observed competitor evidence | "baby's first christmas ornament": 48 cards, median $14.00, 73% shown on sale, 15% free-shipping badge, 40/48 cards with 1k+ reviews, Bestseller 13, Star Seller 32, ads 1; detail pages: 1/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 37, ceramic 3, wood 3, embroidered 2 |
+| Observed competitor evidence | "baby's first christmas ornament": 48 cards, median $14.00, 73% shown on sale, 15% free-shipping badge, 40/48 cards whose shop rating shows 1k+ reviews, Bestseller 13, Star Seller 32, ads 1; detail pages: 1/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 37, ceramic 3, wood 3, embroidered 2 |
 | Observed POD cost (Printful) | $11.36 (base $6.57 + US ship $5.99) |
 | Selling price range | $9.96–$22.10 (P25–P75), median $14.00, full $2.97–$41.59; typical US shipping $5.99 |
 | Margin | VERIFIED: contribution $6.28 at median buyer price incl. shipping; $13.61 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $24.1 total incl. shipping. |
@@ -314,7 +244,7 @@
 **Design direction:** Soft watercolour motif per month-of-birth (birth flower) + name + stats; back side photo. Blue/pink/neutral variations.
 **Primary risks:** Large, mature category (89k listings on the primary term). / Q4-only peak.
 
-### #10 — retirement gifts for women
+### #08 — retirement gifts for women
 **Opportunity Score:** 68/100 (Demand 20 · Competition 20 · Intent 6 · Margin 8 · Personalization 8* · Expansion 9* · Thumbnail 4* · Q4 3* · Penalty -10) — *analyst rating
 
 | Field | Value |
@@ -333,7 +263,7 @@
 | Trend | EVERGREEN |
 | Competition | LOW |
 | New Shop Accessibility | MEDIUM |
-| Observed competitor evidence | Related 'leaving work gifts' SERP (Table B) is dominated by funny-label candles/mugs at median $12.39 — below a POD mug's $12.76 cost. | "retirement gifts for women": 48 cards, median $13.46, 94% shown on sale, 6% free-shipping badge, 38/48 cards with 1k+ reviews, Bestseller 25, Star Seller 37, ads 8; detail pages: 4/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 36, glass 3, printed 2, embroidered/fabric 2 |
+| Observed competitor evidence | Related 'leaving work gifts' SERP (Table B) is dominated by funny-label candles/mugs at median $12.39 — below a POD mug's $12.76 cost. | "retirement gifts for women": 48 cards, median $13.46, 94% shown on sale, 6% free-shipping badge, 38/48 cards whose shop rating shows 1k+ reviews, Bestseller 25, Star Seller 37, ads 8; detail pages: 4/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 36, glass 3, printed 2, embroidered/fabric 2 |
 | Observed POD cost (Printful) | $12.76 (base $6.07 + US ship $5.99) |
 | Selling price range | $11.86–$17.59 (P25–P75), median $13.46, full $4.04–$64.50; typical US shipping $5.99 |
 | Margin | VERIFIED: contribution $4.39 at median buyer price incl. shipping; $8.13 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $25.65 total incl. shipping. |
@@ -349,42 +279,7 @@
 **Design direction:** Profession-specific retirement mugs (nurse, teacher, office) with career-years timeline; avoid the 'funny candle' price segment.
 **Primary risks:** Verified low price anchor ($12.39 median) in the adjacent leaving-work segment. / Conversion label only Low on the head term.
 
-### #11 — bookish stickers
-**Opportunity Score:** 68/100 (Demand 17 · Competition 14 · Intent 9 · Margin 8 · Personalization 4* · Expansion 8* · Thumbnail 4* · Q4 4* · Penalty 0) — *analyst rating
-
-| Field | Value |
-|---|---|
-| Product | Printful Kiss-cut sticker 3x3 (#358) |
-| Primary buyer | Readers / book-club members |
-| Occasion | Stocking stuffers, everyday |
-| Primary keyword | bookish stickers |
-| Etsy searches | 7.5k |
-| Etsy listings | 63.1k |
-| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
-| Period change | not shown |
-| Etsy conversion label | Typical |
-| Searches/listings | 0.119 |
-| Secondary keywords (searches/listings conv) | book lover gift 98.4k/245.8k VL; gifts for book lovers 15.6k/122.7k L; reading journal 11.3k/74.2k L |
-| Trend | EVERGREEN |
-| Competition | MEDIUM |
-| New Shop Accessibility | MEDIUM |
-| Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $6.83 (base $2.34 + US ship $4.49) |
-| Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $19.09; for $15: $24.62 (total incl. shipping). |
-| Personalization | YES — Reader name or reading-goal sticker pack |
-| Expansion potential | HIGH |
-| Thumbnail potential | HIGH |
-| Q4 | YES · Seasonality LOW · Peak-risk LOW · Evergreen HIGH |
-| IP risk | LOW APPARENT IP RISK (screen only) — Use 'bookish' only in tags, not as design text (BOOKISH pending IC 028; 9 live marks contain it). Book titles/characters are prohibited IP. |
-| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
-| Recommended next step | RESEARCH MORE |
-
-**Why:** Typical conversion, 7.5k searches, 0.119 ratio; stickers ship cheaply (+$0.05 extra item).
-**Design direction:** Original reading-life sticker packs (tbr, annotation tabs aesthetic) — no book titles or quotes.
-**Primary risks:** Low price point; 'book lover gift' shows an unusual -49.5% swing (98.4k searches) — treat head-term volume with caution.
-
-### #12 — family of 4 ornament
+### #09 — family of 4 ornament
 **Opportunity Score:** 66/100 (Demand 11 · Competition 17 · Intent 9 · Margin 4 · Personalization 10* · Expansion 10* · Thumbnail 5* · Q4 5* · Penalty -5) — *analyst rating
 
 | Field | Value |
@@ -403,7 +298,7 @@
 | Trend | EARLY SIGNAL |
 | Competition | LOW |
 | New Shop Accessibility | HIGH |
-| Observed competitor evidence | "family of 4 ornament": 48 cards, median $9.41, 85% shown on sale, 15% free-shipping badge, 36/48 cards with 1k+ reviews, Bestseller 7, Star Seller 33, ads 13; detail pages: 2/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 31, wood 9, acrylic 2, glass 2 |
+| Observed competitor evidence | "family of 4 ornament": 48 cards, median $9.41, 85% shown on sale, 15% free-shipping badge, 36/48 cards whose shop rating shows 1k+ reviews, Bestseller 7, Star Seller 33, ads 13; detail pages: 2/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 31, wood 9, acrylic 2, glass 2 |
 | Observed POD cost (Printful) | $11.36 (base $6.57 + US ship $5.99) |
 | Selling price range | $5.69–$15.99 (P25–P75), median $9.41, full $0.44–$55.00; typical US shipping $5.99 |
 | Margin | VERIFIED: contribution $2.13 at median buyer price incl. shipping; $8.08 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $24.1 total incl. shipping. |
@@ -419,7 +314,7 @@
 **Design direction:** Illustrated family-figure builder (hair/skin/pets choices) is the common format; differentiate with a typographic 'family name + names list' version and a line-art version.
 **Primary risks:** Figure-builder listings are labour-intensive per order. / Generic 'family christmas ornament' is crowded (144k).
 
-### #13 — personalized bookmark
+### #10 — personalized bookmark
 **Opportunity Score:** 66/100 (Demand 17 · Competition 17 · Intent 15 · Margin 3 · Personalization 9* · Expansion 7* · Thumbnail 4* · Q4 4* · Penalty -10) — *analyst rating
 
 | Field | Value |
@@ -454,8 +349,113 @@
 **Design direction:** Printed name bookmark with tassel; teacher and grandparent variants.
 **Primary risks:** SUPPLIER COST NOT VERIFIED — Printful has no bookmark product; another POD provider must be verified first.
 
+### #11 — dog memorial gift
+**Opportunity Score:** 62/100 (Demand 20 · Competition 14 · Intent 12 · Margin 0 · Personalization 10* · Expansion 9* · Thumbnail 4* · Q4 3* · Penalty -10) — *analyst rating
+
+| Field | Value |
+|---|---|
+| Product | Printful Canvas 10x10 (#3) |
+| Primary buyer | Grieving dog owners; friends sending sympathy gifts |
+| Occasion | Pet loss (year-round), memorial Christmas |
+| Primary keyword | dog memorial gift |
+| Etsy searches | 61.4k |
+| Etsy listings | 428.2k |
+| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
+| Period change | not shown |
+| Etsy conversion label | High |
+| Searches/listings | 0.143 |
+| Secondary keywords (searches/listings conv) | pet memorial gift 55.9k/555k T; pet remembrance gift 21.3k/183.3k H; dog remembrance gift 11.9k/145.8k H |
+| Trend | EVERGREEN |
+| Competition | HIGH |
+| New Shop Accessibility | LOW |
+| Observed competitor evidence | "dog memorial gift" (round 5, 2026-09-26): 631991 results, filters: Exclude digital downloads (active chip); sort Most relevant; 48 cards, median $17.90, 96% shown on sale, 27% free-shipping badge, 27/48 cards whose SHOP rating shows 1k+ reviews, Bestseller 19, Star Seller 38, Etsy-labelled ads 1; detail pages: 2/5 disclose a production partner, median US shipping $6.23; materials (title guess): fabric 22, unclear (title only) 14, glass 5 |
+| Observed POD cost (Printful) | $23.62 (base $16.83 + US ship $6.23) |
+| Selling price range | $10.88–$26.92 (P25–P75), median $17.90, full $2.00–$69.00; typical US shipping $6.23 |
+| Margin | VERIFIED: contribution $-2.24 at median buyer price incl. shipping; $5.93 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $37.65 total incl. shipping. |
+| Personalization | YES — Pet photo portrait + name + years |
+| Expansion potential | VERY HIGH |
+| Thumbnail potential | HIGH |
+| Q4 | PARTIAL · Seasonality LOW · Peak-risk LOW · Evergreen HIGH |
+| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'RAINBOW BRIDGE' (Reg. 2725281, IC 020: pet memorial plaques/markers/urns; Reg. 8198078 IC 028 covers toy bikes), 'FOREVER IN MY HEART' (Reg. 7359901, IC 020 pillows), 'ALWAYS IN MY HEART' (IC 014 jewelry; IC 016 pending). |
+| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
+| Recommended next step | RESEARCH MORE |
+
+**Why:** Largest-volume keyword in the pet cluster (61.4k searches) with a High conversion label; evergreen demand.
+**Design direction:** Soft painted-style portrait from photo on canvas with name + dates; companion ornament and pillow versions for the same order.
+**Primary risks:** 428k listings — very crowded head term; winning needs long-tail listing titles (breed + memorial).
+
+### #12 — auntie shirt
+**Opportunity Score:** 62/100 (Demand 14 · Competition 11 · Intent 12 · Margin 0 · Personalization 9* · Expansion 9* · Thumbnail 4* · Q4 3* · Penalty 0) — *analyst rating
+
+| Field | Value |
+|---|---|
+| Product | Printful Bella+Canvas 3001 tee (#71) |
+| Primary buyer | Aunts / new aunts; siblings buying |
+| Occasion | Pregnancy announcements, Christmas, birthdays |
+| Primary keyword | auntie shirt |
+| Etsy searches | 3.8k |
+| Etsy listings | 45.7k |
+| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
+| Period change | not shown |
+| Etsy conversion label | High |
+| Searches/listings | 0.083 |
+| Secondary keywords (searches/listings conv) | aunt shirt 4k/60.5k T; new aunt gift 833/32.8k T |
+| Trend | EVERGREEN |
+| Competition | MEDIUM |
+| New Shop Accessibility | MEDIUM |
+| Observed competitor evidence | "auntie shirt" (round 5, 2026-09-26): 46819 results, filters: Exclude digital downloads (active chip); sort Most relevant; 48 cards, median $13.99, 96% shown on sale, 6% free-shipping badge, 26/48 cards whose SHOP rating shows 1k+ reviews, Bestseller 16, Star Seller 40, Etsy-labelled ads 2; detail pages: 4/5 disclose a production partner, median US shipping $5.99; materials (title guess): printed 35, ceramic 7, embroidered 6; "aunt shirt" (round 5, 2026-09-26): 64656 results, filters: Exclude digital downloads (active chip); sort Most relevant; 48 cards, median $15.62, 94% shown on sale, 6% free-shipping badge, 27/48 cards whose SHOP rating shows 1k+ reviews, Bestseller 18, Star Seller 40, Etsy-labelled ads 2; detail pages: 5/5 disclose a production partner, median US shipping $5.99; materials (title guess): printed 35, ceramic 8, embroidered 5 |
+| Observed POD cost (Printful) | $16.87 (base $11.92 + US ship $5.99) |
+| Selling price range | $9.99–$17.94 (P25–P75), median $13.99, full $4.44–$34.99; typical US shipping $5.99 |
+| Margin | VERIFIED: contribution $0.76 at median buyer price incl. shipping; $4.34 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $30.19 total incl. shipping. |
+| Personalization | YES — Kids' names on sleeve or under 'Auntie' |
+| Expansion potential | VERY HIGH |
+| Thumbnail potential | HIGH |
+| Q4 | PARTIAL · Seasonality LOW · Peak-risk LOW · Evergreen HIGH |
+| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'COOL AUNT' (IC 025 registered). |
+| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
+| Recommended next step | RESEARCH MORE |
+
+**Why:** High conversion on 'auntie shirt' (3.8k searches); pairs with the auntie-mug niche.
+**Design direction:** Clean 'Auntie' wordmark with names on sleeve; matching 'Uncle' tee as cross-sell.
+**Primary risks:** 45.7k listings — medium competition. / Apparel sizing returns.
+
+### #13 — bookish stickers
+**Opportunity Score:** 61/100 (Demand 17 · Competition 14 · Intent 9 · Margin 6 · Personalization 4* · Expansion 8* · Thumbnail 4* · Q4 4* · Penalty -5) — *analyst rating
+
+| Field | Value |
+|---|---|
+| Product | Printful Kiss-cut sticker 3x3 (#358) |
+| Primary buyer | Readers / book-club members |
+| Occasion | Stocking stuffers, everyday |
+| Primary keyword | bookish stickers |
+| Etsy searches | 7.5k |
+| Etsy listings | 63.1k |
+| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
+| Period change | not shown |
+| Etsy conversion label | Typical |
+| Searches/listings | 0.119 |
+| Secondary keywords (searches/listings conv) | book lover gift 98.4k/245.8k VL; gifts for book lovers 15.6k/122.7k L; reading journal 11.3k/74.2k L |
+| Trend | EVERGREEN |
+| Competition | MEDIUM |
+| New Shop Accessibility | MEDIUM |
+| Observed competitor evidence | "bookish stickers" (round 5, 2026-09-26): 133420 results, filters: none (no active chip; Exclude digital downloads NOT applied by default); sort Most relevant; 48 cards, median $3.50, 40% shown on sale, 58% free-shipping badge, 30/48 cards whose SHOP rating shows 1k+ reviews, Bestseller 24, Star Seller 24, Etsy-labelled ads 20; detail pages: 0/5 disclose a production partner, median US shipping $5.25; materials (title guess): printed 46, unclear (title only) 1, metal 1 |
+| Observed POD cost (Printful) | $6.83 (base $2.34 + US ship $5.25) |
+| Selling price range | $2.73–$4.00 (P25–P75), median $3.50, full $0.37–$10.00; typical US shipping $5.25 |
+| Margin | UNRESOLVED — the 'bookish stickers' search ran with NO filter chip, so digital downloads are mixed into the 48 cards (median $3.50); a physical-sticker-only price was not isolated. Needed for $10 contribution: $19.09 total incl. shipping. |
+| Personalization | YES — Reader name or reading-goal sticker pack |
+| Expansion potential | HIGH |
+| Thumbnail potential | HIGH |
+| Q4 | YES · Seasonality LOW · Peak-risk LOW · Evergreen HIGH |
+| IP risk | LOW APPARENT IP RISK (screen only) — Use 'bookish' only in tags, not as design text (BOOKISH pending IC 028; 9 live marks contain it). Book titles/characters are prohibited IP. |
+| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
+| Recommended next step | RESEARCH MORE |
+
+**Why:** Typical conversion, 7.5k searches, 0.119 ratio; stickers ship cheaply (+$0.05 extra item).
+**Design direction:** Original reading-life sticker packs (tbr, annotation tabs aesthetic) — no book titles or quotes.
+**Primary risks:** Low price point; 'book lover gift' shows an unusual -49.5% swing (98.4k searches) — treat head-term volume with caution.
+
 ### #14 — baptism ornament
-**Opportunity Score:** 65/100 (Demand 14 · Competition 11 · Intent 9 · Margin 8 · Personalization 9* · Expansion 7* · Thumbnail 4* · Q4 3* · Penalty 0) — *analyst rating
+**Opportunity Score:** 60/100 (Demand 14 · Competition 11 · Intent 9 · Margin 8 · Personalization 9* · Expansion 7* · Thumbnail 4* · Q4 3* · Penalty -5) — *analyst rating
 
 | Field | Value |
 |---|---|
@@ -473,10 +473,10 @@
 | Trend | EVERGREEN |
 | Competition | MEDIUM |
 | New Shop Accessibility | MEDIUM |
-| Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $11.36 (base $6.57 + US ship $4.79) |
-| Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $24.1; for $15: $29.62 (total incl. shipping). |
+| Observed competitor evidence | "baptism ornament" (round 5, 2026-09-26): 43557 results, filters: Exclude digital downloads (active chip); sort Most relevant; 48 cards, median $13.20, 85% shown on sale, 0% free-shipping badge, 35/48 cards whose SHOP rating shows 1k+ reviews, Bestseller 16, Star Seller 33, Etsy-labelled ads 2; detail pages: 1/5 disclose a production partner, median US shipping $5.99; materials (title guess): unclear (title only) 41, porcelain 4, wood 2 |
+| Observed POD cost (Printful) | $11.36 (base $6.57 + US ship $5.99) |
+| Selling price range | $9.99–$14.95 (P25–P75), median $13.20, full $4.49–$19.95; typical US shipping $5.99 |
+| Margin | VERIFIED: contribution $5.56 at median buyer price incl. shipping; $7.14 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $24.1 total incl. shipping. |
 | Personalization | YES — Child name + baptism date + church/city |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -489,217 +489,7 @@
 **Design direction:** Minimal line-art dove or olive branch, name in serif caps, date; pairs with godparent gift bundles.
 **Primary risks:** Smaller volume (2.9k); needs variety across denominations without using protected symbols/logos.
 
-### #15 — custom dog shirt
-**Opportunity Score:** 65/100 (Demand 17 · Competition 8 · Intent 15 · Margin 8 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 3* · Penalty -10) — *analyst rating
-
-| Field | Value |
-|---|---|
-| Product | Printful Bella+Canvas 3001 tee (#71) |
-| Primary buyer | Dog owners |
-| Occasion | Christmas, birthdays, everyday |
-| Primary keyword | custom dog shirt |
-| Etsy searches | 7.3k |
-| Etsy listings | 136.6k |
-| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
-| Period change | not shown |
-| Etsy conversion label | Very high |
-| Searches/listings | 0.053 |
-| Secondary keywords (searches/listings conv) | custom pet sweatshirt 859/52.5k H; custom dog hoodie 1.1k/26.2k T; dog mom gift 4.8k/211.1k VL |
-| Trend | EVERGREEN |
-| Competition | HIGH |
-| New Shop Accessibility | LOW |
-| Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $16.87 (base $11.92 + US ship $4.95) |
-| Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $30.19; for $15: $35.71 (total incl. shipping). |
-| Personalization | YES — Pet photo → illustrated face + pet name |
-| Expansion potential | VERY HIGH |
-| Thumbnail potential | HIGH |
-| Q4 | PARTIAL · Seasonality LOW · Peak-risk LOW · Evergreen HIGH |
-| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'PAWSOME', 'FURBABY', 'MY DOG' (Reg. IC 025), 'GOOD BOY' (pending IC 025). 'Dog mom': no exact live mark in product classes but 8 live marks contain it — avoid 'DOG MOM' as the main design text. |
-| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
-| Recommended next step | RESEARCH MORE |
-
-**Why:** Very high conversion with 7.3k searches; the photo-to-illustration step is the differentiator.
-**Design direction:** Minimal line-portrait of the pet + name in small caps; sweatshirt/hoodie upsell variations.
-**Primary risks:** 136.6k listings — crowded. / Illustration labour per order.
-
-### #16 — personalized grandma sweatshirt
-**Opportunity Score:** 64/100 (Demand 8 · Competition 5 · Intent 15 · Margin 8 · Personalization 10* · Expansion 9* · Thumbnail 4* · Q4 5* · Penalty 0) — *analyst rating
-
-| Field | Value |
-|---|---|
-| Product | Printful Gildan 18000 + sleeve print (#145) |
-| Primary buyer | Adult children/grandchildren buying for grandma |
-| Occasion | Christmas, Mother's Day, birthdays |
-| Primary keyword | personalized grandma sweatshirt |
-| Etsy searches | 645 |
-| Etsy listings | 30.7k |
-| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
-| Period change | not shown |
-| Etsy conversion label | Very high |
-| Searches/listings | 0.021 |
-| Secondary keywords (searches/listings conv) | custom grandma sweatshirt 452/65.9k VH; personalized grandma shirt 763/44.5k H; grandma embroidered sweatshirt 226/12.7k H; grandma sweatshirt with names 102/19.5k VL |
-| Trend | EARLY SIGNAL |
-| Competition | HIGH |
-| New Shop Accessibility | LOW |
-| Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $33.91 (base $25.12 + US ship $8.79) |
-| Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $49.02; for $15: $54.54 (total incl. shipping). |
-| Personalization | YES — Grandkids' names on sleeve + 'Grandma' + est. year |
-| Expansion potential | VERY HIGH |
-| Thumbnail potential | HIGH |
-| Q4 | YES · Seasonality MEDIUM · Peak-risk LOW · Evergreen HIGH |
-| IP risk | LOW APPARENT IP RISK (screen only) — Use 'Grandma' — avoid standalone 'MAMA' (Reg. 8387670, IC 025, 2026-08-11), 'NANA'/'MIMI' (pending IC 025), 'GIGI', 'GLAMMA'. |
-| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
-| Recommended next step | RESEARCH MORE |
-
-**Why:** Very high conversion across the grandma-sweatshirt terms; seed 'grandma sweatshirt with names' grew +53.8%.
-**Design direction:** Embroidered-look 'Grandma' with grandkids' names down the sleeve (Printful sleeve print +$5.95); embroidery upgrade variation.
-**Primary risks:** Low search volume per term (226–763). / Sleeve print raises cost to $33.91.
-
-### #17 — custom embroidered sweatshirt
-**Opportunity Score:** 64/100 (Demand 20 · Competition 11 · Intent 9 · Margin 8 · Personalization 9* · Expansion 9* · Thumbnail 4* · Q4 4* · Penalty -10) — *analyst rating
-
-| Field | Value |
-|---|---|
-| Product | Printful Gildan 18000, embroidery left chest (#145) |
-| Primary buyer | Women 25-55 buying for self/family |
-| Occasion | Christmas, birthdays |
-| Primary keyword | custom embroidered sweatshirt |
-| Etsy searches | 11k |
-| Etsy listings | 111.2k |
-| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
-| Period change | not shown |
-| Etsy conversion label | Typical |
-| Searches/listings | 0.099 |
-| Secondary keywords (searches/listings conv) | embroidered sweatshirt custom 878/107.7k H; custom name embroidery 166/217.4k L; grandma embroidered sweatshirt 226/12.7k H |
-| Trend | EVERGREEN |
-| Competition | HIGH |
-| New Shop Accessibility | LOW |
-| Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $30.91 (base $22.12 + US ship $8.79) |
-| Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $45.7; for $15: $51.23 (total incl. shipping). |
-| Personalization | YES — Name/initials/kids' names embroidered left chest |
-| Expansion potential | VERY HIGH |
-| Thumbnail potential | HIGH |
-| Q4 | YES · Seasonality LOW · Peak-risk LOW · Evergreen HIGH |
-| IP risk | LOW APPARENT IP RISK (screen only) — Personal names only; avoid MAMA standalone. |
-| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
-| Recommended next step | RESEARCH MORE |
-
-**Why:** 11k searches with Typical conversion and a 0.099 ratio; Printful embroidery costs +$2.95 over DTG.
-**Design direction:** Tonal embroidery on garment-dyed look colours; mini-icon + name; seasonal colour drops.
-**Primary risks:** 111k listings; embroidery digitisation quality matters.
-
-### #18 — pregnancy ornament
-**Opportunity Score:** 62/100 (Demand 11 · Competition 11 · Intent 6 · Margin 8 · Personalization 10* · Expansion 7* · Thumbnail 4* · Q4 5* · Penalty 0) — *analyst rating
-
-| Field | Value |
-|---|---|
-| Product | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) |
-| Primary buyer | Expecting parents announcing to grandparents |
-| Occasion | Christmas pregnancy reveal |
-| Primary keyword | pregnancy ornament |
-| Etsy searches | 1.7k |
-| Etsy listings | 19.3k |
-| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
-| Period change | not shown |
-| Etsy conversion label | Low |
-| Searches/listings | 0.088 |
-| Secondary keywords (searches/listings conv) | pregnancy announcement ornament 891/14.3k VL; baby announcement ornament 1.1k/25.3k VL |
-| Trend | EARLY SIGNAL |
-| Competition | MEDIUM |
-| New Shop Accessibility | MEDIUM |
-| Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $11.36 (base $6.57 + US ship $4.79) |
-| Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $24.1; for $15: $29.62 (total incl. shipping). |
-| Personalization | YES — Due date + 'Grandma/Grandpa' names + baby nickname |
-| Expansion potential | HIGH |
-| Thumbnail potential | HIGH |
-| Q4 | YES · Seasonality HIGH · Peak-risk HIGH · Evergreen LOW |
-| IP risk | LOW APPARENT IP RISK (screen only) — No specific marks found for 'pregnancy announcement ornament'. |
-| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
-| Recommended next step | RESEARCH MORE |
-
-**Why:** Ties into the new-grandma cluster (new grandma gift 4.3k searches) and Christmas reveals.
-**Design direction:** Reveal-style ornament: 'Coming [month] 2027' with tiny ultrasound-frame graphic; variations for grandparents, aunts, siblings.
-**Primary risks:** Low conversion label (L) on primary; VL on announcement variant.
-
-### #19 — cat memorial ornament
-**Opportunity Score:** 62/100 (Demand 14 · Competition 8 · Intent 6 · Margin 8 · Personalization 10* · Expansion 8* · Thumbnail 4* · Q4 4* · Penalty 0) — *analyst rating
-
-| Field | Value |
-|---|---|
-| Product | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) |
-| Primary buyer | Cat owners after loss; friends |
-| Occasion | Pet loss; memorial Christmas |
-| Primary keyword | cat memorial ornament |
-| Etsy searches | 3.2k |
-| Etsy listings | 46.7k |
-| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
-| Period change | not shown |
-| Etsy conversion label | Low |
-| Searches/listings | 0.069 |
-| Secondary keywords (searches/listings conv) | cat memorial gift 14.1k/189.6k T; cat remembrance gift 3.3k/69.4k H; pet memorial ornament 6.1k/122.4k T |
-| Trend | EVERGREEN |
-| Competition | MEDIUM |
-| New Shop Accessibility | MEDIUM |
-| Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $11.36 (base $6.57 + US ship $4.79) |
-| Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $24.1; for $15: $29.62 (total incl. shipping). |
-| Personalization | YES — Cat photo or breed art + name + dates |
-| Expansion potential | HIGH |
-| Thumbnail potential | HIGH |
-| Q4 | YES · Seasonality MEDIUM · Peak-risk LOW · Evergreen HIGH |
-| IP risk | LOW APPARENT IP RISK (screen only) — Same memorial phrase exclusions as dog memorial. |
-| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
-| Recommended next step | RESEARCH MORE |
-
-**Why:** Cat-specific memorial ornaments have 46.7k listings vs 115.7k for dog; related 'cat memorial gift' has 14.1k searches.
-**Design direction:** Minimal cat silhouette in cat's own coat colours chosen by buyer + name + dates; photo option on back.
-**Primary risks:** Low conversion label (L) on the ornament term.
-
-### #20 — nurse sweatshirt
-**Opportunity Score:** 62/100 (Demand 20 · Competition 14 · Intent 6 · Margin 8 · Personalization 8* · Expansion 9* · Thumbnail 4* · Q4 3* · Penalty -10) — *analyst rating
-
-| Field | Value |
-|---|---|
-| Product | Printful Gildan 18000 crewneck, front print (#145) |
-| Primary buyer | Nurses; family/friends; nursing students |
-| Occasion | Christmas, Nurses Week (May), graduation |
-| Primary keyword | nurse sweatshirt |
-| Etsy searches | 17.1k |
-| Etsy listings | 160.8k |
-| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
-| Period change | not shown |
-| Etsy conversion label | Low |
-| Searches/listings | 0.106 |
-| Secondary keywords (searches/listings conv) | nurse shirt 15.1k/270.4k L; nurse gift 4.5k/471.4k VL; new nurse gift 786/50.4k T |
-| Trend | EVERGREEN |
-| Competition | HIGH |
-| New Shop Accessibility | LOW |
-| Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $27.96 (base $19.17 + US ship $8.79) |
-| Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $42.44; for $15: $47.97 (total incl. shipping). |
-| Personalization | YES — Name + credential (RN/LPN/NP) + specialty |
-| Expansion potential | VERY HIGH |
-| Thumbnail potential | HIGH |
-| Q4 | PARTIAL · Seasonality LOW · Peak-risk LOW · Evergreen HIGH |
-| IP risk | LOW APPARENT IP RISK (screen only) — No live exact marks found for 'nurse life'. Do not use hospital/health-system names or logos; no medical claims. |
-| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
-| Recommended next step | RESEARCH MORE |
-
-**Why:** 17.1k searches with a 0.106 ratio; specialty long-tails offer a less crowded entry.
-**Design direction:** Specialty-specific designs (ER, NICU, L&D, oncology) with credential personalization instead of generic 'nurse' slogans.
-**Primary risks:** 160.8k listings; Low conversion label on the head term.
-
-### #21 — uncle mug
+### #15 — uncle mug
 **Opportunity Score:** 60/100 (Demand 8 · Competition 8 · Intent 12 · Margin 8 · Personalization 9* · Expansion 7* · Thumbnail 4* · Q4 4* · Penalty 0) — *analyst rating
 
 | Field | Value |
@@ -718,10 +508,10 @@
 | Trend | EVERGREEN |
 | Competition | MEDIUM |
 | New Shop Accessibility | MEDIUM |
-| Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $12.76 (base $6.07 + US ship $6.69) |
-| Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $25.65; for $15: $31.17 (total incl. shipping). |
+| Observed competitor evidence | "uncle mug" (round 5, 2026-09-26): 13705 results, filters: Exclude digital downloads (active chip); sort Most relevant; 48 cards, median $14.99, 98% shown on sale, 4% free-shipping badge, 22/48 cards whose SHOP rating shows 1k+ reviews, Bestseller 7, Star Seller 33, Etsy-labelled ads 2; detail pages: 4/5 disclose a production partner, median US shipping $5.99; materials (title guess): ceramic 47, unclear (title only) 1 |
+| Observed POD cost (Printful) | $12.76 (base $6.07 + US ship $5.99) |
+| Selling price range | $13.37–$17.14 (P25–P75), median $14.99, full $5.95–$30.48; typical US shipping $5.99 |
+| Margin | VERIFIED: contribution $5.78 at median buyer price incl. shipping; $7.72 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $25.65 total incl. shipping. |
 | Personalization | YES — Kids' names + 'Uncle' |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -734,42 +524,7 @@
 **Design direction:** Mirror of the auntie line with a more rugged palette; 'uncle birthday gift' angle.
 **Primary risks:** Small volume (591 searches).
 
-### #22 — turkey trot shirt
-**Opportunity Score:** 59/100 (Demand 8 · Competition 17 · Intent 3 · Margin 8 · Personalization 9* · Expansion 6* · Thumbnail 4* · Q4 4* · Penalty 0) — *analyst rating
-
-| Field | Value |
-|---|---|
-| Product | Printful Bella+Canvas 3001 tee (#71) |
-| Primary buyer | Families/teams running Thanksgiving 5K races |
-| Occasion | Thanksgiving (Nov 26, 2026) |
-| Primary keyword | turkey trot shirt |
-| Etsy searches | 878 |
-| Etsy listings | 5.4k |
-| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
-| Period change | not shown |
-| Etsy conversion label | Very low |
-| Searches/listings | 0.163 |
-| Secondary keywords (searches/listings conv) | thanksgiving shirt 14.2k/209.2k VL |
-| Trend | VERIFIED CURRENT TREND |
-| Competition | LOW |
-| New Shop Accessibility | MEDIUM |
-| Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $16.87 (base $11.92 + US ship $4.95) |
-| Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $30.19; for $15: $35.71 (total incl. shipping). |
-| Personalization | YES — Team/family name + year + race city |
-| Expansion potential | MEDIUM |
-| Thumbnail potential | HIGH |
-| Q4 | YES · Seasonality HIGH · Peak-risk HIGH · Evergreen LOW |
-| IP risk | LOW APPARENT IP RISK (screen only) — No live exact mark for 'turkey trot' or 'gobble till you wobble' in product classes; still use original phrases. Avoid 'GIVE THANKS' (IC 025) and 'GRATEFUL' (IC 025). |
-| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
-| Recommended next step | RESEARCH MORE |
-
-**Why:** Only 5.4k listings (0.163 ratio); parent term 'thanksgiving shirt' grew +36.4%.
-**Design direction:** Team-shirt layout: '[Family] Turkey Trot 2026' + runner turkey illustration; group-order friendly.
-**Primary risks:** Very Low conversion label; hard deadline ~Nov 15 for POD delivery. / Small volume (878).
-
-### #23 — new grandma mug
+### #16 — new grandma mug
 **Opportunity Score:** 58/100 (Demand 5 · Competition 5 · Intent 15 · Margin 8 · Personalization 9* · Expansion 8* · Thumbnail 4* · Q4 4* · Penalty 0) — *analyst rating
 
 | Field | Value |
@@ -788,10 +543,10 @@
 | Trend | EVERGREEN |
 | Competition | HIGH |
 | New Shop Accessibility | LOW |
-| Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $12.76 (base $6.07 + US ship $6.69) |
-| Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $25.65; for $15: $31.17 (total incl. shipping). |
+| Observed competitor evidence | "new grandma mug" (round 5, 2026-09-26): 34077 results, filters: Exclude digital downloads (active chip); sort Most relevant; 48 cards, median $14.99, 92% shown on sale, 2% free-shipping badge, 24/48 cards whose SHOP rating shows 1k+ reviews, Bestseller 17, Star Seller 30, Etsy-labelled ads 0; detail pages: 4/5 disclose a production partner, median US shipping $5.99; materials (title guess): ceramic 48 |
+| Observed POD cost (Printful) | $12.76 (base $6.07 + US ship $5.99) |
+| Selling price range | $12.73–$16.97 (P25–P75), median $14.99, full $4.99–$34.98; typical US shipping $5.99 |
+| Margin | VERIFIED: contribution $5.78 at median buyer price incl. shipping; $7.57 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $25.65 total incl. shipping. |
 | Personalization | YES — Baby's due date/name + 'Grandma est. 2026/2027' |
 | Expansion potential | HIGH |
 | Thumbnail potential | HIGH |
@@ -804,42 +559,7 @@
 **Design direction:** 'Promoted to Grandma' reveal mug with due-date; matching grandpa version.
 **Primary risks:** Small volume per mug term (262–405).
 
-### #24 — christmas tree skirt
-**Opportunity Score:** 57/100 (Demand 17 · Competition 20 · Intent 3 · Margin 5 · Personalization 7* · Expansion 6* · Thumbnail 4* · Q4 5* · Penalty -10) — *analyst rating
-
-| Field | Value |
-|---|---|
-| Product | Printful Christmas Tree Skirt (#1427) |
-| Primary buyer | Homeowners decorating |
-| Occasion | Christmas decorating |
-| Primary keyword | christmas tree skirt |
-| Etsy searches | 7.2k |
-| Etsy listings | 14.5k |
-| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
-| Period change | not shown |
-| Etsy conversion label | Very low |
-| Searches/listings | 0.497 |
-| Secondary keywords (searches/listings conv) | personalized tree skirt 1.3k/13.2k VL; quilted tree skirt 2.4k/6.7k VL |
-| Trend | EARLY SIGNAL |
-| Competition | LOW |
-| New Shop Accessibility | MEDIUM |
-| Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $51.74 (base $43.95 + US ship $7.79) |
-| Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $68.72; for $15: $74.24 (total incl. shipping). |
-| Personalization | YES — Family name + established year |
-| Expansion potential | MEDIUM |
-| Thumbnail potential | HIGH |
-| Q4 | YES · Seasonality HIGH · Peak-risk HIGH · Evergreen LOW |
-| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'MERRY & BRIGHT', 'HOLLY JOLLY', standalone 'JOY'/'BELIEVE'. |
-| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
-| Recommended next step | RESEARCH MORE |
-
-**Why:** 0.497 ratio (7.2k searches vs 14.5k listings) — one of the widest gaps found.
-**Design direction:** Monogram/family-name skirt coordinated with the stocking line.
-**Primary risks:** Very low conversion label. / Printful cost $51.74 incl. shipping requires a high price.
-
-### #25 — dog christmas stocking
+### #17 — dog christmas stocking
 **Opportunity Score:** 56/100 (Demand 14 · Competition 11 · Intent 9 · Margin 0 · Personalization 10* · Expansion 8* · Thumbnail 4* · Q4 5* · Penalty -5) — *analyst rating
 
 | Field | Value |
@@ -858,7 +578,7 @@
 | Trend | EARLY SIGNAL |
 | Competition | MEDIUM |
 | New Shop Accessibility | MEDIUM |
-| Observed competitor evidence | "dog christmas stocking": 48 cards, median $15.47, 83% shown on sale, 29% free-shipping badge, 31/48 cards with 1k+ reviews, Bestseller 15, Star Seller 33, ads 19; detail pages: 0/5 disclose a production partner, median US shipping 5.95; materials (title guess): fabric 26, embroidered/fabric 16, unclear 5, fabric/leather 1 |
+| Observed competitor evidence | "dog christmas stocking": 48 cards, median $15.47, 83% shown on sale, 29% free-shipping badge, 31/48 cards whose shop rating shows 1k+ reviews, Bestseller 15, Star Seller 33, ads 19; detail pages: 0/5 disclose a production partner, median US shipping 5.95; materials (title guess): fabric 26, embroidered/fabric 16, unclear 5, fabric/leather 1 |
 | Observed POD cost (Printful) | $24.96 (base $17.17 + US ship $5.95) |
 | Selling price range | $5.97–$28.68 (P25–P75), median $15.47, full $3.00–$215.00; typical US shipping $5.95 |
 | Margin | VERIFIED: contribution $-6.02 at median buyer price incl. shipping; $5.93 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $39.13 total incl. shipping. |
@@ -874,42 +594,147 @@
 **Design direction:** Breed-line-art series (start with top 10 breeds) + pet name; option to upload a photo for a cut-out portrait on the cuff area.
 **Primary risks:** Breed art must be drawn originally (no traced stock art).
 
-### #26 — family christmas shirts
-**Opportunity Score:** 56/100 (Demand 17 · Competition 8 · Intent 6 · Margin 8 · Personalization 9* · Expansion 8* · Thumbnail 5* · Q4 5* · Penalty -10) — *analyst rating
+### #18 — custom embroidered sweatshirt
+**Opportunity Score:** 56/100 (Demand 20 · Competition 11 · Intent 9 · Margin 0 · Personalization 9* · Expansion 9* · Thumbnail 4* · Q4 4* · Penalty -10) — *analyst rating
+
+| Field | Value |
+|---|---|
+| Product | Printful Gildan 18000, embroidery left chest (#145) |
+| Primary buyer | Women 25-55 buying for self/family |
+| Occasion | Christmas, birthdays |
+| Primary keyword | custom embroidered sweatshirt |
+| Etsy searches | 11k |
+| Etsy listings | 111.2k |
+| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
+| Period change | not shown |
+| Etsy conversion label | Typical |
+| Searches/listings | 0.099 |
+| Secondary keywords (searches/listings conv) | embroidered sweatshirt custom 878/107.7k H; custom name embroidery 166/217.4k L; grandma embroidered sweatshirt 226/12.7k H |
+| Trend | EVERGREEN |
+| Competition | HIGH |
+| New Shop Accessibility | LOW |
+| Observed competitor evidence | "custom embroidered sweatshirt" (round 5, 2026-09-26): 169923 results, filters: Personalizable (active chip, applied by Etsy); sort Most relevant; 48 cards, median $24.70, 96% shown on sale, 19% free-shipping badge, 24/48 cards whose SHOP rating shows 1k+ reviews, Bestseller 12, Star Seller 29, Etsy-labelled ads 9; detail pages: 1/5 disclose a production partner, median US shipping $6.08; materials (title guess): embroidered 44, printed 4 |
+| Observed POD cost (Printful) | $30.91 (base $22.12 + US ship $6.08) |
+| Selling price range | $18.80–$32.51 (P25–P75), median $24.70, full $3.99–$53.99; typical US shipping $6.08 |
+| Margin | VERIFIED: contribution $-3.50 at median buyer price incl. shipping; $3.56 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $45.7 total incl. shipping. |
+| Personalization | YES — Name/initials/kids' names embroidered left chest |
+| Expansion potential | VERY HIGH |
+| Thumbnail potential | HIGH |
+| Q4 | YES · Seasonality LOW · Peak-risk LOW · Evergreen HIGH |
+| IP risk | LOW APPARENT IP RISK (screen only) — Personal names only; avoid MAMA standalone. |
+| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
+| Recommended next step | RESEARCH MORE |
+
+**Why:** 11k searches with Typical conversion and a 0.099 ratio; Printful embroidery costs +$2.95 over DTG.
+**Design direction:** Tonal embroidery on garment-dyed look colours; mini-icon + name; seasonal colour drops.
+**Primary risks:** 111k listings; embroidery digitisation quality matters.
+
+### #19 — cat memorial ornament
+**Opportunity Score:** 53/100 (Demand 14 · Competition 8 · Intent 6 · Margin 4 · Personalization 10* · Expansion 8* · Thumbnail 4* · Q4 4* · Penalty -5) — *analyst rating
+
+| Field | Value |
+|---|---|
+| Product | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) |
+| Primary buyer | Cat owners after loss; friends |
+| Occasion | Pet loss; memorial Christmas |
+| Primary keyword | cat memorial ornament |
+| Etsy searches | 3.2k |
+| Etsy listings | 46.7k |
+| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
+| Period change | not shown |
+| Etsy conversion label | Low |
+| Searches/listings | 0.069 |
+| Secondary keywords (searches/listings conv) | cat memorial gift 14.1k/189.6k T; cat remembrance gift 3.3k/69.4k H; pet memorial ornament 6.1k/122.4k T |
+| Trend | EVERGREEN |
+| Competition | MEDIUM |
+| New Shop Accessibility | MEDIUM |
+| Observed competitor evidence | "cat memorial ornament" (round 5, 2026-09-26): 61084 results, filters: Exclude digital downloads (active chip); sort Most relevant; 48 cards, median $11.24, 90% shown on sale, 15% free-shipping badge, 33/48 cards whose SHOP rating shows 1k+ reviews, Bestseller 11, Star Seller 42, Etsy-labelled ads 3; detail pages: 4/5 disclose a production partner, median US shipping $5.99; materials (title guess): unclear (title only) 39, glass 3, ceramic 3 |
+| Observed POD cost (Printful) | $11.36 (base $6.57 + US ship $5.99) |
+| Selling price range | $5.98–$14.53 (P25–P75), median $11.24, full $3.50–$85.00; typical US shipping $5.99 |
+| Margin | VERIFIED: contribution $3.78 at median buyer price incl. shipping; $6.76 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $24.1 total incl. shipping. |
+| Personalization | YES — Cat photo or breed art + name + dates |
+| Expansion potential | HIGH |
+| Thumbnail potential | HIGH |
+| Q4 | YES · Seasonality MEDIUM · Peak-risk LOW · Evergreen HIGH |
+| IP risk | LOW APPARENT IP RISK (screen only) — Same memorial phrase exclusions as dog memorial. |
+| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
+| Recommended next step | RESEARCH MORE |
+
+**Why:** Cat-specific memorial ornaments have 46.7k listings vs 115.7k for dog; related 'cat memorial gift' has 14.1k searches.
+**Design direction:** Minimal cat silhouette in cat's own coat colours chosen by buyer + name + dates; photo option on back.
+**Primary risks:** Low conversion label (L) on the ornament term.
+
+### #20 — pregnancy ornament
+**Opportunity Score:** 52/100 (Demand 11 · Competition 11 · Intent 6 · Margin 8 · Personalization 10* · Expansion 7* · Thumbnail 4* · Q4 5* · Penalty -10) — *analyst rating
+
+| Field | Value |
+|---|---|
+| Product | Printify / SwiftPOD Ceramic Ornament Round, 2-side print (bp 1632; Economy ship) |
+| Primary buyer | Expecting parents announcing to grandparents |
+| Occasion | Christmas pregnancy reveal |
+| Primary keyword | pregnancy ornament |
+| Etsy searches | 1.7k |
+| Etsy listings | 19.3k |
+| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
+| Period change | not shown |
+| Etsy conversion label | Low |
+| Searches/listings | 0.088 |
+| Secondary keywords (searches/listings conv) | pregnancy announcement ornament 891/14.3k VL; baby announcement ornament 1.1k/25.3k VL |
+| Trend | EARLY SIGNAL |
+| Competition | MEDIUM |
+| New Shop Accessibility | MEDIUM |
+| Observed competitor evidence | "pregnancy ornament" (round 5, 2026-09-26): 26803 results, filters: Exclude digital downloads (active chip); sort Most relevant; 48 cards, median $12.67, 81% shown on sale, 8% free-shipping badge, 38/48 cards whose SHOP rating shows 1k+ reviews, Bestseller 7, Star Seller 31, Etsy-labelled ads 1; detail pages: 1/5 disclose a production partner, median US shipping $5.99; materials (title guess): unclear (title only) 41, wood 3, acrylic 1 |
+| Observed POD cost (Printful) | $11.36 (base $6.57 + US ship $5.99) |
+| Selling price range | $7.99–$17.95 (P25–P75), median $12.67, full $2.49–$37.00; typical US shipping $5.99 |
+| Margin | VERIFIED: contribution $5.08 at median buyer price incl. shipping; $9.86 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $24.1 total incl. shipping. |
+| Personalization | YES — Due date + 'Grandma/Grandpa' names + baby nickname |
+| Expansion potential | HIGH |
+| Thumbnail potential | HIGH |
+| Q4 | YES · Seasonality HIGH · Peak-risk HIGH · Evergreen LOW |
+| IP risk | LOW APPARENT IP RISK (screen only) — No specific marks found for 'pregnancy announcement ornament'. |
+| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
+| Recommended next step | RESEARCH MORE |
+
+**Why:** Ties into the new-grandma cluster (new grandma gift 4.3k searches) and Christmas reveals.
+**Design direction:** Reveal-style ornament: 'Coming [month] 2027' with tiny ultrasound-frame graphic; variations for grandparents, aunts, siblings.
+**Primary risks:** Low conversion label (L) on primary; VL on announcement variant.
+
+### #21 — turkey trot shirt
+**Opportunity Score:** 51/100 (Demand 8 · Competition 17 · Intent 3 · Margin 0 · Personalization 9* · Expansion 6* · Thumbnail 4* · Q4 4* · Penalty 0) — *analyst rating
 
 | Field | Value |
 |---|---|
 | Product | Printful Bella+Canvas 3001 tee (#71) |
-| Primary buyer | Parents organising family photos/events |
-| Occasion | Christmas photos, parties |
-| Primary keyword | family christmas shirts |
-| Etsy searches | 6.1k |
-| Etsy listings | 121k |
+| Primary buyer | Families/teams running Thanksgiving 5K races |
+| Occasion | Thanksgiving (Nov 26, 2026) |
+| Primary keyword | turkey trot shirt |
+| Etsy searches | 878 |
+| Etsy listings | 5.4k |
 | Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
-| Period change | +17.5% |
-| Etsy conversion label | Low |
-| Searches/listings | 0.05 |
-| Secondary keywords (searches/listings conv) | - |
+| Period change | not shown |
+| Etsy conversion label | Very low |
+| Searches/listings | 0.163 |
+| Secondary keywords (searches/listings conv) | thanksgiving shirt 14.2k/209.2k VL |
 | Trend | VERIFIED CURRENT TREND |
-| Competition | HIGH |
-| New Shop Accessibility | LOW |
-| Observed competitor evidence | NOT VERIFIED. |
-| Observed POD cost (Printful) | $16.87 (base $11.92 + US ship $4.95) |
-| Selling price range | NOT VERIFIED |
-| Margin | Competitor price NOT VERIFIED. Needed for $10 contribution: $30.19; for $15: $35.71 (total incl. shipping). |
-| Personalization | YES — Family surname + year; each member role/name |
-| Expansion potential | HIGH |
+| Competition | LOW |
+| New Shop Accessibility | MEDIUM |
+| Observed competitor evidence | "turkey trot shirt" (round 5, 2026-09-26): 8310 results, filters: Exclude digital downloads (active chip); sort Most relevant; 48 cards, median $14.20, 100% shown on sale, 8% free-shipping badge, 25/48 cards whose SHOP rating shows 1k+ reviews, Bestseller 0, Star Seller 39, Etsy-labelled ads 19; detail pages: 1/5 disclose a production partner, median US shipping $5.95; materials (title guess): printed 46, embroidered 2 |
+| Observed POD cost (Printful) | $16.87 (base $11.92 + US ship $5.95) |
+| Selling price range | $9.79–$18.30 (P25–P75), median $14.20, full $4.44–$29.48; typical US shipping $5.95 |
+| Margin | VERIFIED: contribution $0.92 at median buyer price incl. shipping; $4.63 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $30.19 total incl. shipping. |
+| Personalization | YES — Team/family name + year + race city |
+| Expansion potential | MEDIUM |
 | Thumbnail potential | HIGH |
 | Q4 | YES · Seasonality HIGH · Peak-risk HIGH · Evergreen LOW |
-| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'HOLLY JOLLY' (IC 025), standalone 'JOY'/'BELIEVE' (IC 025), 'MERRY & BRIGHT' (pajamas IC 025). |
+| IP risk | LOW APPARENT IP RISK (screen only) — No live exact mark for 'turkey trot' or 'gobble till you wobble' in product classes; still use original phrases. Avoid 'GIVE THANKS' (IC 025) and 'GRATEFUL' (IC 025). |
 | Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
 | Recommended next step | RESEARCH MORE |
 
-**Why:** +17.5% growth; multi-unit orders (4–8 shirts) lift AOV; tee cost $16.87 + $2.20 per extra item.
-**Design direction:** Coordinated set: same design, different role/name per shirt; buyer adds each size as a separate line.
-**Primary risks:** 121k listings; highly seasonal (Dec).
+**Why:** Only 5.4k listings (0.163 ratio); parent term 'thanksgiving shirt' grew +36.4%.
+**Design direction:** Team-shirt layout: '[Family] Turkey Trot 2026' + runner turkey illustration; group-order friendly.
+**Primary risks:** Very Low conversion label; hard deadline ~Nov 15 for POD delivery. / Small volume (878).
 
-### #27 — personalized christmas stocking
+### #22 — personalized christmas stocking
 **Opportunity Score:** 71/100 (Demand 17 · Competition 17 · Intent 15 · Margin 0 · Personalization 10* · Expansion 8* · Thumbnail 4* · Q4 5* · Penalty -5) — *analyst rating
 
 | Field | Value |
@@ -928,7 +753,7 @@
 | Trend | VERIFIED CURRENT TREND |
 | Competition | LOW |
 | New Shop Accessibility | HIGH |
-| Observed competitor evidence | "personalized christmas stocking": 48 cards, median $9.02, 94% shown on sale, 29% free-shipping badge, 37/48 cards with 1k+ reviews, Bestseller 15, Star Seller 38, ads 20; detail pages: 1/5 disclose a production partner, median US shipping 4.115; materials (title guess): embroidered/fabric 26, fabric 16, fabric/leather 2, fabric/printed 2 |
+| Observed competitor evidence | "personalized christmas stocking": 48 cards, median $9.02, 94% shown on sale, 29% free-shipping badge, 37/48 cards whose shop rating shows 1k+ reviews, Bestseller 15, Star Seller 38, ads 20; detail pages: 1/5 disclose a production partner, median US shipping 4.115; materials (title guess): embroidered/fabric 26, fabric 16, fabric/leather 2, fabric/printed 2 |
 | Observed POD cost (Printful) | $24.96 (base $17.17 + US ship $4.12) |
 | Selling price range | $4.13–$24.99 (P25–P75), median $9.02, full $1.95–$79.95; typical US shipping $4.12 |
 | Margin | VERIFIED: contribution $-13.52 at median buyer price incl. shipping; $0.93 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $39.13 total incl. shipping. |
@@ -944,7 +769,7 @@
 **Design direction:** Rustic canvas-look print with oversized name in modern script + small woodland/snowflake icon; matching set of 6 icons so a family can mix and match.
 **Primary risks:** Premium segment is embroidered/needlepoint; a printed stocking must compete on design and price. / Printful stocking cost $24.96 incl. shipping leaves a thin margin unless sold ≥ ~$39.
 
-### #28 — teacher thank you gift
+### #23 — teacher thank you gift
 **Opportunity Score:** 60/100 (Demand 14 · Competition 11 · Intent 15 · Margin 0 · Personalization 9* · Expansion 8* · Thumbnail 4* · Q4 4* · Penalty -5) — *analyst rating
 
 | Field | Value |
@@ -963,7 +788,7 @@
 | Trend | EVERGREEN |
 | Competition | MEDIUM |
 | New Shop Accessibility | MEDIUM |
-| Observed competitor evidence | "teacher thank you gift": 48 cards, median $10.98, 81% shown on sale, 4% free-shipping badge, 34/48 cards with 1k+ reviews, Bestseller 16, Star Seller 35, ads 17; detail pages: 3/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 32, glass 6, wood 3, ceramic 2 |
+| Observed competitor evidence | "teacher thank you gift": 48 cards, median $10.98, 81% shown on sale, 4% free-shipping badge, 34/48 cards whose shop rating shows 1k+ reviews, Bestseller 16, Star Seller 35, ads 17; detail pages: 3/5 disclose a production partner, median US shipping 5.99; materials (title guess): unclear 32, glass 6, wood 3, ceramic 2 |
 | Observed POD cost (Printful) | $20.56 (base $15.87 + US ship $5.99) |
 | Selling price range | $6.04–$14.99 (P25–P75), median $10.98, full $1.80–$39.99; typical US shipping $5.99 |
 | Margin | VERIFIED: contribution $-5.65 at median buyer price incl. shipping; $-2.02 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $34.27 total incl. shipping. |
@@ -978,3 +803,178 @@
 **Why:** Very high conversion on 'teacher thank you gift' (3k searches); 'teacher christmas gift' grew +20.2%.
 **Design direction:** Tote with teacher's name + class signature-style student names; mug version.
 **Primary risks:** Teacher gift budgets are often low. / Personalization with many student names is error-prone.
+
+### #24 — custom dog shirt
+**Opportunity Score:** 57/100 (Demand 17 · Competition 8 · Intent 15 · Margin 0 · Personalization 10* · Expansion 9* · Thumbnail 5* · Q4 3* · Penalty -10) — *analyst rating
+
+| Field | Value |
+|---|---|
+| Product | Printful Bella+Canvas 3001 tee (#71) |
+| Primary buyer | Dog owners |
+| Occasion | Christmas, birthdays, everyday |
+| Primary keyword | custom dog shirt |
+| Etsy searches | 7.3k |
+| Etsy listings | 136.6k |
+| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
+| Period change | not shown |
+| Etsy conversion label | Very high |
+| Searches/listings | 0.053 |
+| Secondary keywords (searches/listings conv) | custom pet sweatshirt 859/52.5k H; custom dog hoodie 1.1k/26.2k T; dog mom gift 4.8k/211.1k VL |
+| Trend | EVERGREEN |
+| Competition | HIGH |
+| New Shop Accessibility | LOW |
+| Observed competitor evidence | "custom dog shirt" (round 5, 2026-09-26): 99607 results, filters: Personalizable (active chip, applied by Etsy); sort Most relevant; 48 cards, median $10.54, 100% shown on sale, 6% free-shipping badge, 23/48 cards whose SHOP rating shows 1k+ reviews, Bestseller 19, Star Seller 38, Etsy-labelled ads 1; detail pages: 3/5 disclose a production partner, median US shipping $5.99; materials (title guess): printed 46, embroidered 1, ceramic 1 |
+| Observed POD cost (Printful) | $16.87 (base $11.92 + US ship $5.99) |
+| Selling price range | $8.88–$15.17 (P25–P75), median $10.54, full $5.67–$29.35; typical US shipping $5.99 |
+| Margin | VERIFIED: contribution $-2.36 at median buyer price incl. shipping; $1.83 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $30.19 total incl. shipping. |
+| Personalization | YES — Pet photo → illustrated face + pet name |
+| Expansion potential | VERY HIGH |
+| Thumbnail potential | HIGH |
+| Q4 | PARTIAL · Seasonality LOW · Peak-risk LOW · Evergreen HIGH |
+| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'PAWSOME', 'FURBABY', 'MY DOG' (Reg. IC 025), 'GOOD BOY' (pending IC 025). 'Dog mom': no exact live mark in product classes but 8 live marks contain it — avoid 'DOG MOM' as the main design text. |
+| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
+| Recommended next step | REJECT |
+
+**Why:** Very high conversion with 7.3k searches; the photo-to-illustration step is the differentiator.
+**Design direction:** Minimal line-portrait of the pet + name in small caps; sweatshirt/hoodie upsell variations.
+**Primary risks:** 136.6k listings — crowded. / Illustration labour per order.
+
+### #25 — nurse sweatshirt
+**Opportunity Score:** 54/100 (Demand 20 · Competition 14 · Intent 6 · Margin 0 · Personalization 8* · Expansion 9* · Thumbnail 4* · Q4 3* · Penalty -10) — *analyst rating
+
+| Field | Value |
+|---|---|
+| Product | Printful Gildan 18000 crewneck, front print (#145) |
+| Primary buyer | Nurses; family/friends; nursing students |
+| Occasion | Christmas, Nurses Week (May), graduation |
+| Primary keyword | nurse sweatshirt |
+| Etsy searches | 17.1k |
+| Etsy listings | 160.8k |
+| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
+| Period change | not shown |
+| Etsy conversion label | Low |
+| Searches/listings | 0.106 |
+| Secondary keywords (searches/listings conv) | nurse shirt 15.1k/270.4k L; nurse gift 4.5k/471.4k VL; new nurse gift 786/50.4k T |
+| Trend | EVERGREEN |
+| Competition | HIGH |
+| New Shop Accessibility | LOW |
+| Observed competitor evidence | "nurse sweatshirt" (round 5, 2026-09-26): 172216 results, filters: Exclude digital downloads (active chip); sort Most relevant; 48 cards, median $18.92, 96% shown on sale, 8% free-shipping badge, 29/48 cards whose SHOP rating shows 1k+ reviews, Bestseller 12, Star Seller 28, Etsy-labelled ads 10; detail pages: 0/5 disclose a production partner, median US shipping $5.95; materials (title guess): embroidered 24, printed 21, ceramic 2 |
+| Observed POD cost (Printful) | $27.96 (base $19.17 + US ship $5.95) |
+| Selling price range | $12.02–$28.13 (P25–P75), median $18.92, full $5.35–$54.40; typical US shipping $5.95 |
+| Margin | VERIFIED: contribution $-5.90 at median buyer price incl. shipping; $2.43 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $42.44 total incl. shipping. |
+| Personalization | YES — Name + credential (RN/LPN/NP) + specialty |
+| Expansion potential | VERY HIGH |
+| Thumbnail potential | HIGH |
+| Q4 | PARTIAL · Seasonality LOW · Peak-risk LOW · Evergreen HIGH |
+| IP risk | LOW APPARENT IP RISK (screen only) — No live exact marks found for 'nurse life'. Do not use hospital/health-system names or logos; no medical claims. |
+| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
+| Recommended next step | REJECT |
+
+**Why:** 17.1k searches with a 0.106 ratio; specialty long-tails offer a less crowded entry.
+**Design direction:** Specialty-specific designs (ER, NICU, L&D, oncology) with credential personalization instead of generic 'nurse' slogans.
+**Primary risks:** 160.8k listings; Low conversion label on the head term.
+
+### #26 — christmas tree skirt
+**Opportunity Score:** 52/100 (Demand 17 · Competition 20 · Intent 3 · Margin 0 · Personalization 7* · Expansion 6* · Thumbnail 4* · Q4 5* · Penalty -10) — *analyst rating
+
+| Field | Value |
+|---|---|
+| Product | Printful Christmas Tree Skirt (#1427) |
+| Primary buyer | Homeowners decorating |
+| Occasion | Christmas decorating |
+| Primary keyword | christmas tree skirt |
+| Etsy searches | 7.2k |
+| Etsy listings | 14.5k |
+| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
+| Period change | not shown |
+| Etsy conversion label | Very low |
+| Searches/listings | 0.497 |
+| Secondary keywords (searches/listings conv) | personalized tree skirt 1.3k/13.2k VL; quilted tree skirt 2.4k/6.7k VL |
+| Trend | EARLY SIGNAL |
+| Competition | LOW |
+| New Shop Accessibility | MEDIUM |
+| Observed competitor evidence | "christmas tree skirt" (round 5, 2026-09-26): 19035 results, filters: Exclude digital downloads (active chip); sort Most relevant; 48 cards, median $23.52, 81% shown on sale, 38% free-shipping badge, 18/48 cards whose SHOP rating shows 1k+ reviews, Bestseller 2, Star Seller 23, Etsy-labelled ads 20; detail pages: 2/5 disclose a production partner, median US shipping $4.93; materials (title guess): fabric 41, embroidered 4, wood 2 |
+| Observed POD cost (Printful) | $51.74 (base $43.95 + US ship $4.93) |
+| Selling price range | $12.64–$33.08 (P25–P75), median $23.52, full $4.95–$77.41; typical US shipping $4.93 |
+| Margin | VERIFIED: contribution $-26.45 at median buyer price incl. shipping; $-17.79 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $68.72 total incl. shipping. |
+| Personalization | YES — Family name + established year |
+| Expansion potential | MEDIUM |
+| Thumbnail potential | HIGH |
+| Q4 | YES · Seasonality HIGH · Peak-risk HIGH · Evergreen LOW |
+| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'MERRY & BRIGHT', 'HOLLY JOLLY', standalone 'JOY'/'BELIEVE'. |
+| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
+| Recommended next step | REJECT |
+
+**Why:** 0.497 ratio (7.2k searches vs 14.5k listings) — one of the widest gaps found.
+**Design direction:** Monogram/family-name skirt coordinated with the stocking line.
+**Primary risks:** Very low conversion label. / Printful cost $51.74 incl. shipping requires a high price.
+
+### #27 — personalized grandma sweatshirt
+**Opportunity Score:** 51/100 (Demand 8 · Competition 5 · Intent 15 · Margin 0 · Personalization 10* · Expansion 9* · Thumbnail 4* · Q4 5* · Penalty -5) — *analyst rating
+
+| Field | Value |
+|---|---|
+| Product | Printful Gildan 18000 + sleeve print (#145) |
+| Primary buyer | Adult children/grandchildren buying for grandma |
+| Occasion | Christmas, Mother's Day, birthdays |
+| Primary keyword | personalized grandma sweatshirt |
+| Etsy searches | 645 |
+| Etsy listings | 30.7k |
+| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
+| Period change | not shown |
+| Etsy conversion label | Very high |
+| Searches/listings | 0.021 |
+| Secondary keywords (searches/listings conv) | custom grandma sweatshirt 452/65.9k VH; personalized grandma shirt 763/44.5k H; grandma embroidered sweatshirt 226/12.7k H; grandma sweatshirt with names 102/19.5k VL |
+| Trend | EARLY SIGNAL |
+| Competition | HIGH |
+| New Shop Accessibility | LOW |
+| Observed competitor evidence | "personalized grandma sweatshirt" (round 5, 2026-09-26): 50682 results, filters: Personalizable (active chip, applied by Etsy); sort Most relevant; 48 cards, median $19.66, 96% shown on sale, 8% free-shipping badge, 33/48 cards whose SHOP rating shows 1k+ reviews, Bestseller 14, Star Seller 35, Etsy-labelled ads 5; detail pages: 1/5 disclose a production partner, median US shipping $5.99; materials (title guess): embroidered 25, printed 23 |
+| Observed POD cost (Printful) | $33.91 (base $25.12 + US ship $5.99) |
+| Selling price range | $15.66–$26.96 (P25–P75), median $19.66, full $7.21–$37.80; typical US shipping $5.99 |
+| Margin | VERIFIED: contribution $-11.15 at median buyer price incl. shipping; $-4.54 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $49.02 total incl. shipping. |
+| Personalization | YES — Grandkids' names on sleeve + 'Grandma' + est. year |
+| Expansion potential | VERY HIGH |
+| Thumbnail potential | HIGH |
+| Q4 | YES · Seasonality MEDIUM · Peak-risk LOW · Evergreen HIGH |
+| IP risk | LOW APPARENT IP RISK (screen only) — Use 'Grandma' — avoid standalone 'MAMA' (Reg. 8387670, IC 025, 2026-08-11), 'NANA'/'MIMI' (pending IC 025), 'GIGI', 'GLAMMA'. |
+| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
+| Recommended next step | REJECT |
+
+**Why:** Very high conversion across the grandma-sweatshirt terms; seed 'grandma sweatshirt with names' grew +53.8%.
+**Design direction:** Embroidered-look 'Grandma' with grandkids' names down the sleeve (Printful sleeve print +$5.95); embroidery upgrade variation.
+**Primary risks:** Low search volume per term (226–763). / Sleeve print raises cost to $33.91.
+
+### #28 — family christmas shirts
+**Opportunity Score:** 38/100 (Demand 17 · Competition 8 · Intent 6 · Margin 0 · Personalization 9* · Expansion 8* · Thumbnail 5* · Q4 5* · Penalty -20) — *analyst rating
+
+| Field | Value |
+|---|---|
+| Product | Printful Bella+Canvas 3001 tee (#71) |
+| Primary buyer | Parents organising family photos/events |
+| Occasion | Christmas photos, parties |
+| Primary keyword | family christmas shirts |
+| Etsy searches | 6.1k |
+| Etsy listings | 121k |
+| Search period | Last 30 days (Aug 26 – Sep 24, 2026) |
+| Period change | +17.5% |
+| Etsy conversion label | Low |
+| Searches/listings | 0.05 |
+| Secondary keywords (searches/listings conv) | - |
+| Trend | VERIFIED CURRENT TREND |
+| Competition | HIGH |
+| New Shop Accessibility | LOW |
+| Observed competitor evidence | "family christmas shirts" (round 5, 2026-09-26): 335754 results, filters: Exclude digital downloads (active chip); sort Most relevant; 48 cards, median $9.39, 98% shown on sale, 12% free-shipping badge, 38/48 cards whose SHOP rating shows 1k+ reviews, Bestseller 11, Star Seller 39, Etsy-labelled ads 7; detail pages: 3/5 disclose a production partner, median US shipping $7.52; materials (title guess): printed 43, embroidered 2, acrylic 1 |
+| Observed POD cost (Printful) | $16.87 (base $11.92 + US ship $7.52) |
+| Selling price range | $6.71–$11.98 (P25–P75), median $9.39, full $4.44–$46.40; typical US shipping $7.52 |
+| Margin | VERIFIED: contribution $-2.02 at median buyer price incl. shipping; $0.33 at P75 (listed POD cost, Etsy fees 6.5% + 3% + $0.45; no ads/discounts). Needed for $10: $30.19 total incl. shipping. |
+| Personalization | YES — Family surname + year; each member role/name |
+| Expansion potential | HIGH |
+| Thumbnail potential | HIGH |
+| Q4 | YES · Seasonality HIGH · Peak-risk HIGH · Evergreen LOW |
+| IP risk | LOW APPARENT IP RISK (screen only) — Avoid 'HOLLY JOLLY' (IC 025), standalone 'JOY'/'BELIEVE' (IC 025), 'MERRY & BRIGHT' (pajamas IC 025). |
+| Policy risk | LOW — original seller design, POD partner disclosed; AI DISCLOSURE REQUIRED IF AI-GENERATED FINAL ART IS USED |
+| Recommended next step | REJECT |
+
+**Why:** +17.5% growth; multi-unit orders (4–8 shirts) lift AOV; tee cost $16.87 + $2.20 per extra item.
+**Design direction:** Coordinated set: same design, different role/name per shirt; buyer adds each size as a separate line.
+**Primary risks:** 121k listings; highly seasonal (Dec).
