@@ -217,6 +217,7 @@ Ham sayfa metinleri: `data/printify_raw/` · veri: `data/printify_costs_2026-09-
 Bu turun kendi uyarıları:
 - **Filtreler kelimeye göre değişti.** 12 kelimede Etsy'nin varsayılan "Exclude digital downloads" filtresi açıktı. "custom dog shirt", "personalized grandma sweatshirt" ve "custom embroidered sweatshirt" aramalarına Etsy kendiliğinden "Personalizable" filtresini uyguladı.
 - **"bookish stickers" aramasında hiçbir filtre yoktu**, yani dijital ürünler de sonuçlara karıştı. Medyan $3.50 bu yüzden fiziksel sticker fiyatı sayılamaz → bu fırsat **UNRESOLVED**.
+  - **Karar (28.09.2026):** bu kalem takip edilmeyecek. Filtreli tekrar yapılmadı, fırsat UNRESOLVED olarak kapatıldı. Diğer kararları etkilemiyor (puan 61, ilk sırada değil). İleride bakılmak istenirse prompt `chrome_prompt_round6_stickers.md` dosyasında duruyor.
 - Karttaki yorum sayıları mağaza düzeyinde.
 - Bir listing'de kart fiyatı ile ürün sayfası fiyatı farklıydı (OhForMugSake: kartta $16.62 indirimli, sayfada $27.70+). İkisi de ham dosyada.
 - Sıralama anlık. "auntie shirt" yeniden yüklendiğinde ilk kartların sırası değişti.
@@ -302,6 +303,11 @@ Kod: `scripts/analyze_prices.py`, `scripts/supplier_scenarios.py`, `scripts/scor
 {copy}
 
 TSV: `data/opportunities_copy.tsv` · Detaylı kartlar: `opportunities.md`
+
+## Araştırmanın durumu
+**Tamamlandı (28.09.2026).** 28 fırsatın tamamı için talep, rekabet, alıcı niyeti, tedarikçi maliyeti ve rakip fiyatı canlı sayfalardan doğrulandı. Tek istisna bookish stickers: filtresiz arama nedeniyle UNRESOLVED olarak kapatıldı (yukarıya bakın).
+
+Veri turları: Marketplace Insights (154 kelime) → rakip fiyatları 14 kelime → Printify varyantları + pet pillow boyları → SwiftPOD arka yüz maliyeti → rakip fiyatları 16 kelime → finalist IP taraması.
 
 ## Uyarılar
 - Hiçbir fırsat için satış tahmini yapılmadı.

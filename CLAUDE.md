@@ -27,7 +27,14 @@ https://www.etsy.com/your/shops/me/marketplace-insights?ref=seller-platform-mcna
 - `research/<date>/` holds dated research runs (Trends, Printful costs, USPTO screens).
   Latest: `research/2026-09-25/FINAL_REPORT.md` (28 scored opportunities from real Insights data,
   verified competitor prices, supplier scenarios, Top 10, Top 5 clusters, copyable table).
-  Pipeline (run from repo root, in order): scripts/analyze_prices.py -> supplier_scenarios.py ->
-  score_opportunities.py -> build_report.py. Round 3 + 4 data applied; finalist IP screen in data/tm_round3_*.{csv,txt} ("PET PILLOW" is registered -> pillow lead keyword is "custom dog pillow"). Round 5 prices applied (data/price_analysis_round5.csv; run scripts/analyze_prices_round5.py before scoring). Card review counts are SHOP-level; the "Hide ads" numbers in the round-1 file came from a browser extension and are unused. Earlier: (data/round3_*.txt, data/round4_*.txt, data/pillow_16in_prices.csv; run scripts/pillow_16in.py before scoring). Ornaments are scored on the verified SwiftPOD 2-side cost ($6.57 + $4.79).
+  Pipeline (run from repo root, in order): analyze_prices.py -> analyze_prices_round5.py -> pillow_16in.py
+  -> supplier_scenarios.py -> score_opportunities.py -> build_report.py.
+  **Research is complete (2026-09-28): 4 TEST NOW, 7 REJECT, 17 RESEARCH MORE.** All demand, cost and
+  competitor-price inputs are verified from live pages; see the report's "Araştırmanın durumu" section.
+  Data notes: ornaments are costed on the verified SwiftPOD 2-side price ($6.57 + $4.79 Economy shipping);
+  "PET PILLOW" is a live registration, so the pillow opportunity leads with "custom dog pillow";
+  card review counts are SHOP-level; the "Hide ads" numbers in the round-1 file came from a browser
+  extension and are unused. bookish stickers is closed as UNRESOLVED by the user's decision — that search
+  ran unfiltered and mixes in digital downloads; `chrome_prompt_round6_stickers.md` would resolve it.
 - Printify's public catalog pages render in headless Chromium (after adding the CCR proxy CA to
   ~/.pki/nssdb with certutil); they show 'From USD' costs, Premium costs and US shipping per provider.
