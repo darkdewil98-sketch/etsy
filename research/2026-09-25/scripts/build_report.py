@@ -1,0 +1,318 @@
+"""Build FINAL_REPORT.md from the scored opportunities, the Insights universe and the price analysis.
+Run from repo root after score_opportunities.py and analyze_prices.py."""
+import csv
+
+D = "research/2026-09-25/"
+R = list(csv.DictReader(open(D + "data/opportunities_scored.csv")))
+U = {r["keyword"]: r for r in csv.DictReader(open(D + "data/insights_keyword_universe.csv"))}
+PA = list(csv.DictReader(open(D + "data/price_analysis.csv")))
+PA5 = list(csv.DictReader(open(D + "data/price_analysis_round5.csv")))
+CONV = {"VH": "Very high", "H": "High", "T": "Typical", "L": "Low", "VL": "Very low"}
+
+def kw(k):
+    u = U[k]
+    return f'{k} ({u["searches"]}/{u["listings"]}, {u["conv"]})'
+
+def money(v):
+    return f"${float(v):.2f}" if v not in ("", None) else "—"
+
+SC = list(csv.DictReader(open(D + "data/supplier_scenarios.csv")))
+REASON = {
+    "engagement ornament": "Highest demand + competition score; SwiftPOD 2-side cost ($11.36) gives $6.27 at median, $12.40 at P75.",
+    "custom dog pillow": "Very high conversion, 17.3k listings; lead keyword chosen to avoid the registered phrase 'PET PILLOW'; ~16in size-matched median $30.16 total → $4.05, P75 $42.94 → $15.62 (Printful 16in).",
+    "auntie mug": "Very high conversion, 7.9k listings; best verified mug cost (Printful 11oz $12.76) leaves $4.14 at median / $6.49 at P75.",
+    "new house ornament": "High conversion; SwiftPOD 2-side cost gives $6.66 at median / $12.58 at P75; doubles as housewarming/closing gift.",
+    "first christmas married ornament": "+11.4% growth, High conversion; SwiftPOD 2-side cost gives $6.28 at median / $11.16 at P75.",
+    "dog memorial gift": "61.4k searches, High conversion, evergreen; competitor prices not yet collected.",
+    "auntie shirt": "High conversion; apparel keeps the auntie niche but prices are not yet verified.",
+    "baby's first christmas ornament": "High conversion; SwiftPOD 2-side cost gives $6.28 at median / $13.61 at P75; score 69 (just below the 70 cut-off).",
+    "client gift": "0.754 ratio; verified median $20.99 ($7.19 contribution at SwiftPOD 2-side cost) but page one is dominated by 1k+ review shops.",
+    "retirement gifts for women": "15.5k searches, 0.321 ratio; Printful 11oz mug gives $4.39 at median / $8.13 at P75.",
+    "bookish stickers": "Cheapest product ($6.83); competitor prices not yet collected.",
+}
+
+# ---- price findings table
+P = ["| Keyword | Median | P25–P75 | Min–Max | On sale | Free-ship badge | Shop 1k+ review cards | Typical US shipping | Detail pages with production partner | POD cost | Contribution at median (+ship) | Contribution at P75 (+ship) |",
+     "|---|---|---|---|---|---|---|---|---|---|---|---|"]
+for a in PA:
+    ship = "free" if a["detail_ship_median"] == "all free" else money(a["detail_ship_median"])
+    P.append(f'| {a["keyword"]} | {money(a["median"])} | {money(a["p25"])}–{money(a["p75"])} | {money(a["min"])}–{money(a["max"])} | {a["on_sale_pct"]}% | '
+             f'{a["free_ship_cards_pct"]}% | {a["reviews_1k_plus"]}/48 | {ship} | {a["detail_partner"]}/{a["detail_n"]} | {money(a["pod_cost"])} | '
+             f'{money(a["contrib_with_ship_at_median"])} | {money(a["contrib_at_p75_with_ship"])} |')
+price_table = "\n".join(P)
+P5t = ["| Keyword | Median | P25–P75 | Min–Max | On sale | Shop 1k+ review cards | US shipping | POD product (cost) | Contribution at median | Contribution at P75 |", "|---|---|---|---|---|---|---|---|---|---|"]
+for a in PA5:
+    sh = "free" if a["detail_ship_median"] == "all free" else money(a["detail_ship_median"])
+    P5t.append(f'| {a["keyword"]} | {money(a["median"])} | {money(a["p25"])}–{money(a["p75"])} | {money(a["min"])}–{money(a["max"])} | {a["on_sale_pct"]}% | '
+               f'{a["shop_reviews_1k_plus"]}/48 | {sh} | {a["product"]} ({money(a["pod_cost"])}) | {money(a["contrib_median"])} | {money(a["contrib_p75"])} |')
+price_table5 = "\n".join(P5t)
+
+S2 = ["| Keyword | Supplier (verified 2026-09-25) | Unit cost incl. US ship | Buyer total at median | Contribution at median | Contribution at P75 |", "|---|---|---|---|---|---|"]
+for x in SC:
+    S2.append(f'| {x["keyword"]} | {x["supplier"]} | {money(x["unit_cost"])} | {money(x["buyer_total_median"])} | {money(x["contrib_median"])} | {money(x["contrib_p75"])} |')
+supplier_table = "\n".join(S2)
+
+# ---- top 10 (exclude REJECT)
+live = [r for r in R if r["next"] != "REJECT"]
+T = ["| Rank | ID | Primary keyword | Product | Searches | Listings | Demand/Competition | New-Shop Access | Margin status | Q4 | IP risk | Next step | Reason for selection |",
+     "|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
+for i, r in enumerate(live[:10], 1):
+    if r["c_med"]:
+        m = f'VERIFIED: {money(r["c_med"])} at median' + (f', {money(r["c_p75"])} at P75' if r["c_p75"] else "")
+    elif r["keyword"] == "custom dog pillow":
+        m = "UNRESOLVED"
+    else:
+        m = f'Cost {money(r["cost"])} verified; price NOT VERIFIED' if r["cost"] else "SUPPLIER COST NOT VERIFIED"
+    T.append(f'| {i} | {r["id"]} | {r["keyword"]} | {r["product"]} | {r["searches"]} | {r["listings"]} | ratio {r["ratio"]}, conv {CONV[r["conv"]]} ({r["competition"]}) | '
+             f'{r["access"]} | {m} | {"YES" if int(r["q4"]) >= 4 else "PARTIAL"} | LOW APPARENT | {r["next"]} | {REASON.get(r["keyword"], "")} |')
+top10 = "\n".join(T)
+
+# ---- copy table
+C = ["| ID | Score | Keyword | Product | Searches | Listings | Ratio | Conv | Period chg | Competition | New-shop access | POD cost | Verified price range | Contribution median / P75 | Trend | Seasonality | Peak-risk | Evergreen | IP | Next step |",
+     "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
+TSV = ["\t".join(["id", "score", "keyword", "product", "searches", "listings", "ratio", "conv", "competition", "access", "pod_cost_usd",
+                  "verified_price_range", "contrib_median", "contrib_p75", "next_step"])]
+for r in R:
+    cm = f'{money(r["c_med"])} / {money(r["c_p75"])}' if r["c_med"] else "—"
+    C.append(f'| {r["id"]} | {r["score"]} | {r["keyword"]} | {r["product"]} | {r["searches"]} | {r["listings"]} | {r["ratio"]} | {r["conv"]} | {r["chg"]} | '
+             f'{r["competition"]} | {r["access"]} | {money(r["cost"]) if r["cost"] else "NOT VERIFIED"} | {r["price_range"]} | {cm} | {r["trend"]} | '
+             f'{r["season"]} | {r["peak"]} | {r["evergreen"]} | LOW APPARENT | {r["next"]} |')
+    TSV.append("\t".join([r["id"], r["score"], r["keyword"], r["product"], r["searches"], r["listings"], r["ratio"], r["conv"], r["competition"],
+                          r["access"], r["cost"] or "NOT VERIFIED", r["price_range"], r["c_med"] or "", r["c_p75"] or "", r["next"]]))
+open(D + "data/opportunities_copy.tsv", "w").write("\n".join(TSV) + "\n")
+copy = "\n".join(C)
+
+clusters = f"""### Küme 1 — Çift ve kilometre taşı süsleri (talep en güçlü, marj koşullu)
+- **Talep neden var:** İlk Noel hediyeleri (nişan, evlilik, bebek, yeni ev). Dönüşüm etiketleri çoğunlukla High/Very high.
+- **Ana kelime:** {kw("engagement ornament")}
+- **İlgili kelimeler:** {kw("personalized engagement ornament")}; {kw("first christmas married ornament")}; {kw("newlywed ornament")}; {kw("new house ornament")}; {kw("baby's first christmas ornament")}; {kw("first christmas ornament")}; {kw("family of 4 ornament")}; {kw("baptism ornament")}; {kw("pregnancy ornament")}
+- **Doğrulanmış fiyat:**
+  - Medyan $13.99–$14.41, üstüne tipik $5.99 kargo.
+  - Kartların %73–88'i indirimde gösteriliyor ("orijinal" fiyat ~$20–28).
+  - İlk sayfada 48 kartın 37–41'i 1k+ yorumlu.
+  - Detay sayfalarının çoğu üretim ortağı beyan ediyor: Printway, Inner Circle Prints (Spokane), Ballston Spa NY, Strongsville OH seramik atölyesi.
+- **Ekonomi:**
+  - Printful ($13.62) ile medyan fiyatta katkı ~$4.
+  - Printify/SwiftPOD seramik Round çift yüz ($6.57 + $4.79 Economy kargo = $11.36; arka yüz +$1.64 editörde doğrulandı) ile medyanda $6.27–$6.66, P75'te $11.16–$13.61.
+  - Tek yüz baskıda ($9.72) medyanda ~$8.
+  - Aynı siparişteki her ek süs: SwiftPOD +$0.49 kargo → medyan fiyatta ek birim katkısı ~$5.40–$5.79 (çift yüz).
+  - Hediye kutulu Round $7.06 (tek yüz).
+  - Printify Premium ($24.99/ay yıllık) ile birim başına $1.05 daha ucuz → başabaş ~24 süs/ay.
+- **Özgün listing konsepti tahmini:** 40–60
+- **IP:** LOW APPARENT. Finalist ifadeleri 26.09'da tarandı (`data/tm_round3_finalists.csv`). "MY FIRST CHRISTMAS", "JUST MARRIED", "HOME SWEET HOME", "WELCOME HOME", "REALTOR" hariç.
+- **Rekabet:** Insights'ta LOW–MEDIUM. Arama sayfasında yerleşik mağazalar baskın.
+
+### Küme 2 — Evcil hayvan fotoğraf ürünleri
+- **Ana kelime:** {kw("custom dog pillow")}. "custom pet pillow" ({U["custom pet pillow"]["searches"]}/{U["custom pet pillow"]["listings"]}, VH) talebi doğruluyor, ama içindeki "PET PILLOW" ifadesi tescilli (Reg. 6945893, IC 020) → başlık ve etiketlerde kullanılmamalı.
+- **İlgili kelimeler:** {kw("custom cat pillow")}; {kw("dog memorial gift")}; {kw("pet memorial gift")}; {kw("cat memorial ornament")}; {kw("custom dog shirt")}
+- **Doğrulanmış fiyat:** Kart fiyatları anahtarlık/mini boylardan başlıyor (medyan $10.43), bu yüzden round 3'te boy eşleştirildi. ~16" boyda 12 listing'in fiyat + kargo toplamı:
+  - Medyan $30.16, P25–P75 $27.96–$42.94, aralık $22.19–$52.70.
+  - Detay: `data/pillow_16in_prices.csv`.
+- **Ekonomi:** Printful 16" özel kesim yastık $22.79 → katkı medyanda $4.05, P75'te $15.62. Yani premium (~$40+) konumlanma gerekiyor. Printify'da ABD'de bu ürün için yerel üretici yok.
+- **Özgün listing konsepti tahmini:** 30–50
+- **IP:** kullanılmamalı:
+  - "FOREVER IN MY HEART" (3D dekoratif yastıkta tescilli, doğrudan ilgili)
+  - "RAINBOW BRIDGE" (evcil hayvan anma plakası/urna)
+  - "MY DOG", "GOOD BOY", "GOOD DOG", "PAWSOME", "FURBABY"
+  - "FUR BABY" başvurusu kulübe kapsamında, yine de ana metin olarak kullanılmamalı.
+- **Rekabet:** yastıkta LOW. Anma baş kelimesinde HIGH (428k ilan).
+
+### Küme 3 — Hala/teyze, amca/dayı ve büyükanne rol hediyeleri
+- **Ana kelime:** {kw("auntie mug")}
+- **İlgili kelimeler:** {kw("auntie gifts")}; {kw("auntie shirt")}; {kw("uncle mug")}; {kw("personalized grandma sweatshirt")}; {kw("new grandma mug")}; {kw("new grandma gift")}
+- **Doğrulanmış fiyat (auntie mug):**
+  - Medyan $13.18 + $5.99 kargo.
+  - Kartların %96'sı indirimde.
+  - İncelenen 5 detay sayfasının 5'i de POD ortağı beyan ediyor (Printify dahil).
+- **Ekonomi (round 5 ile tamamlandı):**
+  - Kupalar en iyi seçenek: uncle mug ve new grandma mug medyan $14.99 → katkı $5.78. Auntie mug $13.18 → $4.14.
+  - Giyim elendi: auntie shirt medyan $13.99 → katkı $0.76; aunt shirt $15.62 → $2.24.
+  - personalized grandma sweatshirt medyan $19.66, kol baskılı Printful maliyeti $33.91 → katkı −$11.15 → **REJECT**.
+  - Sonuç: bu küme kupa/süs olarak çalışır, giyim olarak çalışmaz.
+- **Özgün listing konsepti tahmini:** 30–40
+- **IP:** "COOL AUNT", "MAMA", NANA/MIMI/GIGI/GLAMMA tek başına kullanılmamalı.
+
+### Küme 4 — Meslek ve takdir hediyeleri (emeklilik, hemşire)
+- **Ana kelime:** {kw("retirement gifts for women")}
+- **İlgili kelimeler:** {kw("retirement mug")}; {kw("nurse retirement gift")}; {kw("nurse sweatshirt")}; {kw("nurse shirt")}
+- **Doğrulanmış fiyat (retirement gifts for women):**
+  - Medyan $13.46 + $5.99 kargo.
+  - Mum, bardak ve kupa karışık bir pazar.
+- **Ekonomi:** Printful 11oz kupa ile katkı $4.39 / $8.13. Hemşire sweatshirt'ü round 5'te doğrulandı: medyan $18.92, Printful Gildan ile katkı −$5.90 → **REJECT**.
+- **Özgün listing konsepti tahmini:** 30–50
+- **IP:** "OFFICIALLY RETIRED", "RETIRED" (tek başına), "HAPPY RETIREMENT" (battaniye) kullanılmamalı.
+
+### Küme 5 — Yılbaşı tekstili (çorap, ağaç eteği): Printful ile ELENDİ
+- **Ana kelime:** {kw("personalized christmas stocking")}
+- **İlgili kelimeler:** {kw("dog christmas stocking")}; {kw("christmas tree skirt")}
+- **Doğrulanmış fiyat:**
+  - Çorap medyanı $9.02 (P75 $24.99).
+  - Kumaş ve işlemeli ürünler baskın.
+  - Kartların %94'ü indirimde.
+- **Ekonomi:** Printful ($24.96) → medyanda −$13.52, P75'te $0.93. Printify/MWW Premium ($19.70) → −$8.26 / $6.19. Hiçbir doğrulanmış POD çorabı medyan fiyatta kârlı değil → **REJECT**. Talep güçlü (VH, +30.3%); çok daha ucuz bir tedarikçi olmadan girilmemeli.
+"""
+
+report = f"""# Etsy POD Fırsat Raporu — 25 Eylül 2026 (Marketplace Insights + doğrulanmış rakip fiyatları)
+
+**Kaynaklar:**
+1. Etsy Marketplace Insights. Mağaza VelvessenceUS (Etsy Plus), "Last 30 days" = 26 Ağu – 24 Eyl 2026. Link: https://www.etsy.com/your/shops/me/marketplace-insights?ref=seller-platform-mcnav · ham veri `data/marketplace_insights_raw.txt`
+2. Etsy arama anlık görüntüsü, 14 kelime: 672 kart ve 70 detay sayfası, 25.09.2026 · ham veri `data/etsy_price_snapshot_raw.txt` · analiz `data/price_analysis.csv`
+3. Printful canlı maliyetleri, USPTO taraması (iki tur), Google Trends mevsimselliği (bkz. `README.md`)
+
+Tüm sayılar sayfalarda gösterildiği gibi. Yorum ve favori sayıları satışa çevrilmedi.
+
+## Ana sonuç
+**Süs kümesi, doğru tedarikçiyle testi hak ediyor. Çorap ve teacher tote elendi. Kupalar ince marjlı.**
+
+Doğrulanmış rakip fiyatlarına göre süsler medyan ~$14 + $5.99 kargoya satılıyor. Katkı tedarikçiye göre değişiyor:
+- **Printful süsü ($13.62):** medyanda ~$4.
+- **Printify/SwiftPOD seramik süsü, çift yüz ($11.36, ABD'de üretim, 2.1 gün):** medyanda ~$6.3–6.7, P75'te $11.16–$13.61. Tek yüz ($9.72) ile medyanda ~$8.
+
+Round 3'te SwiftPOD varyantları doğrulandı:
+- Round $4.93, Heart $5.25, hediye kutulu $7.06–$7.39 (tek yüz).
+- Economy kargo $4.79 + ek ürün başına $0.49.
+- Arka yüz baskısı +$1.64 (26.09.2026, editörde okundu, hiçbir şey kaydedilmedi): Round çift yüz $6.57, Heart çift yüz $6.90. Kaynak: `data/round4_swiftpod_backside_2026-09-26.txt`.
+
+Diğer ürünler:
+- **Kupa:** en iyi doğrulanmış seçenek Printful 11oz ($12.76). Katkı ~$4 (medyan) / $6.5–8 (P75).
+- **Çorap:** hiçbir doğrulanmış POD tedarikçisiyle medyan fiyatta kârlı değil.
+
+Rakiplerin çoğu üretim ortağı beyan ediyor. Kartların %73–96'sı "indirimli" fiyatla gösteriliyor.
+
+## Doğrulanmış fiyat bulguları (14 kelime, ilk 48 kart)
+
+{price_table}
+
+Notlar:
+- Bu tablodaki "Contribution" Printful maliyetiyle hesaplandı: (fiyat + gözlenen ABD kargosu) × (1 − %9.5) − $0.45 − maliyet. Reklam ve indirim kodları hariç. Diğer tedarikçiler için aşağıdaki senaryo tablosuna bakın.
+- Kart fiyatı en ucuz varyasyonu gösterir ("+" fiyatlar). Özellikle yastık ve çorapta bu fiyat aşağı yanlı.
+- "Shop 1k+ review cards": karttaki puan ve yorum sayısı **mağazaya** ait, listing'e değil. Satış sayısı değildir.
+- Malzeme dağılımı yalnızca başlıktan tahmin edildi (görseller incelenmedi).
+
+## Tedarikçi senaryoları (aynı doğrulanmış rakip fiyatları, farklı doğrulanmış POD maliyetleri)
+
+{supplier_table}
+
+Printify Premium: aylık $39 veya yıllık faturada aylık $24.99 (printify.com/pricing, 25.09.2026). SwiftPOD süsünde birim başına tasarruf $1.05 → başabaş ~24 süs/ay.
+Ham sayfa metinleri: `data/printify_raw/` · veri: `data/printify_costs_2026-09-25.json`, `data/supplier_scenarios.csv`.
+
+## Round 3 — doğrulanmış varyant maliyetleri ve pet pillow boy fiyatları
+- **Kaynak:** `data/round3_printify_variants_and_pillow_sizes_raw.txt`. Printify verisi, katalog sayfası ve editörün yüklediği herkese açık veriden okundu. Giriş yapılmadı, hiçbir ürün kaydedilmedi.
+- **SwiftPOD seramik süs (bp 1632):**
+  - Round $4.93 (Premium $3.88), Heart $5.25, Round + hediye kutusu $7.06, Heart + hediye kutusu $7.39.
+  - Baskı alanları: ön ve arka. Economy kargo $4.79 / +$0.49. Standard kargo $5.89 / +$0.69. Üretim 2.1 gün.
+- **Imagine Your Photos 2-side (bp 1370):** 1 adet $7.73, 3'lü $23.20, 5'li $38.67, 10'lu $77.32. Paketlerde birim fiyat indirimi yok.
+- **Pic The Gift metal (bp 1182):** $4.75, kargo $5.89 / +$0.69.
+- **SwiftPOD cam süs (bp 2769):** $5.59, hediye kutulu $7.73.
+- **Taylor 11oz kupa (bp 1244):** $5.86, kargo $7.29 / +$3.09.
+- **Pet pillow ~16" (12 listing):** fiyat + kargo medyanı $30.16, P75 $42.94.
+  - Aralık: habinisi $19.20 + $2.99 kargo ile aurespaces $52.70 (ücretsiz kargo) arası.
+  - Üretim ortağı beyan eden satıcılar: Spreadshirt, Printcious (HK), Print Shop 3 (MN), Charlotte NC, Printify.
+
+## Round 5 — RESEARCH MORE katmanının rakip fiyatları (16 kelime, 26.09.2026)
+768 kart ve 80 detay sayfası. Kaynak: `data/etsy_price_snapshot_round5_2026-09-26_raw.txt`, analiz `data/price_analysis_round5.csv`.
+
+{price_table5}
+
+Bu turun kendi uyarıları:
+- **Filtreler kelimeye göre değişti.** 12 kelimede Etsy'nin varsayılan "Exclude digital downloads" filtresi açıktı. "custom dog shirt", "personalized grandma sweatshirt" ve "custom embroidered sweatshirt" aramalarına Etsy kendiliğinden "Personalizable" filtresini uyguladı.
+- **"bookish stickers" aramasında hiçbir filtre yoktu**, yani dijital ürünler de sonuçlara karıştı. Medyan $3.50 bu yüzden fiziksel sticker fiyatı sayılamaz → bu fırsat **UNRESOLVED**.
+  - **Karar (28.09.2026):** bu kalem takip edilmeyecek. Filtreli tekrar yapılmadı, fırsat UNRESOLVED olarak kapatıldı. Diğer kararları etkilemiyor (puan 61, ilk sırada değil). İleride bakılmak istenirse prompt `chrome_prompt_round6_stickers.md` dosyasında duruyor.
+- Karttaki yorum sayıları mağaza düzeyinde.
+- Bir listing'de kart fiyatı ile ürün sayfası fiyatı farklıydı (OhForMugSake: kartta $16.62 indirimli, sayfada $27.70+). İkisi de ham dosyada.
+- Sıralama anlık. "auntie shirt" yeniden yüklendiğinde ilk kartların sırası değişti.
+- Önceki turdaki "Hide ads (n)" değerleri Etsy'nin değil bir tarayıcı eklentisinin verisiymiş; bu turda kaydedilmedi ve hiçbir hesapta kullanılmadı. Tablolardaki reklam sayıları Etsy'nin kart üzerindeki "Ad" etiketinden.
+
+## Puanlama (araştırma önceliği, satış olasılığı değil)
+**Veriye dayalı bileşenler:**
+- **Talep (20):** Insights arama sayısı
+- **Rekabet (20):** arama/ilan oranı
+- **Niyet (15):** Etsy dönüşüm etiketi
+- **Marj (15):** Fiyatı doğrulanmış kelimelerde gerçek katkıdan hesaplandı: medyanda ≥$10=15, ≥$7=12, ≥$4=8, ≥$1=4, altı=0; P75 katkısı ≥$10 ise +2. Fiyatı doğrulanmamış kelimelerde en fazla 8 (temkinli).
+
+**Analist puanları:** kişiselleştirme, genişleme, thumbnail, Q4.
+
+**Cezalar:**
+- ≥100k ilan: −10
+- Maliyet >$40 veya tedarikçi doğrulanmamış: −10
+- İlk sayfada 1k+ yorumlu kart sayısı ≥38/48: −10; 30–37: −5
+- "client gift" için doğrulanmış baskınlık: −10
+
+**Karar kuralı:**
+- **REJECT:** P75 fiyatta katkı < $3
+- **TEST NOW:** medyanda ≥ $4 ve P75'te ≥ $8 ve puan ≥ 70
+- **RESEARCH MORE:** diğerleri
+
+Marj hesabında her fırsat için **doğrulanmış en ucuz ABD tedarikçisi** kullanıldı: süslerde Printify/SwiftPOD, kupalarda Printful 11oz.
+
+Kod: `scripts/analyze_prices.py`, `scripts/supplier_scenarios.py`, `scripts/score_opportunities.py`, `scripts/build_report.py`.
+
+## TOP 10 ÖNCELİKLİ TEST
+
+{top10}
+
+**TEST NOW olanlar:** engagement ornament, custom dog pillow, first christmas married ornament, new house ornament.
+
+**Round 5 sonrası elenenler (7 REJECT):** hiçbir doğrulanmış POD tedarikçisiyle medyan fiyatta kâr çıkmayanlar — personalized christmas stocking, teacher thank you gift, custom dog shirt, nurse sweatshirt, christmas tree skirt, personalized grandma sweatshirt, family christmas shirts.
+
+**Round 5'te kurtulan ikinci sıra (katkı pozitif, puan eşiğin altında):** uncle mug ($5.78 / $7.72), new grandma mug ($5.78 / $7.57), baptism ornament ($5.56 / $7.14), pregnancy ornament ($5.08 / $9.86), cat memorial ornament ($3.78 / $6.76). Bunlar düşük hacimli ama pozitif marjlı; süs kümesine ek listing olarak eklenebilir.
+- **Süsler:** SwiftPOD Round çift yüz ($11.36, tamamen doğrulandı) ile medyanda ~$6.3–6.7, P75'te $11.16–$12.58 katkı. Aynı siparişteki her ek süs ~$5.4–5.8 daha ekliyor.
+- **Baby's first christmas ornament:** katkı iyi (medyan $6.28, P75 $13.61), ama puan 69 → eşiğin 1 puan altında, RESEARCH MORE. Tek yüz tasarımla ($9.72) katkı medyanda ~$7.9'a çıkar.
+- **Custom dog pillow:** boy eşleştirilmiş medyanda $4.05, P75'te $15.62 → ancak ~$40+ fiyatla.
+- Printful ile aynı listing'lerde katkı ~$4'a düşüyor.
+- İlk sayfada 37–41/48 kart 1k+ yorumlu. Bu yüzden yeni mağaza için ayrışan tasarım ve thumbnail yine şart.
+
+## TOP 5 NİŞ KÜMESİ
+
+{clusters}
+
+## Finalist IP doğrulaması (master prompt §14, 26.09.2026)
+**USPTO (canlı kayıtlar, birebir kelime markası, sınıf 016/020/021/024/025/028):**
+- Kayıt bulunamayanlar: "engaged 2026", "our first christmas engaged", "first christmas engaged", "the year we got engaged", "future mr and mrs", "first christmas married", "our first christmas married", "first christmas as mr and mrs", "our first christmas", "our first home", "our new home", "new home 2026", "first christmas in our new home", "keys to our first home". Kaynak: `data/tm_round3_finalists.csv`.
+- **Kaçınılacaklar (canlı kayıt veya başvuru var):**
+  - "PET PILLOW" (Reg. 6945893, IC 020 yastıklar, ana sicil)
+  - "FOREVER IN MY HEART" (IC 020 yastıklar, 3D dekoratif dahil)
+  - "PILLOW PETS" (Reg. 4139534)
+  - "CUDDLE CLONES", "PETSIES" (peluş)
+  - "MY DOG" (IC 025/021/028)
+  - "GOOD BOY" (IC 021/025 başvuru), "GOOD DOG" (IC 021/024)
+  - "WELCOME HOME" (IC 024/020/025 başvuru)
+  - "HOME SWEET HOME" (IC 021)
+  - "JUST MARRIED" (IC 025)
+  - Kaynak: `data/tm_round3_brand_terms.txt`.
+
+**Google (birebir ifade):**
+- "Our First Christmas Engaged", "First Christmas Married" ve "Our First Home" Etsy, Amazon, Walmart, Hallmark, Lenox, Waterford ve çok sayıda küçük satıcı tarafından jenerik ürün adı olarak kullanılıyor. Tek bir marka sahibine bağlı değiller.
+- "Custom pet pillow" aramasında markalı rakipler çıktı: Cuddle Clones, Crown & Paw, Petsies, Pillow Pets®. Bunların adları başlık ve etiketlerde kullanılmamalı.
+
+**Sonuç:** Dört TEST NOW fırsatı için yukarıdaki ifadeler kullanılmadığı sürece LOW APPARENT IP RISK. Bu bir hukuki görüş değildir.
+
+## Elenenler (kanıtla)
+| Kelime / konsept | Veri | Neden |
+|---|---|---|
+| personalized christmas stocking | {U["personalized christmas stocking"]["searches"]}/{U["personalized christmas stocking"]["listings"]}, VH | Doğrulanmış fiyatlarla Printful çorabında katkı −$13.52 (medyan) / $0.93 (P75). |
+| teacher thank you gift (tote) | {U["teacher thank you gift"]["searches"]}/{U["teacher thank you gift"]["listings"]}, VH | Medyan $10.98. İlk sayfa süs ve bardak ağırlıklı. Tote ile katkı −$5.65 / −$2.02. |
+| personalized baby blanket | {U["personalized baby blanket"]["searches"]}/{U["personalized baby blanket"]["listings"]}, VH | Çocuk ürünü uyumluluğu (CPSIA/CPC) → politika riski MEDIUM. |
+| leaving work gifts | {U["leaving work gifts"]["searches"]}/{U["leaving work gifts"]["listings"]}, VL | Doğrulanmış medyan $12.39 < POD kupa maliyeti $12.76. |
+| fall / autumn fashion | 97.1k/20.8k, 14.8k/4.6k, VL | Geniş gezinme terimleri. |
+| stethoscope charm, compass keychain, planter, ring dish, charcuterie board, christmas eve box, guest book, ring box, advent calendar | Tablo B | POD değil. |
+| MAMA / COOL AUNT / OFFICIALLY RETIRED / WORK BESTIE / MERRY & BRIGHT / HOLLY JOLLY / RAINBOW BRIDGE temalı tasarımlar | USPTO | İlgili sınıfta canlı tescil var. |
+
+## Kopyalanabilir tablo (28 fırsat)
+
+{copy}
+
+TSV: `data/opportunities_copy.tsv` · Detaylı kartlar: `opportunities.md`
+
+## Araştırmanın durumu
+**Tamamlandı (28.09.2026).** 28 fırsatın tamamı için talep, rekabet, alıcı niyeti, tedarikçi maliyeti ve rakip fiyatı canlı sayfalardan doğrulandı. Tek istisna bookish stickers: filtresiz arama nedeniyle UNRESOLVED olarak kapatıldı (yukarıya bakın).
+
+Veri turları: Marketplace Insights (154 kelime) → rakip fiyatları 14 kelime → Printify varyantları + pet pillow boyları → SwiftPOD arka yüz maliyeti → rakip fiyatları 16 kelime → finalist IP taraması.
+
+## Uyarılar
+- Hiçbir fırsat için satış tahmini yapılmadı.
+- IP sonuçları yalnızca ön eleme. Her listing metni yayından önce birebir aranmalı.
+- Fotoğraf tabanlı ürünlerde alıcının fotoğraf hakkı olmalı. Üretim ortağı beyan edilmeli. AI ile üretilmiş nihai görselde AI beyanı gerekir.
+"""
+open(D + "FINAL_REPORT.md", "w").write(report)
+print("FINAL_REPORT.md written;", len(R), "opportunities;", sum(r["next"] == "TEST NOW" for r in R), "TEST NOW;", sum(r["next"] == "REJECT" for r in R), "REJECT")
